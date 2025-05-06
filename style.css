@@ -1,0 +1,106 @@
+:root {
+    --azul-trilhas: rgba(33, 53, 166, 0.93);
+    --azul-escuro: rgba(65, 33, 184, 1);
+}
+
+* { 
+    /* reset */
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--azul-trilhas);
+}
+
+#img-logo-trilhas {
+    width: 753.54px;
+    height: 94px;
+    margin-top: 254px;
+    margin-left: 83px;
+}
+
+.texto-cabecalho {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 76px;
+    margin-left: 190px;
+    margin-bottom: 43px;
+    color: white;
+}
+
+nav {
+    background-color: var(--azul-escuro);
+    /* height: 83px; */
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 59px;
+}
+
+main {
+    margin-left: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+}
+
+.breadcrumbs p {
+    font-family: Arial, sans-serif;
+    color: rgba(38, 55, 242, 0.99);
+    font-size: 48px;
+}
+
+#primeiro-acesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 200px;
+    width: 468px;
+    height: 87px;
+
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.93);
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.text-intro {
+    font-family: Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.93);
+    font-size: 48px; 
+}
+
+.links-servicos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-servicos a {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-decoration: none;
+    text-align: center;
+
+    width: 400px;
+    height: 132px;
+    border-radius: 40px;
+
+    color: white;
+    background-color: rgba(33, 51, 166, 0.93);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
