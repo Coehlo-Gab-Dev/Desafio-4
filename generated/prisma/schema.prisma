@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Saude {
+  id               String  @id @default(auto()) @map("_id") @db.ObjectId
+  nomeServico      String
+  descricao        String
+  orgaoResponsavel String
+  contato          String?
+  localizacao      String?
+  horarios         String?
+}
+
+model CulturaLazer {
+  id          String  @id @default(auto()) @map("_id") @db.ObjectId
+  evento      String
+  local       String
+  data        String
+  horario     String
+  organizador String
+  tipo        String?
+}
+
+model Educacao {
+  id               String  @id @default(auto()) @map("_id") @db.ObjectId
+  nomeInstituicao  String
+  tipoInstituicao  String
+  endereco         String
+  contato          String?
+  orgaoResponsavel String
+}
+
+model Urgencia {
+  id              String  @id @default(auto()) @map("_id") @db.ObjectId
+  tipoServico     String
+  contato         String
+  localizacao     String
+  descricao       String?
+  disponibilidade String?
+}
+
+model Direitos {
+  id                    String  @id @default(auto()) @map("_id") @db.ObjectId
+  tipoDireito           String
+  descricao             String
+  comoSolicitar         String?
+  documentosNecessarios String?
+  orgaoResponsavel      String
+}
+
+model OrgaoPublico {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  // Metadados básicos
+  nome      String  @unique
+  titulo    String
+  descricao String?
+  urlImagem String?
+
+  // Informações de localização
+  esfera    String // federal, estadual, municipal
+  uf        String?
+  municipio String?
+
+  // Métricas
+  totalConjuntosDados Int @default(0)
+  totalSeguidores     Int @default(0)
+
+  // Datas importantes
+  dataCriacao       DateTime  @default(now())
+  ultimaAtualizacao DateTime?
+
+  // Indexes para melhor performance
+  @@index([esfera])
+  @@index([uf])
+  @@index([municipio])
+  @@index([totalConjuntosDados])
+}

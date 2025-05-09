@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Saude {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  nomeServico      String
+  descricao        String
+  orgaoResponsavel String
+  contato          String?  
+  localizacao      String?
+  horarios         String?
+  orgaoRelacionado OrgaoPublico? @relation(fields: [orgaoResponsavel], references: [nome])
+  @@index([orgaoResponsavel])
+}
+
+model CulturaLazer {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  evento           String
+  local            String
+  data             DateTime // Alterado para DateTime
+  horario          String
+  organizador      String
+  tipo             String?
+  orgaoResponsavel String
+  orgaoRelacionado OrgaoPublico? @relation(fields: [orgaoResponsavel], references: [nome])
+  @@index([data])
+  @@index([organizador])
+}
+
+model Educacao {
+  id               String   @id @default(auto()) @map("_id") @db.ObjectId
+  nomeInstituicao  String
+  tipoInstituicao  String
+  endereco         String
+  contato          String?
+  orgaoResponsavel String
+  orgaoRelacionado OrgaoPublico? @relation(fields: [orgaoResponsavel], references: [nome])
+  @@index([tipoInstituicao])
+}
+
+
+model OrgaoPublico {
+  id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+  nome                String   @unique
+  titulo              String
+  descricao           String?
+  urlImagem           String?
+  esfera              String   // federal, estadual, municipal
+  uf                  String?
+  municipio           String?
+  totalConjuntosDados Int     @default(0)
+  totalSeguidores     Int       @default(0)
+  dataCriacao         DateTime  @default(now())
+  ultimaAtualizacao   DateTime?
+  
+  // Relacionamentos
+  servicosSaude         Saude[]
+  eventosCultura        CulturaLazer[]
+  instituicoesEducacao  Educacao[]
+
+
+  @@index([esfera])
+  @@index([uf])
+  @@index([municipio])
+  @@index([totalConjuntosDados])
+  @@fulltext([nome, titulo, descricao]) // Busca por texto completo
+}

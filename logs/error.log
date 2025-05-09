@@ -1,0 +1,13 @@
+2025-05-08T16:59:53.082Z [ERROR]: Falha na requisição gfz9p8j0mafm4m7s
+2025-05-08T17:09:38.393Z [ERROR]: Falha na requisição 2xc9m8pomafmh5ue
+2025-05-08T17:09:52.900Z [ERROR]: Falha na requisição u2lnxtfumafmhh1e
+2025-05-09T00:21:06.642Z [ERROR]: Falha na requisição bl37lo9kmag1w1cf
+2025-05-09T02:53:33.580Z [ERROR]: Falha na requisição dv5ak9g3mag7c0zp
+2025-05-09T03:00:37.423Z [ERROR]: Falha crítica na requisição g3v96jnil5gc Dados da API indisponíveis
+2025-05-09T03:00:37.484Z [ERROR]: Falha no fallback [g3v96jnil5gc] Dados da API indisponíveis
+2025-05-09T03:06:57.652Z [ERROR]: [req_mag7taus_nrtm2] Falha na requisição
+2025-05-09T03:06:57.708Z [ERROR]: [req_mag7taus_nrtm2] Usando dados mockados
+2025-05-09T03:07:20.665Z [ERROR]: [req_mag7tsq5_tb9jj] Falha na requisição
+2025-05-09T03:07:20.725Z [ERROR]: [req_mag7tsq5_tb9jj] Usando dados mockados
+2025-05-09T03:11:47.177Z [ERROR]: [req_mag7zi8m_cqva6] Falha na requisição
+2025-05-09T03:11:47.232Z [ERROR]: [req_mag7zi8m_cqva6] Usando dados mockados
