@@ -4,13 +4,92 @@
 }
 
 * { 
-    /* reset */
     margin: 0px;
     padding: 0px;
 }
 
-header {
+p, h1 {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 3rem;
+}
+/*ÁREA DOS CABEÇALHOS*/
+.titulo-pagina p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-home {
     background-color: var(--azul-trilhas);
+}
+
+.menu-home nav {
+    background-color: var(--azul-escuro);
+    width: 100%;
+    display: flex;
+}
+
+.menu-home nav a {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 59px;
+    transition: 1s;
+    
+}
+
+.menu-saude {
+    background-color: #E53935;
+}
+
+.menu-saude nav {
+    background-color: #EF5350;
+    width: 100%;
+    display: flex;
+}
+
+.menu-saude nav a {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 59px;
+    transition: 1s;
+    
+}
+
+.menu-educacao {
+    background-color: #fbd56c;
+}
+
+.menu-educacao nav {
+    background-color: #FEEBC1;
+    width: 100%;
+    display: flex;
+}
+
+.menu-educacao nav a {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    padding: 14px 59px;
+    transition: 1s;
+    
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+/**/
+
+main {
+    margin-left: 104px;
 }
 
 #img-logo-trilhas {
@@ -23,31 +102,15 @@ header {
 .texto-cabecalho {
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 3rem;
     margin-top: 76px;
     margin-left: 190px;
     margin-bottom: 43px;
     color: white;
 }
 
-nav {
-    background-color: var(--azul-escuro);
-    /* height: 83px; */
-    width: 100%;
-    display: flex;
-    /* justify-content: space-around; */
-}
 
-nav a {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    color: rgba(0, 0, 0, 1);
-    padding: 14px 59px;
-}
-
-main {
-    margin-left: 104px;
+.home {
     display: flex;
     flex-direction: column;
     gap: 82px;
@@ -59,7 +122,7 @@ main {
     font-size: 48px;
 }
 
-#primeiro-acesso {
+.primeiro-acesso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,12 +152,13 @@ main {
 .links-servicos a {
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 2.5vw;
     text-decoration: none;
     text-align: center;
 
-    width: 400px;
-    height: 132px;
+    width: 15%;
+    aspect-ratio: 4 / 3;
+    /* height: 132px; */
     border-radius: 40px;
 
     color: white;
@@ -104,3 +168,127 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+/*CADASTRO*/
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-cadastro input{
+    height: 60px;
+    width: 38%;
+    font-size: 1.5rem;
+}
+
+.input-grande {
+    height: 120px;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+/*SAÚDE*/
+.imagens-saude {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.imagens-saude img{
+    height: 300px;
+    aspect-ratio: 4/3;
+}
+
+.link-bloco {
+    text-decoration: none;
+    display: inline-block;
+}
+  
+  .bloco-cidadao {
+    background-color: #00DDEB;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    color: #2E00A0;
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+    height: 100%;
+  }
+  
+  .bloco-cidadao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .bloco-cidadao h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  .bloco-cidadao p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+  }
+
+  .bloco-profissionais {
+    background-color: #86C8DC;
+    padding: 20px;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+    color: #0B0B49; 
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+    height: 100%;
+  }
+  
+  .bloco-profissionais:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .bloco-profissionais .icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .bloco-profissionais h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  .bloco-profissionais p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+  }
+
+  .blocos-saude {
+    align-items: stretch;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /*EDUCAÇÃO*/
