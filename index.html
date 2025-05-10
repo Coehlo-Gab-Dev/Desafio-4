@@ -1,11 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portal Acesso Fácil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="menu-home" style="display: none;">
+            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
+            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
+            <nav>
+                <a href="#">Acesso à Informação</a>
+                <a href="#">Primeiro Acesso</a>
+                <a href="#">Informação Classificada</a>
+            </nav>
+        </div>
+
+        <div class="menu-saude" style="display: none;">
+            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
+            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
+            <div class="titulo-pagina"><p>SAÚDE</p></div>
+            <nav>
+                <a href="#">Institucional</a>
+                <a href="#">Cidadão</a>
+                <a href="#">Gestores</a>
+                <a href="#">Transparência</a>
+            </nav>
+        </div>
+
+        <div class="menu-educacao">
+            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
+            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
+            <div class="titulo-pagina"><p>EDUCAÇÃO</p></div>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Secretaria</a>
+                <a href="#">Plano de Educação</a>
+                <a href="#">Serviços</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="home" style="display: none;">
+            <div class="breadcrumbs">
+                <p>Página Inicial</p>
+            </div>
+                <a href="#" class="primeiro-acesso">Primeiro Acesso</a>
+                <p class="text-intro">Passo a passo de como fazer o seu primeiro pedido de informação</p>
+                <div class="links-servicos">
+                    <a href="#">Saúde</a>
+                    <a href="#">Educação</a>
+                    <a href="#">Detran</a>
+                    <a href="#">Serviços de Urgência</a>
+                    <a href="#">Direito dos cidadãos</a>
+                </div>
+        </div>
+
+        <div class="cadastro" style="display: none;">
+            <p>Primeiro Acesso</p>
+            <h1>CADASTRO</h1>
+            <form class="formulario-cadastro" onsubmit="event.preventDefault()">
+                <p>Nome Completo</p>
+                <input type="text">
+                <p>Data de Nascimento</p>
+                <input type="date">
+                <p>CPF</p>
+                <input type="number">
+                <p>Cartão do SUS</p>
+                <input type="number">
+                <p>Condições Médicas</p>
+                <textarea class="input-grande"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="saude" style="display: none;">
+            <div class="imagens-saude">
+                <img src="src/img/saude/img1.png" alt="Programa Cuidar de Todos">
+                <img src="src/img/saude/img2.png" alt="Consulta com Paciente">
+            </div>
+            <div class="blocos-saude">
+                <a href="#" class="link-bloco">
+                    <div class="bloco-cidadao">
+                      <span class="icon">👤</span>
+                      <h2>CIDADÃO</h2>
+                      <p>Acesso às Informações<br>e serviços aos cidadão</p>
+                    </div>
+                  </a>
+                  <a href="#" class="link-bloco">
+                    <div class="bloco-profissionais">
+                      <span class="icon">🩺</span>
+                      <h2>PROFISSIONAIS</h2>
+                      <p>
+                        Área de Acesso<br>
+                        às Informação e<br>
+                        serviços aos Profissionais
+                      </p>
+                    </div>
+                  </a>
+            </div>
+        </div>
+
+        <div class="educacao">
+            <div class="imagens-saude">
+                <img src="src/img/educacao/img1.png" alt="Programa Cuidar de Todos">
+                <img src="src/img/educacao/img2.png" alt="Consulta com Paciente">
+            </div>
+            <div class="blocos-saude">
+                <a href="#" class="link-bloco">
+                    <div class="bloco-cidadao">
+                      <span class="icon">👤</span>
+                      <h2>CIDADÃO</h2>
+                      <p>Acesso às Informações<br>e serviços aos cidadão</p>
+                    </div>
+                  </a>
+                  <a href="#" class="link-bloco">
+                    <div class="bloco-profissionais">
+                      <span class="icon">🩺</span>
+                      <h2>PROFISSIONAIS</h2>
+                      <p>
+                        Área de Acesso<br>
+                        às Informação e<br>
+                        serviços aos Profissionais
+                      </p>
+                    </div>
+                  </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer></footer>    
 </body>
 </html>
