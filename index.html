@@ -5,132 +5,283 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Acesso Fácil</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
+
 <body>
-
     <header>
-        <div class="menu-home" style="display: none;">
-            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
-            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
-            <nav>
-                <a href="#">Acesso à Informação</a>
-                <a href="#">Primeiro Acesso</a>
-                <a href="#">Informação Classificada</a>
-            </nav>
-        </div>
+        <nav class="menu-navegacao">
+            <div class="menu_titulo">
+                <img src="./src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
+                <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
+            </div>
 
-        <div class="menu-saude" style="display: none;">
-            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
-            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
-            <div class="titulo-pagina"><p>SAÚDE</p></div>
-            <nav>
-                <a href="#">Institucional</a>
-                <a href="#">Cidadão</a>
-                <a href="#">Gestores</a>
-                <a href="#">Transparência</a>
-            </nav>
-        </div>
+            <div id="menu_links_background" style="display: none;">
+                <div class="menu_links">
+                    <a href="#" class="menu_link_inicio">Inicio</a>
+                    <a href="#" class="menu_link_saude">Saúde</a>
+                    <a href="#" class="menu_link_educacao">Educação</a>
+                    <a href="#" class="menu_link_cultura">Cultura</a>
+                    <a href="#" class="menu_link_servico_social">Serviços Socias</a>
+                </div>
 
-        <div class="menu-educacao">
-            <img src="src/img/logo-trilhas-inova.png" alt="Logo Trilhas Inova" id="img-logo-trilhas">
-            <p class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</p>
-            <div class="titulo-pagina"><p>EDUCAÇÃO</p></div>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Secretaria</a>
-                <a href="#">Plano de Educação</a>
-                <a href="#">Serviços</a>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="home" style="display: none;">
-            <div class="breadcrumbs">
-                <p>Página Inicial</p>
+        <section class="secao_informativo" >
+            <h1 class="titulo_pagina">Página Inicial</h1>
+            <div class="texto-informativo">
+                <p class="text-intro">Breve Resumo sobre o que é a pagina, quais serviços temos disponíveis</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe non neque. Ducimus repellat ipsam enim, fuga sapiente id dolor alias voluptatibus nihil, repellendus qui natus illo ex perspiciatis. Doloremque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa necessitatibus, velit ducimus eveniet reprehenderit labore magni corporis ipsum nobis aspernatur dolore ad iusto explicabo pariatur doloribus voluptate possimus repudiandae.
+                </p>
             </div>
-                <a href="#" class="primeiro-acesso">Primeiro Acesso</a>
-                <p class="text-intro">Passo a passo de como fazer o seu primeiro pedido de informação</p>
-                <div class="links-servicos">
-                    <a href="#">Saúde</a>
-                    <a href="#">Educação</a>
-                    <a href="#">Detran</a>
-                    <a href="#">Serviços de Urgência</a>
-                    <a href="#">Direito dos cidadãos</a>
+
+        </section>
+
+        <section class="secao_servicos"> 
+          <h2>Serviços</h2>
+
+          <div class="btn_servicos">
+            <button class="btn" id="btn_saude" data-alvo="saude">Saúde</button>
+            <button class="btn" id="btn_educacao" data-alvo="educacao">Educação</button>
+            <button class="btn" id="btn_cultura" data-alvo="cultura">Cultura</button>
+            <button class="btn" id="btn_servicos_sociais" data-alvo="servicos-sociais">Serviços Sociais</button>
+          </div>
+
+          <div class="box_servico box_servico-saude">
+            <p>Selecione o Sub Servico:</p>
+
+            <div class="sub_servicos">
+              <label for="op_subservico-s-upa" class="card_input-servico">
+                <input type="radio" id="op_subservico-s-upa" name="op_sub_servico-saude">
+                <div class="div_txt">
+                  <p>UPA</p>
                 </div>
-        </div>
+              </label>
 
-        <div class="cadastro" style="display: none;">
-            <p>Primeiro Acesso</p>
-            <h1>CADASTRO</h1>
-            <form class="formulario-cadastro" onsubmit="event.preventDefault()">
-                <p>Nome Completo</p>
-                <input type="text">
-                <p>Data de Nascimento</p>
-                <input type="date">
-                <p>CPF</p>
-                <input type="number">
-                <p>Cartão do SUS</p>
-                <input type="number">
-                <p>Condições Médicas</p>
-                <textarea class="input-grande"></textarea>
-                <input type="submit">
-            </form>
-        </div>
+              <label for="op_subservico-s-ubs" class="card_input-servico">
+                <input type="radio" id="op_subservico-s-ubs" name="op_sub_servico-saude">
+                <div class="div_txt">
+                  <p>UBS</p>
+                </div>
+              </label>
 
-        <div class="saude" style="display: none;">
-            <div class="imagens-saude">
-                <img src="src/img/saude/img1.png" alt="Programa Cuidar de Todos">
-                <img src="src/img/saude/img2.png" alt="Consulta com Paciente">
-            </div>
-            <div class="blocos-saude">
-                <a href="#" class="link-bloco">
-                    <div class="bloco-cidadao">
-                      <span class="icon">👤</span>
-                      <h2>CIDADÃO</h2>
-                      <p>Acesso às Informações<br>e serviços aos cidadão</p>
-                    </div>
-                  </a>
-                  <a href="#" class="link-bloco">
-                    <div class="bloco-profissionais">
-                      <span class="icon">🩺</span>
-                      <h2>PROFISSIONAIS</h2>
-                      <p>
-                        Área de Acesso<br>
-                        às Informação e<br>
-                        serviços aos Profissionais
-                      </p>
-                    </div>
-                  </a>
-            </div>
-        </div>
+              <label for="op_subservico-s-os" class="card_input-servico">
+                <input type="radio" id="op_subservico-s-os" name="op_sub_servico-saude">
+                <div class="div_txt">
+                  <p>OS</p>
+                </div>
+              </label>
 
-        <div class="educacao">
-            <div class="imagens-saude">
-                <img src="src/img/educacao/img1.png" alt="Programa Cuidar de Todos">
-                <img src="src/img/educacao/img2.png" alt="Consulta com Paciente">
+              <label for="op_subservico-s-hospital" class="card_input-servico">
+                <input type="radio" id="op_subservico-s-hospital" name="op_sub_servico-saude">
+                <div class="div_txt">
+                  <p>HOSPITAL</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-s-centro-saude" class="card_input-servico">
+                <input type="radio" id="op_subservico-s-centro-saude" name="op_sub_servico-saude">
+                <div class="div_txt">
+                  <p>CENTRO DE SAUDE</p>
+                </div>
+              </label>
+              
             </div>
-            <div class="blocos-saude">
-                <a href="#" class="link-bloco">
-                    <div class="bloco-cidadao">
-                      <span class="icon">👤</span>
-                      <h2>CIDADÃO</h2>
-                      <p>Acesso às Informações<br>e serviços aos cidadão</p>
-                    </div>
-                  </a>
-                  <a href="#" class="link-bloco">
-                    <div class="bloco-profissionais">
-                      <span class="icon">🩺</span>
-                      <h2>PROFISSIONAIS</h2>
-                      <p>
-                        Área de Acesso<br>
-                        às Informação e<br>
-                        serviços aos Profissionais
-                      </p>
-                    </div>
-                  </a>
+
+            <div class="div_filtros">
+              <div id="filtro_local">
+                <p>Local</p>
+                <select name="local" id="select_local">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <div id="filtro_horario">
+                <p>Horario</p>
+                <select name="horario" id="select_horario">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <button id="btn_buscar">BUSCAR</button>
             </div>
-        </div>
+
+            <p>Resultados:</p>
+            <div class="resultados_busca">
+
+            </div>
+          </div>
+
+          <div class="box_servico box_servico-educacao">
+            <p>Selecione o Sub Servico:</p>
+
+            <div class="sub_servicos">
+              <label for="op_subservico-e-infantil" class="card_input-servico">
+                <input type="radio" id="op_subservico-e-infantil" name="op_sub_servico-educacao">
+                <div class="div_txt">
+                  <p>INFANTIL</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-e-fundamental " class="card_input-servico">
+                <input type="radio" id="op_subservico-e-fundamental " name="op_sub_servico-educacao">
+                <div class="div_txt">
+                  <p>FUNDAMENTAL</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-e-medio" class="card_input-servico">
+                <input type="radio" id="op_subservico-e-medio" name="op_sub_servico-educacao">
+                <div class="div_txt">
+                  <p>MÉDIO</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-e-eja" class="card_input-servico">
+                <input type="radio" id="op_subservico-e-eja" name="op_sub_servico-educacao">
+                <div class="div_txt">
+                  <p>EJA</p>
+                </div>
+              </label>
+              
+            </div>
+
+            <div class="div_filtros">
+              <div id="filtro_local">
+                <p>Local</p>
+                <select name="local" id="select_local">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <div id="filtro_horario">
+                <p>Horario</p>
+                <select name="horario" id="select_horario">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <button id="btn_buscar">BUSCAR</button>
+            </div>
+
+            <p>Resultados:</p>
+            <div class="resultados_busca">
+
+            </div>
+          </div>
+
+          <div class="box_servico box_servico-cultura">
+            <p>Selecione o Sub Servico:</p>
+
+            <div class="sub_servicos">
+              <label for="op_subservico-c-museu" class="card_input-servico">
+                <input type="radio" id="op_subservico-c-museu" name="op_sub_servico-cultura">
+                <div class="div_txt">
+                  <p>MUSEU</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-c-biblioteca" class="card_input-servico">
+                <input type="radio" id="op_subservico-c-biblioteca" name="op_sub_servico-cultura">
+                <div class="div_txt">
+                  <p>BIBLIOTECA</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-c-centro_cultural" class="card_input-servico">
+                <input type="radio" id="op_subservico-c-centro_cultural" name="op_sub_servico-cultura">
+                <div class="div_txt">
+                  <p>CENTRO CULTURAL</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-c-galeria" class="card_input-servico">
+                <input type="radio" id="op_subservico-c-galeria" name="op_sub_servico-cultura">
+                <div class="div_txt">
+                  <p>GALERIA</p>
+                </div>
+              </label>
+              
+            </div>
+
+            <div class="div_filtros">
+              <div id="filtro_local">
+                <p>Local</p>
+                <select name="local" id="select_local">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <div id="filtro_horario">
+                <p>Horario</p>
+                <select name="horario" id="select_horario">
+                  <option value="teste">teste</option>
+                </select>
+              </div>
+
+              <button id="btn_buscar">BUSCAR</button>
+            </div>
+
+            <p>Resultados:</p>
+            <div class="resultados_busca">
+
+            </div>
+          </div>
+
+          <div class="box_servico box_servico-servicos-sociais">
+            <p>Selecione o Sub Servico:</p>
+
+            <div class="sub_servicos">
+              <label for="op_subservico-sc-assistencia-social" class="card_input-servico">
+                <input type="radio" id="op_subservico-sc-assistencia-social" name="op_sub_servico-sc">
+                <div class="div_txt">
+                  <p>ASSISTÊNCIA SOCIAL</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-sc-saude" class="card_input-servico">
+                <input type="radio" id="op_subservico-sc-saude" name="op_sub_servico-sc">
+                <div class="div_txt">
+                  <p>SAÚDE</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-sc-educacao" class="card_input-servico">
+                <input type="radio" id="op_subservico-sc-educacao" name="op_sub_servico-sc">
+                <div class="div_txt">
+                  <p>EDUCAÇÃO</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-sc-trabalho" class="card_input-servico">
+                <input type="radio" id="op_subservico-sc-trabalho" name="op_sub_servico-sc">
+                <div class="div_txt">
+                  <p>TRABALHO</p>
+                </div>
+              </label>
+
+              <label for="op_subservico-sc-habitacao" class="card_input-servico">
+                <input type="radio" id="op_subservico-sc-habitacao" name="op_sub_servico-sc">
+                <div class="div_txt">
+                  <p>HABITAÇÃO</p>
+                </div>
+              </label>
+              
+            </div>
+
+            <button id="btn_buscar">BUSCAR</button>
+
+            <p>Resultados:</p>
+            <div class="resultados_busca">
+
+            </div>
+          </div>
+
+        </section>
 
     </main>
 
