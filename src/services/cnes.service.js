@@ -1,6 +1,6 @@
 import express from 'express';
 import { listarEstabelecimentosSaude } from '../controllers/saude.controller.js';
-import { validarConsultaEstabelecimentos, tratarErrosValidacao } from '../middlewares/validacao.middleware.js';
+import { validarConsultaEstabelecimentos, tratarErrosValidacao } from '../middlewares/validation.js';
 import rateLimit from 'express-rate-limit';
 
 const router = express.Router();

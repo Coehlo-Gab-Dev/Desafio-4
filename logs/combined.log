@@ -24,3 +24,11 @@
 2025-05-09T03:11:46.941Z [INFO]: [req_mag7zi8m_cqva6] Buscando dados da API externa
 2025-05-09T03:11:47.177Z [ERROR]: [req_mag7zi8m_cqva6] Falha na requisição
 2025-05-09T03:11:47.232Z [ERROR]: [req_mag7zi8m_cqva6] Usando dados mockados
+2025-05-10T00:08:07.616Z [INFO]: [ROTA] GET /api/servicos-publicos
+2025-05-10T00:08:07.620Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
+2025-05-10T00:09:12.101Z [INFO]: [ROTA] GET /api/servicos-publicos
+2025-05-10T00:09:12.103Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
+2025-05-10T00:09:51.364Z [INFO]: [ROTA] GET /api/servicos-publicos
+2025-05-10T00:09:51.365Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
+2025-05-10T00:09:58.126Z [INFO]: [ROTA] GET /api/servicos-publicos
+2025-05-10T00:09:58.127Z [WARN]: Rota não encontrada: GET /api/servicos-publicos

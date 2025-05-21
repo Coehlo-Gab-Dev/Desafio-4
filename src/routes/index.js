@@ -1,7 +1,7 @@
 import express from 'express';
 import saudeRouter from './saude.routes.js';
-// import educacaoRoutes from './educacao.routes.js';
-// import culturaRoutes from './cultura.routes.js';
+import educacaoRoutes from './educacao.routes.js';
+import culturaRoutes from './cultura.routes.js';
 import govbrRoutes from './govbr.routes.js';
 import { logger } from '../utils/logger.js';
 
@@ -14,8 +14,8 @@ router.use((req, res, next) => {
   });
 // Configuração das rotas
 router.use('/saude', saudeRouter);
-// router.use('/educacao', educacaoRoutes);
-// router.use('/cultura', culturaRoutes);
+router.use('/educacao', educacaoRoutes);
+router.use('/cultura', culturaRoutes);
 router.use('/govbr', govbrRoutes);
 
 // Rota de health check
@@ -36,7 +36,7 @@ router.use((req, res) => {
       error: {
         code: 'ROUTE_NOT_FOUND',
         message: 'Endpoint não disponível',
-        available_routes: ['/saude/estabelecimentos']
+        available_routes: ['/api/servicos-publicos']
       }
     });
   });
