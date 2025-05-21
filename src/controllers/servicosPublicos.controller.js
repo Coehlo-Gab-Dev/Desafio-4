@@ -1,31 +1,31 @@
-import { buscarEscolas } from '../services/educacao.service.js';
+import { buscarServicosPublicos } from '../services/servicosPublicos.service.js';
 import { logger } from '../utils/logger.js';
 
-export const listarEscolas = async (req, res) => {
+export const listarServicosPublicos = async (req, res) => {
   const startTime = Date.now();
   const requestId = req.id || crypto.randomUUID();
 
   try {
-    logger.info(`[${requestId}] Nova requisição de escolas`, { 
+    logger.info(`[${requestId}] Nova requisição de serviços públicos`, { 
       query: req.query,
       ip: req.ip 
     });
 
     // Validação e normalização
-    const { pagina = 1, cidade, nivel, uf } = req.query;
+    const { pagina = 1, categoria, nome, esfera } = req.query;
 
     // Busca dos dados
-    const resultado = await buscarEscolas({ 
+    const resultado = await buscarServicosPublicos({ 
       pagina: Math.max(1, parseInt(pagina)),
-      cidade: cidade?.normalize('NFD').replace(/[\u0300-\u036f]/g, ""),
-      nivel,
-      uf: uf?.toUpperCase()
+      categoria,
+      nome: nome?.normalize('NFD').replace(/[\u0300-\u036f]/g, ""),
+      esfera
     });
 
     // Log de sucesso
     logger.info(`[${requestId}] Requisição concluída`, {
       tempoMs: Date.now() - startTime,
-      escolas: resultado.dados.length,
+      servicos: resultado.dados.length,
       fonte: resultado.metadados.fonte
     });
 
@@ -44,16 +44,16 @@ export const listarEscolas = async (req, res) => {
           totalItens: resultado.total || undefined
         },
         filtros: {
-          cidade: cidade || null,
-          nivel: nivel || null,
-          uf: uf || null
+          categoria: categoria || null,
+          nome: nome || null,
+          esfera: esfera || null
         }
       },
       ...(resultado.aviso && { aviso: resultado.aviso })
     });
 
   } catch (error) {
-    logger.error(`[${requestId}] Erro no controller de educação`, {
+    logger.error(`[${requestId}] Erro no controller de serviços públicos`, {
       erro: error.message,
       stack: error.stack,
       query: req.query,
@@ -63,8 +63,8 @@ export const listarEscolas = async (req, res) => {
     return res.status(500).json({
       sucesso: false,
       erro: {
-        codigo: 'ERRO_EDUCACAO',
-        mensagem: 'Falha ao buscar dados educacionais',
+        codigo: 'ERRO_SERVICOS_PUBLICOS',
+        mensagem: 'Falha ao buscar serviços públicos',
         ...(process.env.NODE_ENV === 'development' && {
           detalhes: error.message
         })

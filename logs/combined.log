@@ -32,3 +32,1029 @@
 2025-05-10T00:09:51.365Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
 2025-05-10T00:09:58.126Z [INFO]: [ROTA] GET /api/servicos-publicos
 2025-05-10T00:09:58.127Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
+2025-05-12T02:30:14.595Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-12T02:30:14.599Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-12T02:30:14.600Z [INFO]: ⚙️  Ambiente: development
+2025-05-12T02:30:37.014Z [WARN]: Rota não encontrada: GET /api/servicos-publicos
+2025-05-12T02:30:37.020Z [INFO]: [0mGET /api/servicos-publicos [33m404[0m 2.940 ms - 203[0m
+2025-05-12T02:31:00.202Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-12T02:31:00.203Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-12T02:31:00.204Z [INFO]: [0mGET /api/v1/saude [33m404[0m 2.778 ms - 261[0m
+2025-05-12T02:31:06.191Z [INFO]: [ROTA] GET /api/v1/educacao
+2025-05-12T02:31:06.192Z [WARN]: Rota não encontrada: GET /api/v1/educacao
+2025-05-12T02:31:06.192Z [INFO]: [0mGET /api/v1/educacao [33m404[0m 1.499 ms - 261[0m
+2025-05-12T02:31:15.017Z [INFO]: [ROTA] GET /api/v1/cultura
+2025-05-12T02:31:15.017Z [WARN]: Rota não encontrada: GET /api/v1/cultura
+2025-05-12T02:31:15.018Z [INFO]: [0mGET /api/v1/cultura [33m404[0m 1.063 ms - 261[0m
+2025-05-12T02:31:23.335Z [INFO]: [ROTA] GET /api/v1/servicos-publicos
+2025-05-12T02:31:23.335Z [WARN]: Rota não encontrada: GET /api/v1/servicos-publicos
+2025-05-12T02:31:23.336Z [INFO]: [0mGET /api/v1/servicos-publicos [33m404[0m 0.744 ms - 261[0m
+2025-05-12T02:31:34.354Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-12T02:31:34.355Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-12T02:31:34.355Z [INFO]: [0mGET /api/v1/saude [33m404[0m 0.877 ms - 261[0m
+2025-05-12T02:31:42.389Z [INFO]: [ROTA] GET /api/v1/educacao
+2025-05-12T02:31:42.389Z [WARN]: Rota não encontrada: GET /api/v1/educacao
+2025-05-12T02:31:42.390Z [INFO]: [0mGET /api/v1/educacao [33m404[0m 0.963 ms - 261[0m
+2025-05-12T02:31:50.403Z [INFO]: [ROTA] GET /api/v1/health
+2025-05-12T02:31:50.403Z [WARN]: Rota não encontrada: GET /api/v1/health
+2025-05-12T02:31:50.404Z [INFO]: [0mGET /api/v1/health [33m404[0m 0.856 ms - 261[0m
+2025-05-12T02:51:30.135Z [INFO]: [ROTA] GET /api/v1/pontos-cultura
+2025-05-12T02:51:30.147Z [WARN]: Rota não encontrada: GET /api/v1/pontos-cultura
+2025-05-12T02:51:30.160Z [INFO]: [0mGET /api/v1/pontos-cultura [33m404[0m 28.347 ms - 261[0m
+2025-05-12T02:51:48.648Z [INFO]: [ROTA] GET /api/v1/api/pontos-cultura
+2025-05-12T02:51:48.649Z [WARN]: Rota não encontrada: GET /api/v1/api/pontos-cultura
+2025-05-12T02:51:48.651Z [INFO]: [0mGET /api/v1/api/pontos-cultura [33m404[0m 2.245 ms - 261[0m
+2025-05-12T02:52:00.711Z [WARN]: Rota não encontrada: GET /api/pontos-cultura
+2025-05-12T02:52:00.714Z [INFO]: [0mGET /api/pontos-cultura [33m404[0m 2.259 ms - 203[0m
+2025-05-12T02:53:01.683Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-12T02:53:01.684Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-12T02:53:01.685Z [INFO]: [0mGET /api/v1/saude [33m404[0m 1.307 ms - 261[0m
+2025-05-12T02:53:08.745Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-12T02:53:08.746Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-12T02:53:08.747Z [INFO]: [0mGET /api/v1/saude [33m404[0m 1.739 ms - 261[0m
+2025-05-12T02:53:08.886Z [WARN]: Rota não encontrada: GET /favicon.ico
+2025-05-12T02:53:08.888Z [INFO]: [0mGET /favicon.ico [33m404[0m 0.823 ms - 203[0m
+2025-05-13T00:59:10.925Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-13T00:59:10.926Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-13T00:59:10.927Z [INFO]: ⚙️  Ambiente: development
+2025-05-13T00:59:15.485Z [INFO]: [0mGET /api-docs [36m301[0m 2.783 ms - 158[0m
+2025-05-13T00:59:15.520Z [INFO]: [0mGET /api-docs/ [32m200[0m 1.747 ms - 2997[0m
+2025-05-13T00:59:15.602Z [INFO]: [0mGET /api-docs/swagger-ui.css [32m200[0m 2.649 ms - 154986[0m
+2025-05-13T00:59:15.656Z [INFO]: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 0.193 ms - 2816[0m
+2025-05-13T00:59:15.659Z [INFO]: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 3.757 ms - 229223[0m
+2025-05-13T00:59:15.675Z [INFO]: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 1.232 ms - 1468326[0m
+2025-05-13T00:59:15.813Z [WARN]: Rota não encontrada: GET /public/favicon.ico
+2025-05-13T00:59:15.815Z [INFO]: [0mGET /public/favicon.ico [33m404[0m 1.353 ms - 203[0m
+2025-05-13T01:10:20.088Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-13T01:10:20.090Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-13T01:10:20.091Z [INFO]: ⚙️  Ambiente: development
+2025-05-13T01:10:31.613Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-13T01:10:31.614Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-13T01:10:31.615Z [INFO]: ⚙️  Ambiente: development
+2025-05-13T01:10:36.661Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-13T01:10:36.663Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-13T01:10:36.664Z [INFO]: ⚙️  Ambiente: development
+2025-05-14T22:42:05.059Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-14T22:42:05.061Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-14T22:42:05.062Z [INFO]: ⚙️  Ambiente: development
+2025-05-14T22:48:10.702Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs
+2025-05-14T22:48:10.703Z [WARN]: Rota não encontrada: GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs
+2025-05-14T22:48:10.707Z [INFO]: [0mGET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs [33m404[0m 5.080 ms - 288[0m
+2025-05-14T22:48:16.993Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL
+2025-05-14T22:48:16.994Z [WARN]: Rota não encontrada: GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL
+2025-05-14T22:48:16.996Z [INFO]: [0mGET /api/v1/saude/estabelecimentos?tipo=HOSPITAL [33m404[0m 3.524 ms - 288[0m
+2025-05-14T22:48:20.489Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos?pagina=2
+2025-05-14T22:48:20.490Z [WARN]: Rota não encontrada: GET /api/v1/saude/estabelecimentos?pagina=2
+2025-05-14T22:48:20.491Z [INFO]: [0mGET /api/v1/saude/estabelecimentos?pagina=2 [33m404[0m 2.003 ms - 288[0m
+2025-05-14T22:48:24.968Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos?municipio=Imperatriz&tipo=UPA%20Exemplo%20de%20Resposta%20(Sucesso):%20json%20%7B%20%22success%22:%20true,%20%22data%22:%20[%20%7B%20%22idCnes%22:%20%221234567%22,%20%22nome%22:%20%22UPA%20IMPERATRIZ%22,%20%22tipo%22:%20%22UPA%22,%20%22municipio%22:%20%22Imperatriz%22,%20%22uf%22:%20%22MA%22,%20%22endereco%22:%20%7B%20%22logradouro%22:%20%22AV.%20S%C3%83O%20LUCAS%22,%20%22numero%22:%20%22100%22%20%7D%20%7D%20],%20%22metadata%22:%20%7B%20%22fonte%22:%20%22api%22,%20%22ufFiltrada%22:%20%22MA%22%20//%20Confirma%20o%20filtro%20aplicado%20%7D%20%7D%20Como%20Testar%20no%20Thunder%20Client:%20Abra%20o%20Thunder%20Client%20no%20VS%20Code%20(Ctrl+Shift+P%20%E2%86%92%20%22Thunder%20Client%22)%20Cole%20uma%20das%20URLs%20acima%20M%C3%A9todo:%20GET%20Clique%20em%20Send%20Thunder%20Client%20Example%20Valida%C3%A7%C3%B5es%20Espec%C3%ADficas%20(Sa%C3%BAde):%20UF%20sempre%20%22MA%22:%20Mesmo%20se%20passar%20?uf=SP,%20a%20resposta%20s%C3%B3%20trar%C3%A1%20dados%20do%20Maranh%C3%A3o.%20Tipos%20v%C3%A1lidos:%20Teste%20com%20valores%20inv%C3%A1lidos:%20?tipo=POSTO%20%E2%86%92%20Retornar%C3%A1%20erro%20400.%20Munic%C3%ADpios%20fora%20do%20MA:%20Tente%20?municipio=Fortaleza%20%E2%86%92%20Retornar%C3%A1%20array%20vazio%20[].%20Health%20Check%20(Verifique%20se%20o%20servidor%20est%C3%A1%20up):%20bash%20GET%20http://localhost:3000/api/v1/health%20Resposta%20esperada:%20json%20%7B%20%22status%22:%20%22online%22,%20%22rotas_disponiveis%22:%20[%20%22/api/v1/saude%22,%20%22...outras%20rotas%20(n%C3%A3o%20alteradas)%22%20]%20%7D%20Erros%20Comuns%20e%20Solu%C3%A7%C3%B5es:%20C%C3%B3digo%09Causa%09Solu%C3%A7%C3%A3o%20400%09Par%C3%A2metro%20inv%C3%A1lido%09Verifique%20tipo%20ou%20municipio%20404%09Rota%20inexistente%09Confira%20o%20path%20(/api/v1/saude)%20500%09Erro%20no%20servidor%09Consulte%20os%20logs%20do%20terminal%20Notas:%20Os%20outros%20endpoints%20(educacao,%20cultura,%20etc.)%20n%C3%A3o%20foram%20modificados.%20Todos%20os%20filtros%20de%20sa%C3%BAde%20s%C3%A3o%20case-insensitive%20(aceita%20%22s%C3%A3o%20lu%C3%ADs%22%20ou%20%22S%C3%A3o%20Lu%C3%ADs%22).%20Precisa%20de%20exemplos%20adicionais%20ou%20quer%20testar%20um%20cen%C3%A1rio%20espec%C3%ADfico?%20New%20chat
+2025-05-14T22:48:24.969Z [WARN]: Rota não encontrada: GET /api/v1/saude/estabelecimentos?municipio=Imperatriz&tipo=UPA%20Exemplo%20de%20Resposta%20(Sucesso):%20json%20%7B%20%22success%22:%20true,%20%22data%22:%20[%20%7B%20%22idCnes%22:%20%221234567%22,%20%22nome%22:%20%22UPA%20IMPERATRIZ%22,%20%22tipo%22:%20%22UPA%22,%20%22municipio%22:%20%22Imperatriz%22,%20%22uf%22:%20%22MA%22,%20%22endereco%22:%20%7B%20%22logradouro%22:%20%22AV.%20S%C3%83O%20LUCAS%22,%20%22numero%22:%20%22100%22%20%7D%20%7D%20],%20%22metadata%22:%20%7B%20%22fonte%22:%20%22api%22,%20%22ufFiltrada%22:%20%22MA%22%20//%20Confirma%20o%20filtro%20aplicado%20%7D%20%7D%20Como%20Testar%20no%20Thunder%20Client:%20Abra%20o%20Thunder%20Client%20no%20VS%20Code%20(Ctrl+Shift+P%20%E2%86%92%20%22Thunder%20Client%22)%20Cole%20uma%20das%20URLs%20acima%20M%C3%A9todo:%20GET%20Clique%20em%20Send%20Thunder%20Client%20Example%20Valida%C3%A7%C3%B5es%20Espec%C3%ADficas%20(Sa%C3%BAde):%20UF%20sempre%20%22MA%22:%20Mesmo%20se%20passar%20?uf=SP,%20a%20resposta%20s%C3%B3%20trar%C3%A1%20dados%20do%20Maranh%C3%A3o.%20Tipos%20v%C3%A1lidos:%20Teste%20com%20valores%20inv%C3%A1lidos:%20?tipo=POSTO%20%E2%86%92%20Retornar%C3%A1%20erro%20400.%20Munic%C3%ADpios%20fora%20do%20MA:%20Tente%20?municipio=Fortaleza%20%E2%86%92%20Retornar%C3%A1%20array%20vazio%20[].%20Health%20Check%20(Verifique%20se%20o%20servidor%20est%C3%A1%20up):%20bash%20GET%20http://localhost:3000/api/v1/health%20Resposta%20esperada:%20json%20%7B%20%22status%22:%20%22online%22,%20%22rotas_disponiveis%22:%20[%20%22/api/v1/saude%22,%20%22...outras%20rotas%20(n%C3%A3o%20alteradas)%22%20]%20%7D%20Erros%20Comuns%20e%20Solu%C3%A7%C3%B5es:%20C%C3%B3digo%09Causa%09Solu%C3%A7%C3%A3o%20400%09Par%C3%A2metro%20inv%C3%A1lido%09Verifique%20tipo%20ou%20municipio%20404%09Rota%20inexistente%09Confira%20o%20path%20(/api/v1/saude)%20500%09Erro%20no%20servidor%09Consulte%20os%20logs%20do%20terminal%20Notas:%20Os%20outros%20endpoints%20(educacao,%20cultura,%20etc.)%20n%C3%A3o%20foram%20modificados.%20Todos%20os%20filtros%20de%20sa%C3%BAde%20s%C3%A3o%20case-insensitive%20(aceita%20%22s%C3%A3o%20lu%C3%ADs%22%20ou%20%22S%C3%A3o%20Lu%C3%ADs%22).%20Precisa%20de%20exemplos%20adicionais%20ou%20quer%20testar%20um%20cen%C3%A1rio%20espec%C3%ADfico?%20New%20chat
+2025-05-14T22:48:24.970Z [INFO]: [0mGET /api/v1/saude/estabelecimentos?municipio=Imperatriz&tipo=UPA%20Exemplo%20de%20Resposta%20(Sucesso):%20json%20%7B%20%22success%22:%20true,%20%22data%22:%20[%20%7B%20%22idCnes%22:%20%221234567%22,%20%22nome%22:%20%22UPA%20IMPERATRIZ%22,%20%22tipo%22:%20%22UPA%22,%20%22municipio%22:%20%22Imperatriz%22,%20%22uf%22:%20%22MA%22,%20%22endereco%22:%20%7B%20%22logradouro%22:%20%22AV.%20S%C3%83O%20LUCAS%22,%20%22numero%22:%20%22100%22%20%7D%20%7D%20],%20%22metadata%22:%20%7B%20%22fonte%22:%20%22api%22,%20%22ufFiltrada%22:%20%22MA%22%20//%20Confirma%20o%20filtro%20aplicado%20%7D%20%7D%20Como%20Testar%20no%20Thunder%20Client:%20Abra%20o%20Thunder%20Client%20no%20VS%20Code%20(Ctrl+Shift+P%20%E2%86%92%20%22Thunder%20Client%22)%20Cole%20uma%20das%20URLs%20acima%20M%C3%A9todo:%20GET%20Clique%20em%20Send%20Thunder%20Client%20Example%20Valida%C3%A7%C3%B5es%20Espec%C3%ADficas%20(Sa%C3%BAde):%20UF%20sempre%20%22MA%22:%20Mesmo%20se%20passar%20?uf=SP,%20a%20resposta%20s%C3%B3%20trar%C3%A1%20dados%20do%20Maranh%C3%A3o.%20Tipos%20v%C3%A1lidos:%20Teste%20com%20valores%20inv%C3%A1lidos:%20?tipo=POSTO%20%E2%86%92%20Retornar%C3%A1%20erro%20400.%20Munic%C3%ADpios%20fora%20do%20MA:%20Tente%20?municipio=Fortaleza%20%E2%86%92%20Retornar%C3%A1%20array%20vazio%20[].%20Health%20Check%20(Verifique%20se%20o%20servidor%20est%C3%A1%20up):%20bash%20GET%20http://localhost:3000/api/v1/health%20Resposta%20esperada:%20json%20%7B%20%22status%22:%20%22online%22,%20%22rotas_disponiveis%22:%20[%20%22/api/v1/saude%22,%20%22...outras%20rotas%20(n%C3%A3o%20alteradas)%22%20]%20%7D%20Erros%20Comuns%20e%20Solu%C3%A7%C3%B5es:%20C%C3%B3digo%09Causa%09Solu%C3%A7%C3%A3o%20400%09Par%C3%A2metro%20inv%C3%A1lido%09Verifique%20tipo%20ou%20municipio%20404%09Rota%20inexistente%09Confira%20o%20path%20(/api/v1/saude)%20500%09Erro%20no%20servidor%09Consulte%20os%20logs%20do%20terminal%20Notas:%20Os%20outros%20endpoints%20(educacao,%20cultura,%20etc.)%20n%C3%A3o%20foram%20modificados.%20Todos%20os%20filtros%20de%20sa%C3%BAde%20s%C3%A3o%20case-insensitive%20(aceita%20%22s%C3%A3o%20lu%C3%ADs%22%20ou%20%22S%C3%A3o%20Lu%C3%ADs%22).%20Precisa%20de%20exemplos%20adicionais%20ou%20quer%20testar%20um%20cen%C3%A1rio%20espec%C3%ADfico?%20New%20chat [33m404[0m 1.669 ms - 288[0m
+2025-05-14T22:49:00.696Z [INFO]: [ROTA] GET /api/v1/health
+2025-05-14T22:49:00.697Z [WARN]: Rota não encontrada: GET /api/v1/health
+2025-05-14T22:49:00.698Z [INFO]: [0mGET /api/v1/health [33m404[0m 0.977 ms - 288[0m
+2025-05-15T02:49:47.230Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-15T02:49:47.231Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-15T02:49:47.232Z [INFO]: ⚙️  Ambiente: development
+2025-05-15T02:50:11.045Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-15T02:50:11.046Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-15T02:50:11.050Z [INFO]: [0mGET /api/v1/saude [33m404[0m 3.454 ms - 288[0m
+2025-05-15T02:51:44.669Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-15T02:51:44.670Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-15T02:51:44.670Z [INFO]: ⚙️  Ambiente: development
+2025-05-15T03:18:59.062Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-15T03:18:59.063Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-15T03:18:59.064Z [INFO]: ⚙️  Ambiente: development
+2025-05-15T03:19:05.687Z [INFO]: [ROTA] GET /api/v1/saude
+2025-05-15T03:19:05.688Z [WARN]: Rota não encontrada: GET /api/v1/saude
+2025-05-15T03:19:05.692Z [INFO]: [0mGET /api/v1/saude [33m404[0m 4.047 ms - 263[0m
+2025-05-15T03:20:02.955Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos
+2025-05-15T03:20:02.960Z [INFO]: [7c4e73da-b1b2-45d3-a0b2-73eb466b5a6c] Nova requisição de saúde
+2025-05-15T03:20:03.023Z [INFO]: [saude_maosx9jk] Consultando API CNES...
+2025-05-15T03:20:23.048Z [ERROR]: [saude_maosx9jk] Falha na busca: timeout of 20000ms exceeded
+2025-05-15T03:20:23.049Z [WARN]: [saude_maosx9jk] Retornando dados mockados
+2025-05-15T03:20:23.051Z [INFO]: [7c4e73da-b1b2-45d3-a0b2-73eb466b5a6c] Requisição de saúde concluída
+2025-05-15T03:20:23.054Z [INFO]: [0mGET /api/v1/saude/estabelecimentos [32m206[0m 20097.478 ms - 658[0m
+2025-05-15T03:32:00.287Z [WARN]: Rota não encontrada: GET /estabelecimentos
+2025-05-15T03:32:00.290Z [INFO]: [0mGET /estabelecimentos [33m404[0m 1.573 ms - 291[0m
+2025-05-15T03:32:05.694Z [INFO]: [ROTA] GET /api/v1/saude/estabelecimentos
+2025-05-15T03:32:05.696Z [INFO]: [e1bfb5be-8a5a-446a-a5a4-8e773c81bde2] Nova requisição de saúde
+2025-05-15T03:32:05.791Z [INFO]: [saude_maotcr7k] Consultando API CNES...
+2025-05-15T03:32:25.805Z [ERROR]: [saude_maotcr7k] Falha na busca: timeout of 20000ms exceeded
+2025-05-15T03:32:25.805Z [WARN]: [saude_maotcr7k] Retornando dados mockados
+2025-05-15T03:32:25.807Z [INFO]: [e1bfb5be-8a5a-446a-a5a4-8e773c81bde2] Requisição de saúde concluída
+2025-05-15T03:32:25.808Z [INFO]: [0mGET /api/v1/saude/estabelecimentos [32m206[0m 20113.016 ms - 658[0m
+2025-05-15T03:35:54.218Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-15T03:35:54.219Z [INFO]: 📄 Documentação disponível em http://localhost:3000/api-docs
+2025-05-15T03:35:54.219Z [INFO]: ⚙️  Ambiente: development
+2025-05-16T01:45:04.560Z [INFO]: Conectado ao MongoDB via Mongoose
+2025-05-16T01:45:04.562Z [INFO]: Conexão com o banco de dados estabelecida com sucesso
+2025-05-16T01:45:04.574Z [INFO]: Servidor rodando na porta 3000
+2025-05-16T01:49:25.892Z [INFO]: Conectado ao MongoDB via Mongoose
+2025-05-16T01:49:25.895Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T01:49:25.910Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T01:49:25.910Z [INFO]: APIs disponíveis:
+2025-05-16T01:49:25.912Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T01:49:25.913Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T01:49:25.913Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T01:49:25.914Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T01:49:36.306Z [INFO]: Conectado ao MongoDB via Mongoose
+2025-05-16T01:49:36.308Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T01:49:36.316Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T01:49:36.317Z [INFO]: APIs disponíveis:
+2025-05-16T01:49:36.317Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T01:49:36.317Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T01:49:36.317Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T01:49:36.318Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T01:49:42.012Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-16T01:49:42.013Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T01:49:42.026Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T01:49:42.026Z [INFO]: APIs disponíveis:
+2025-05-16T01:49:42.027Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T01:49:42.027Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T01:49:42.027Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T01:49:42.027Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T01:50:14.288Z [INFO]: [GET] /api/v1/health - API: undefined
+2025-05-16T01:50:14.292Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:50:14 +0000] "GET /api/v1/health HTTP/1.1" 200 202 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:51:14.604Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:14 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:51:14.613Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:14 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:51:19.334Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.361Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.416Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 2152 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.424Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 154986 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.426Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 229223 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.436Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1468326 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:51:19.701Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:51:19 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-16T01:53:49.535Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-16T01:53:49.538Z [INFO]: [2eb59770-1ef4-4eb6-9a8c-2a87044f1197] Nova requisição de saúde
+2025-05-16T01:53:49.604Z [INFO]: [saude_maq5a8df] Consultando API CNES...
+2025-05-16T01:53:52.742Z [ERROR]: [saude_maq5a8df] Falha na busca: Request failed with status code 404
+2025-05-16T01:53:52.743Z [WARN]: [saude_maq5a8df] Retornando dados mockados
+2025-05-16T01:53:52.743Z [INFO]: [2eb59770-1ef4-4eb6-9a8c-2a87044f1197] Requisição de saúde concluída
+2025-05-16T01:53:52.744Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:53:52 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 206 657 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:54:19.118Z [INFO]: [GET] /api/v1/educacao/escolas - API: escolas
+2025-05-16T01:54:19.122Z [INFO]: [f6ccd662-5e6e-4a4f-8db0-888e6e47319e] Nova requisição de escolas
+2025-05-16T01:54:19.180Z [INFO]: [req_maq5av77] Buscando da API Educação...
+2025-05-16T01:54:19.184Z [ERROR]: Falha na API educacao Invalid URL
+2025-05-16T01:54:19.185Z [ERROR]: [req_maq5av77] Falha na busca de escolas
+2025-05-16T01:54:19.185Z [INFO]: [f6ccd662-5e6e-4a4f-8db0-888e6e47319e] Requisição concluída
+2025-05-16T01:54:19.187Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:54:19 +0000] "GET /api/v1/educacao/escolas HTTP/1.1" 206 504 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:54:27.867Z [INFO]: [GET] /api/v1/cultura/eventos - API: eventos
+2025-05-16T01:54:27.868Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:54:27 +0000] "GET /api/v1/cultura/eventos HTTP/1.1" 404 161 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:54:40.171Z [INFO]: [GET] /api/v1/servicos-publicos/beneficios - API: beneficios
+2025-05-16T01:54:40.173Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:54:40 +0000] "GET /api/v1/servicos-publicos/beneficios HTTP/1.1" 404 174 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:54:50.339Z [INFO]: [GET] /api/v1/health/db - API: db
+2025-05-16T01:54:50.340Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:54:50 +0000] "GET /api/v1/health/db HTTP/1.1" 404 155 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T01:55:12.361Z [INFO]: [GET] /api/v1/health/db - API: db
+2025-05-16T01:55:12.362Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:01:55:12 +0000] "GET /api/v1/health/db HTTP/1.1" 404 155 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T02:21:27.226Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-16T02:21:27.227Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T02:21:27.236Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T02:21:27.236Z [INFO]: APIs disponíveis:
+2025-05-16T02:21:27.237Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T02:21:27.237Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T02:21:27.237Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T02:21:27.237Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T02:22:09.991Z [INFO]: [GET] /api/v1/saude/estabelecimentos%60 - API: estabelecimentos%60
+2025-05-16T02:22:09.999Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:02:22:09 +0000] "GET /api/v1/saude/estabelecimentos%60 HTTP/1.1" 404 171 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T02:22:13.481Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-16T02:22:13.486Z [INFO]: [f3e03889-9748-416f-b622-51e0de114419] Nova requisição de saúde
+2025-05-16T02:22:13.548Z [INFO]: [saude_maq6ar5a] Consultando API CNES...
+2025-05-16T02:22:17.622Z [ERROR]: [saude_maq6ar5a] Falha na busca: Request failed with status code 404
+2025-05-16T02:22:17.622Z [WARN]: [saude_maq6ar5a] Retornando dados mockados
+2025-05-16T02:22:17.623Z [WARN]: [f3e03889-9748-416f-b622-51e0de114419] Retornando dados mockados
+2025-05-16T02:22:17.626Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:02:22:17 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 200 595 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T02:52:23.642Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-16T02:52:23.643Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T02:52:23.653Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T02:52:23.653Z [INFO]: APIs disponíveis:
+2025-05-16T02:52:23.654Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T02:52:23.654Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T02:52:23.654Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T02:52:23.655Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T02:52:44.299Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-16T02:52:44.301Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-16T02:52:44.310Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-16T02:52:44.310Z [INFO]: APIs disponíveis:
+2025-05-16T02:52:44.311Z [INFO]: - Saúde: /api/v1/saude
+2025-05-16T02:52:44.311Z [INFO]: - Educação: /api/v1/educacao
+2025-05-16T02:52:44.311Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-16T02:52:44.312Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-16T02:52:53.043Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-16T02:52:53.046Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:02:52:53 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T02:53:13.840Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 - API: estabelecimentos
+2025-05-16T02:53:13.847Z [INFO]: [40bb1738-1cb0-4676-979d-612002c24133] Nova requisição de saúde
+2025-05-16T02:53:18.483Z [WARN]: [40bb1738-1cb0-4676-979d-612002c24133] Falha na API governamental: Resposta inválida da API CNES
+2025-05-16T02:53:18.546Z [ERROR]: [40bb1738-1cb0-4676-979d-612002c24133] Erro no controller de saúde
+2025-05-16T02:53:18.548Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:02:53:18 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-16T02:53:25.691Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-16T02:53:25.693Z [INFO]: [89091f04-9185-476d-bf57-6ae459bf7e3f] Nova requisição de saúde
+2025-05-16T02:53:32.903Z [WARN]: [89091f04-9185-476d-bf57-6ae459bf7e3f] Falha na API governamental: Resposta inválida da API CNES
+2025-05-16T02:53:32.956Z [ERROR]: [89091f04-9185-476d-bf57-6ae459bf7e3f] Erro no controller de saúde
+2025-05-16T02:53:32.957Z [INFO]: ::ffff:127.0.0.1 - - [16/May/2025:02:53:32 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:23:50.660Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T02:23:50.661Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T02:23:50.669Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T02:23:50.670Z [INFO]: APIs disponíveis:
+2025-05-17T02:23:50.670Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T02:23:50.670Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T02:23:50.671Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T02:23:50.671Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T02:24:33.760Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T02:24:33.762Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T02:24:33.770Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T02:24:33.771Z [INFO]: APIs disponíveis:
+2025-05-17T02:24:33.771Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T02:24:33.771Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T02:24:33.771Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T02:24:33.772Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T02:24:34.679Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T02:24:34.683Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:24:34 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:24:35.851Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T02:24:35.852Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:24:35 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:24:43.750Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T02:24:43.756Z [INFO]: [06c616e6-0021-4c01-9820-416f1a06cf75] Nova requisição de saúde
+2025-05-17T02:24:44.289Z [WARN]: [06c616e6-0021-4c01-9820-416f1a06cf75] Falha na API governamental: Resposta inválida da API CNES
+2025-05-17T02:24:44.360Z [ERROR]: [06c616e6-0021-4c01-9820-416f1a06cf75] Erro no controller de saúde
+2025-05-17T02:24:44.364Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:24:44 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:26:13.401Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:26:13 +0000] "GET /saude HTTP/1.1" 404 144 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:26:25.080Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:26:25 +0000] "GET /api/saude HTTP/1.1" 404 148 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:26:48.781Z [INFO]: [GET] /api/v1/saude/health%60 - API: health%60
+2025-05-17T02:26:48.782Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:26:48 +0000] "GET /api/v1/saude/health%60 HTTP/1.1" 404 161 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:01.129Z [INFO]: [GET] /api/v1/saude/health - API: health
+2025-05-17T02:27:01.893Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:01 +0000] "GET /api/v1/saude/health HTTP/1.1" 200 93 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:06.077Z [INFO]: [GET] /api/v1/health%60 - API: undefined
+2025-05-17T02:27:06.079Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:06 +0000] "GET /api/v1/health%60 HTTP/1.1" 404 155 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:07.912Z [INFO]: [GET] /api/v1/health - API: undefined
+2025-05-17T02:27:07.914Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:07 +0000] "GET /api/v1/health HTTP/1.1" 200 202 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:21.523Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T02:27:21.524Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:21 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:31.014Z [INFO]: [GET] /api/v1/saude/estabelecimentos?pagina=2 - API: estabelecimentos
+2025-05-17T02:27:31.016Z [INFO]: [0b4cfc44-e304-4d1d-b340-cdddbc8072f5] Nova requisição de saúde
+2025-05-17T02:27:31.463Z [WARN]: [0b4cfc44-e304-4d1d-b340-cdddbc8072f5] Falha na API governamental: Resposta inválida da API CNES
+2025-05-17T02:27:31.519Z [ERROR]: [0b4cfc44-e304-4d1d-b340-cdddbc8072f5] Erro no controller de saúde
+2025-05-17T02:27:31.520Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:31 +0000] "GET /api/v1/saude/estabelecimentos?pagina=2 HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:38.966Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T02:27:38.969Z [INFO]: [93aa02bc-80a4-48d7-baa2-77102a0ffe5e] Nova requisição de saúde
+2025-05-17T02:27:39.472Z [WARN]: [93aa02bc-80a4-48d7-baa2-77102a0ffe5e] Falha na API governamental: Resposta inválida da API CNES
+2025-05-17T02:27:39.530Z [ERROR]: [93aa02bc-80a4-48d7-baa2-77102a0ffe5e] Erro no controller de saúde
+2025-05-17T02:27:39.532Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:39 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:42.856Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T02:27:42.857Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:42 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:45.575Z [INFO]: [GET] /api/v1 - API: undefined
+2025-05-17T02:27:45.576Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:45 +0000] "GET /api/v1 HTTP/1.1" 404 145 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:47.713Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:47 +0000] "GET /api HTTP/1.1" 404 142 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:49.418Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:49 +0000] "GET / HTTP/1.1" 404 139 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:27:59.187Z [INFO]: [GET] /api/v1/servicos-publicos/beneficios%60 - API: beneficios%60
+2025-05-17T02:27:59.191Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:27:59 +0000] "GET /api/v1/servicos-publicos/beneficios%60 HTTP/1.1" 404 177 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:28:15.965Z [INFO]: [GET] /api/v1/saude/health%60 - API: health%60
+2025-05-17T02:28:15.967Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:28:15 +0000] "GET /api/v1/saude/health%60 HTTP/1.1" 404 161 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:28:16.850Z [INFO]: [GET] /api/v1/saude/health - API: health
+2025-05-17T02:28:17.545Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:28:17 +0000] "GET /api/v1/saude/health HTTP/1.1" 200 93 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T02:28:24.490Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T02:28:24.491Z [INFO]: [66a793bf-3454-4a85-a535-0e16bcb9ce9a] Nova requisição de saúde
+2025-05-17T02:28:24.958Z [WARN]: [66a793bf-3454-4a85-a535-0e16bcb9ce9a] Falha na API governamental: Resposta inválida da API CNES
+2025-05-17T02:28:25.018Z [ERROR]: [66a793bf-3454-4a85-a535-0e16bcb9ce9a] Erro no controller de saúde
+2025-05-17T02:28:25.019Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:02:28:25 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 247 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:23:17.234Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:23:17.236Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:23:17.247Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:23:17.248Z [INFO]: APIs disponíveis:
+2025-05-17T03:23:17.248Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:23:17.249Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:23:17.250Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:23:17.250Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:31:39.448Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:31:39 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%83O%20LU%C3%8DS HTTP/1.1" 404 165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T03:39:56.177Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:39:56.179Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:39:56.186Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:39:56.187Z [INFO]: APIs disponíveis:
+2025-05-17T03:39:56.188Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:39:56.188Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:39:56.188Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:39:56.189Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:39:58.714Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:39:58 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%83O%20LU%C3%8DS HTTP/1.1" 404 165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T03:40:00.146Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:40:00 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%83O%20LU%C3%8DS HTTP/1.1" 404 165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T03:41:49.259Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:41:49.261Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:41:49.277Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:41:49.277Z [INFO]: APIs disponíveis:
+2025-05-17T03:41:49.277Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:41:49.278Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:41:49.278Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:41:49.278Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:41:52.137Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T03:41:52.143Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:41:52 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:42:00.202Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T03:42:00.206Z [INFO]: [c2b14541-a7bc-453a-b61d-f6b42acad26b] Requisição saúde
+2025-05-17T03:42:00.207Z [ERROR]: [c2b14541-a7bc-453a-b61d-f6b42acad26b] Erro crítico
+2025-05-17T03:42:00.210Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:42:00 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 181 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:42:14.507Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:42:14 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 404 165 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T03:44:02.609Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:44:02.610Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:44:02.621Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:44:02.621Z [INFO]: APIs disponíveis:
+2025-05-17T03:44:02.621Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:44:02.621Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:44:02.622Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:44:02.622Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:44:39.270Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:44:39.273Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:44:39.299Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:44:39.300Z [INFO]: APIs disponíveis:
+2025-05-17T03:44:39.301Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:44:39.302Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:44:39.302Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:44:39.303Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:44:41.687Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T03:44:41.691Z [INFO]: [cfb0cc04-d2b6-4aba-9a84-76cf0599f545] Requisição saúde
+2025-05-17T03:44:42.293Z [WARN]: [cfb0cc04-d2b6-4aba-9a84-76cf0599f545] API governamental falhou: Resposta inesperada: {"estabelecimentos":[{"codigo_cnes":5557224,"numero_cnpj_entidade":null,"nome_razao_social":"JM SERVICOS MEDICOS LTDA","nome_fantasia":"SERVMED","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":22,"codigo_cep_estabelecimento":"65903075","endereco_estabelecimento":"BERNARDO SAYAO","numero_estabelecimento":"3650","bairro_estabelecimento":"MARANHAO NOVO","numero_telefone_estabelecimento":"99 91471338","latitude_estabelecimento_decimo_grau":-5.50821444095797,"longitude_estabelecimento_decimo_grau":-47.4737366601548,"endereco_email_estabelecimento":"JMSERVICOSMEDICOS3@GMAIL.COM","numero_cnpj":"13207332000193","codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2105305557224","codigo_uf":21,"codigo_municipio":210530,"descricao_natureza_juridica_estabelecimento":"2062","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5556236,"numero_cnpj_entidade":"01613745000199","nome_razao_social":"MUNICIPIO DE PRESIDENTE SARNEY","nome_fantasia":"UBS IVANILDO RIBEIRO","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":2,"codigo_cep_estabelecimento":"65204000","endereco_estabelecimento":"POVOADO MANGANGA","numero_estabelecimento":"S/N","bairro_estabelecimento":"MANGANGA","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-2.59242487704962,"longitude_estabelecimento_decimo_grau":-45.4272973537445,"endereco_email_estabelecimento":null,"numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"SIM","codigo_estabelecimento_saude":"2109275556236","codigo_uf":21,"codigo_municipio":210927,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5548225,"numero_cnpj_entidade":"06082820000156","nome_razao_social":"PREFEITURA MUNICIPAL DE CAXIAS","nome_fantasia":"UBS MARIA DO ROSARIO PEREIRA ROSA BURITI CORRENTE","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":2,"codigo_cep_estabelecimento":"65600010","endereco_estabelecimento":"POVOADO BURITI CORRENTE","numero_estabelecimento":"S/N","bairro_estabelecimento":"ZONA RURAL","numero_telefone_estabelecimento":"(99) 35213223","latitude_estabelecimento_decimo_grau":-4.84859327559178,"longitude_estabelecimento_decimo_grau":-43.4535884857178,"endereco_email_estabelecimento":"roseanadamasceno123@gmail.com","numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"SIM","codigo_estabelecimento_saude":"2103005548225","codigo_uf":21,"codigo_municipio":210300,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":1,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5547598,"numero_cnpj_entidade":null,"nome_razao_social":"AFETTO CLINICA MULTIDISCIPLINAR LTDA","nome_fantasia":"AFETTO CLINICA MULTIDISCIPLINAR","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":36,"codigo_cep_estabelecimento":"65950000","endereco_estabelecimento":"TRAVESSA VANDA VIEIRA","numero_estabelecimento":"19","bairro_estabelecimento":"INCRA","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-5.5053,"longitude_estabelecimento_decimo_grau":-45.25421,"endereco_email_estabelecimento":"AFFETOMULTI@GMAIL.COM","numero_cnpj":"31481606000110","codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2101605547598","codigo_uf":21,"codigo_municipio":210160,"descricao_natureza_juridica_estabelecimento":"2062","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5547563,"numero_cnpj_entidade":"01612318000196","nome_razao_social":"MUNICIPIO DE BREJO DE AREIA","nome_fantasia":"POSTO DE SAUDE BREJO DOS BEZERRA","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":1,"codigo_cep_estabelecimento":"65315000","endereco_estabelecimento":"POVOADO","numero_estabelecimento":"S/N","bairro_estabelecimento":"BREJO DOS BEZERRAS","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-4.475003,"longitude_estabelecimento_decimo_grau":-45.788006,"endereco_email_estabelecimento":"brejodeareiasemus@gmail.com","numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2102155547563","codigo_uf":21,"codigo_municipio":210215,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":1,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5544815,"numero_cnpj_entidade":null,"nome_razao_social":"E F M SIQUEIRA LTDA","nome_fantasia":"LAB MED","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":80,"codigo_cep_estabelecimento":"65213000","endereco_estabelecimento":"RUA CELSO MAGALHAES","numero_estabelecimento":"S/N","bairro_estabelecimento":"CENTRO","numero_telefone_estabelecimento":"98992411515","latitude_estabelecimento_decimo_grau":-3.201,"longitude_estabelecimento_decimo_grau":-45.051,"endereco_email_estabelecimento":null,"numero_cnpj":"54222546000116","codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2108305544815","codigo_uf":21,"codigo_municipio":210830,"descricao_natureza_juridica_estabelecimento":"2062","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":1,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5539978,"numero_cnpj_entidade":null,"nome_razao_social":"INOOVE LTDA","nome_fantasia":"INOOVE FISIOTERAPIA ESTETICA","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":36,"codigo_cep_estabelecimento":"65400000","endereco_estabelecimento":"MARANHAO","numero_estabelecimento":"1500","bairro_estabelecimento":"SAO SEBASTIAO","numero_telefone_estabelecimento":"99 85480179","latitude_estabelecimento_decimo_grau":-4.457453,"longitude_estabelecimento_decimo_grau":-43.891077,"endereco_email_estabelecimento":"PJCLINICADESAUDE@GMAIL.COM","numero_cnpj":"48796088000126","codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"SIM","codigo_estabelecimento_saude":"2103305539978","codigo_uf":21,"codigo_municipio":210330,"descricao_natureza_juridica_estabelecimento":"2062","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":1,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5537576,"numero_cnpj_entidade":"01612537000175","nome_razao_social":"PREFEITURA MUNICIPAL DE PERITORO","nome_fantasia":"CENTRO ESPECIALIZADO EM REABILITACAO DE PERITORO","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":36,"codigo_cep_estabelecimento":"65418000","endereco_estabelecimento":"AVENIDA RODOVIARIA","numero_estabelecimento":"S/N","bairro_estabelecimento":"CENTRO","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-4.3702251,"longitude_estabelecimento_decimo_grau":-44.325853,"endereco_email_estabelecimento":null,"numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"SIM","codigo_estabelecimento_saude":"2108455537576","codigo_uf":21,"codigo_municipio":210845,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5537568,"numero_cnpj_entidade":"01612537000175","nome_razao_social":"PREFEITURA MUNICIPAL DE PERITORO","nome_fantasia":"UBS LUIS CARLOS DA LUZ KM 36","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":2,"codigo_cep_estabelecimento":"65418000","endereco_estabelecimento":"RODOVIA MA 020","numero_estabelecimento":"S/N","bairro_estabelecimento":"SAO JOSE","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-4.37058832327326,"longitude_estabelecimento_decimo_grau":-44.3259716033936,"endereco_email_estabelecimento":null,"numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2108455537568","codigo_uf":21,"codigo_municipio":210845,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"},{"codigo_cnes":5536472,"numero_cnpj_entidade":"06447833000181","nome_razao_social":"PREFEITURA MUNICIPAL DE PIO XII","nome_fantasia":"POSTO DE SAUDE SAO JOSE DA MATA","natureza_organizacao_entidade":null,"tipo_gestao":"M","descricao_nivel_hierarquia":null,"descricao_esfera_administrativa":null,"codigo_tipo_unidade":1,"codigo_cep_estabelecimento":"65707000","endereco_estabelecimento":"RUA PRINCIPAL","numero_estabelecimento":"S/N","bairro_estabelecimento":"POVOADO SAO JOSE DA","numero_telefone_estabelecimento":null,"latitude_estabelecimento_decimo_grau":-3.811562,"longitude_estabelecimento_decimo_grau":-45.084304,"endereco_email_estabelecimento":"SEMUSPIOXII@HOTMAIL.COM","numero_cnpj":null,"codigo_identificador_turno_atendimento":"03","descricao_turno_atendimento":"ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE","estabelecimento_faz_atendimento_ambulatorial_sus":"NAO","codigo_estabelecimento_saude":"2108705536472","codigo_uf":21,"codigo_municipio":210870,"descricao_natureza_juridica_estabelecimento":"1244","codigo_motivo_desabilitacao_estabelecimento":null,"estabelecimento_possui_centro_cirurgico":0,"estabelecimento_possui_centro_obstetrico":0,"estabelecimento_possui_centro_neonatal":0,"estabelecimento_possui_atendimento_hospitalar":0,"estabelecimento_possui_servico_apoio":0,"estabelecimento_possui_atendimento_ambulatorial":0,"codigo_atividade_ensino_unidade":"04","codigo_natureza_organizacao_unidade":null,"codigo_nivel_hierarquia_unidade":null,"codigo_esfera_administrativa_unidade":null,"data_atualizacao":"2025-05-15"}]}
+2025-05-17T03:44:42.378Z [WARN]: [cfb0cc04-d2b6-4aba-9a84-76cf0599f545] Retornando dados mockados
+2025-05-17T03:44:42.379Z [ERROR]: [cfb0cc04-d2b6-4aba-9a84-76cf0599f545] Erro crítico
+2025-05-17T03:44:42.383Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:44:42 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 500 192 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:44:47.169Z [INFO]: [GET] /api/v1/saude/ - API: 
+2025-05-17T03:44:47.171Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:44:47 +0000] "GET /api/v1/saude/ HTTP/1.1" 404 152 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:44:52.282Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 - API: estabelecimentos
+2025-05-17T03:44:52.284Z [INFO]: [72f1d81d-f2b0-4d0f-b7bc-02d2e9375c04] Requisição saúde
+2025-05-17T03:44:52.285Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:44:52 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 HTTP/1.1" 400 3753 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:45:24.961Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:45:24 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:45:30.850Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:45:30 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:45:31.646Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:45:31 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:45:34.899Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 - API: estabelecimentos
+2025-05-17T03:45:34.900Z [INFO]: [06d3b8bb-1aa3-4e85-ad8c-fa5cf46820a4] Requisição saúde
+2025-05-17T03:45:34.901Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:45:34 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 HTTP/1.1" 400 3753 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:47:29.404Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS - API: estabelecimentos
+2025-05-17T03:47:29.406Z [INFO]: [d61cae83-13e1-4652-b5fd-84c541641e1a] Requisição saúde
+2025-05-17T03:47:29.408Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:47:29 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS HTTP/1.1" 400 3753 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:47:39.104Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=A%C3%A7ail%C3%A2ndia - API: estabelecimentos
+2025-05-17T03:47:39.105Z [INFO]: [8fa1a220-1964-4b55-8dab-50df4a0d61f6] Requisição saúde
+2025-05-17T03:47:39.585Z [WARN]: [8fa1a220-1964-4b55-8dab-50df4a0d61f6] API governamental falhou: Resposta inesperada: {"estabelecimentos":[]}
+2025-05-17T03:47:39.646Z [WARN]: [8fa1a220-1964-4b55-8dab-50df4a0d61f6] Retornando dados mockados
+2025-05-17T03:47:39.646Z [ERROR]: [8fa1a220-1964-4b55-8dab-50df4a0d61f6] Erro crítico
+2025-05-17T03:47:39.647Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:47:39 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=A%C3%A7ail%C3%A2ndia HTTP/1.1" 500 192 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:48:07.382Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS - API: estabelecimentos
+2025-05-17T03:48:07.384Z [INFO]: [6cb6cd67-35f1-4e6e-8354-48834b53e013] Requisição saúde
+2025-05-17T03:48:07.386Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:48:07 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS HTTP/1.1" 400 3753 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T03:57:00.052Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T03:57:00.053Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T03:57:00.062Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T03:57:00.062Z [INFO]: APIs disponíveis:
+2025-05-17T03:57:00.062Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T03:57:00.062Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T03:57:00.063Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T03:57:00.063Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T03:57:11.199Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS - API: estabelecimentos
+2025-05-17T03:57:11.203Z [INFO]: [b496d76a-c33b-4096-895a-80a1a7d41ce6] Requisição saúde
+2025-05-17T03:57:11.208Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:03:57:11 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS HTTP/1.1" 400 3753 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T04:01:10.974Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:01:10.975Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:01:10.984Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:01:10.984Z [INFO]: APIs disponíveis:
+2025-05-17T04:01:10.985Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:01:10.985Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:01:10.985Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:01:10.985Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:01:24.126Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:01:24.127Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:01:24.137Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:01:24.137Z [INFO]: APIs disponíveis:
+2025-05-17T04:01:24.137Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:01:24.138Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:01:24.138Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:01:24.138Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:13:21.538Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:13:21.539Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:13:21.549Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:13:21.550Z [INFO]: APIs disponíveis:
+2025-05-17T04:13:21.550Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:13:21.550Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:13:21.551Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:13:21.551Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:22:22.245Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:22:22.246Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:22:22.260Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:22:22.261Z [INFO]: APIs disponíveis:
+2025-05-17T04:22:22.261Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:22:22.261Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:22:22.262Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:22:22.262Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:22:39.660Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL - API: estabelecimentos
+2025-05-17T04:22:39.666Z [INFO]: [b05e433b-1979-4f6c-b862-6f19559ca945] Nova requisição de saúde
+2025-05-17T04:22:40.157Z [ERROR]: [b05e433b-1979-4f6c-b862-6f19559ca945] Falha na API CNES
+2025-05-17T04:22:40.157Z [WARN]: [b05e433b-1979-4f6c-b862-6f19559ca945] API governamental falhou: Cannot read properties of undefined (reading '_mapearTipoCNES')
+2025-05-17T04:22:40.224Z [WARN]: [b05e433b-1979-4f6c-b862-6f19559ca945] Retornando dados mockados
+2025-05-17T04:22:40.228Z [INFO]: ::1 - - [17/May/2025:04:22:40 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:23:09.797Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:23:09.799Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:23:09.808Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:23:09.808Z [INFO]: APIs disponíveis:
+2025-05-17T04:23:09.808Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:23:09.808Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:23:09.809Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:23:09.809Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:23:16.738Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL - API: estabelecimentos
+2025-05-17T04:23:16.744Z [INFO]: [b002a808-5221-42db-bb2e-81758e6adc0d] Requisição saúde
+2025-05-17T04:23:17.740Z [ERROR]: [b002a808-5221-42db-bb2e-81758e6adc0d] Falha na API CNES
+2025-05-17T04:23:17.741Z [WARN]: [b002a808-5221-42db-bb2e-81758e6adc0d] API governamental falhou: Cannot read properties of undefined (reading '_mapearTipoCNES')
+2025-05-17T04:23:17.808Z [WARN]: [b002a808-5221-42db-bb2e-81758e6adc0d] Retornando dados mockados
+2025-05-17T04:23:17.811Z [INFO]: ::1 - - [17/May/2025:04:23:17 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:25:03.977Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:25:03.979Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:25:03.989Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:25:03.989Z [INFO]: APIs disponíveis:
+2025-05-17T04:25:03.989Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:25:03.990Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:25:03.990Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:25:03.990Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:30:05.995Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:30:05.997Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:30:06.006Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:30:06.006Z [INFO]: APIs disponíveis:
+2025-05-17T04:30:06.007Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:30:06.007Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:30:06.007Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:30:06.008Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:30:30.769Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Luiz - API: estabelecimentos
+2025-05-17T04:30:30.774Z [INFO]: [fbf476cb-c5b1-4d93-8cb0-2654815e9ecc] Requisição saúde
+2025-05-17T04:30:30.782Z [INFO]: ::1 - - [17/May/2025:04:30:30 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Luiz HTTP/1.1" 400 747 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:30:37.576Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T04:30:37.579Z [INFO]: [93f5d643-9478-4666-8cba-2069286a289a] Requisição saúde
+2025-05-17T04:30:38.058Z [ERROR]: [93f5d643-9478-4666-8cba-2069286a289a] Falha na API CNES
+2025-05-17T04:30:38.059Z [WARN]: [93f5d643-9478-4666-8cba-2069286a289a] API governamental falhou: Cannot read properties of undefined (reading '_mapearTipoCNES')
+2025-05-17T04:30:38.131Z [WARN]: [93f5d643-9478-4666-8cba-2069286a289a] Retornando dados mockados
+2025-05-17T04:30:38.134Z [INFO]: ::1 - - [17/May/2025:04:30:38 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:31:57.131Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:31:57.132Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:31:57.141Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:31:57.141Z [INFO]: APIs disponíveis:
+2025-05-17T04:31:57.142Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:31:57.143Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:31:57.143Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:31:57.143Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:32:46.544Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:32:46.546Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:32:46.557Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:32:46.557Z [INFO]: APIs disponíveis:
+2025-05-17T04:32:46.557Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:32:46.557Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:32:46.558Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:32:46.558Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:32:49.604Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T04:32:49.610Z [INFO]: [7912bc6d-ff69-41ce-b03c-7c33f7663c1b] Requisição saúde
+2025-05-17T04:32:50.106Z [ERROR]: [7912bc6d-ff69-41ce-b03c-7c33f7663c1b] Falha na API CNES
+2025-05-17T04:32:50.106Z [WARN]: [7912bc6d-ff69-41ce-b03c-7c33f7663c1b] API governamental falhou: Cannot read properties of undefined (reading '_mapearTipoCNES')
+2025-05-17T04:32:50.217Z [WARN]: [7912bc6d-ff69-41ce-b03c-7c33f7663c1b] Retornando dados mockados
+2025-05-17T04:32:50.223Z [INFO]: ::1 - - [17/May/2025:04:32:50 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 492 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:33:52.465Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:33:52.467Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:33:52.477Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:33:52.478Z [INFO]: APIs disponíveis:
+2025-05-17T04:33:52.478Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:33:52.478Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:33:52.478Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:33:52.478Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:38:12.996Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:38:12.997Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:38:13.007Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:38:13.007Z [INFO]: APIs disponíveis:
+2025-05-17T04:38:13.008Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:38:13.008Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:38:13.008Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:38:13.008Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:38:29.108Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T04:38:29.117Z [INFO]: [d5db078e-8cf7-46cf-a871-a16d75f9b870] Requisição saúde
+2025-05-17T04:38:29.589Z [ERROR]: [d5db078e-8cf7-46cf-a871-a16d75f9b870] Erro ao atualizar cache: Cannot read properties of undefined (reading 'split')
+2025-05-17T04:38:29.592Z [INFO]: ::1 - - [17/May/2025:04:38:29 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 2498 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:42:13.048Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:42:13.052Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:42:13.063Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:42:13.064Z [INFO]: APIs disponíveis:
+2025-05-17T04:42:13.064Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:42:13.065Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:42:13.066Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:42:13.067Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:43:02.742Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:43:02.743Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:43:02.752Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:43:02.752Z [INFO]: APIs disponíveis:
+2025-05-17T04:43:02.752Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:43:02.753Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:43:02.753Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:43:02.753Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:43:10.549Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T04:43:10.553Z [INFO]: [8bf9d3dd-a342-48e5-9514-f38b54130ef2] Requisição saúde
+2025-05-17T04:43:11.115Z [ERROR]: [8bf9d3dd-a342-48e5-9514-f38b54130ef2] Erro ao atualizar cache: Cannot read properties of undefined (reading 'split')
+2025-05-17T04:43:11.119Z [INFO]: ::1 - - [17/May/2025:04:43:11 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 2398 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:45:21.013Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:45:21.015Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:45:21.023Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:45:21.024Z [INFO]: APIs disponíveis:
+2025-05-17T04:45:21.024Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:45:21.024Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:45:21.024Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:45:21.024Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:45:29.451Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T04:45:29.465Z [INFO]: ::1 - - [17/May/2025:04:45:29 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 500 134 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:45:36.507Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=INVALIDO - API: estabelecimentos
+2025-05-17T04:45:36.509Z [INFO]: ::1 - - [17/May/2025:04:45:36 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=INVALIDO HTTP/1.1" 400 315 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T04:52:15.477Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:52:15.479Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:52:15.488Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:52:15.489Z [INFO]: APIs disponíveis:
+2025-05-17T04:52:15.489Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:52:15.489Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:52:15.490Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:52:15.490Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:54:47.029Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:54:47.030Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:54:47.055Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:54:47.057Z [INFO]: APIs disponíveis:
+2025-05-17T04:54:47.060Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:54:47.062Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:54:47.068Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:54:47.069Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T04:59:07.446Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T04:59:07.447Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T04:59:07.455Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T04:59:07.455Z [INFO]: APIs disponíveis:
+2025-05-17T04:59:07.455Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T04:59:07.456Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T04:59:07.456Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T04:59:07.456Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T05:01:33.815Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:01:33.816Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T05:01:33.826Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T05:01:33.826Z [INFO]: APIs disponíveis:
+2025-05-17T05:01:33.826Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T05:01:33.826Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T05:01:33.826Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T05:01:33.827Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T05:02:37.759Z [INFO]: ::1 - - [17/May/2025:05:02:37 +0000] "GET /api/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T05:02:44.103Z [INFO]: ::1 - - [17/May/2025:05:02:44 +0000] "GET /api/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T05:02:48.225Z [INFO]: ::1 - - [17/May/2025:05:02:48 +0000] "GET /api/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&pagina=2 HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T05:03:54.448Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:03:54 +0000] "GET /api/estabelecimentos HTTP/1.1" 404 159 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:04:07.829Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:04:07 +0000] "GET /api/estabelecimentos HTTP/1.1" 404 159 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:04:09.643Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:04:09 +0000] "GET /api/estabelecimentos HTTP/1.1" 404 159 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:06:21.408Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:06:21 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:06:25.335Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:06:25 +0000] "GET /api/saude/estabelecimentos HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:06:28.165Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:05:06:28 +0000] "GET /api/saude HTTP/1.1" 404 148 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T05:10:50.852Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:10:50.854Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T05:10:50.862Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T05:10:50.862Z [INFO]: APIs disponíveis:
+2025-05-17T05:10:50.863Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T05:10:50.863Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T05:10:50.863Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T05:10:50.863Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T05:11:01.983Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:11:17.316Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:11:17.332Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:11:17.319Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T05:11:17.330Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T05:11:17.331Z [INFO]: APIs disponíveis:
+2025-05-17T05:11:17.332Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T05:11:17.333Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T05:11:17.333Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T05:11:17.334Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T05:11:27.151Z [INFO]: ::1 - - [17/May/2025:05:11:27 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 404 165 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; pt-BR) WindowsPowerShell/5.1.26100.4061"
+2025-05-17T05:11:40.953Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T05:11:40.954Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T05:11:40.963Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T05:11:40.963Z [INFO]: APIs disponíveis:
+2025-05-17T05:11:40.963Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T05:11:40.963Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T05:11:40.963Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T05:11:40.964Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T05:11:40.997Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T09:08:36.245Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T09:08:36.246Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T09:08:36.254Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T09:08:36.254Z [INFO]: APIs disponíveis:
+2025-05-17T09:08:36.254Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T09:08:36.255Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T09:08:36.255Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T09:08:36.255Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T09:08:36.294Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T09:08:51.512Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T09:08:51.515Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T09:08:51.523Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T09:08:51.523Z [INFO]: APIs disponíveis:
+2025-05-17T09:08:51.523Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T09:08:51.524Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T09:08:51.524Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T09:08:51.524Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T09:28:14.636Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T09:28:14.637Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T09:28:14.648Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T09:28:14.649Z [INFO]: APIs disponíveis:
+2025-05-17T09:28:14.649Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T09:28:14.649Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T09:28:14.650Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T09:28:14.650Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T09:28:30.338Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:28:30 +0000] "GET /api/saude HTTP/1.1" 404 148 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:28:35.199Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:28:35 +0000] "GET /api/saude/estabelecimentos HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:28:41.932Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:28:41 +0000] "GET /api/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 404 165 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:29:33.006Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T09:29:33.013Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:29:33 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 500 91 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:29:36.118Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T09:29:36.120Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:29:36 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 109 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:29:37.372Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T09:29:37.374Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:29:37 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 109 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:29:40.519Z [INFO]: [GET] /api/v1/saude/ - API: 
+2025-05-17T09:29:40.520Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:29:40 +0000] "GET /api/v1/saude/ HTTP/1.1" 404 152 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T09:30:18.655Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T09:30:18.657Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:09:30:18 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T10:35:54.567Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-17T10:36:40.790Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-17T19:30:20.541Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T19:30:20.546Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T19:30:20.556Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T19:30:20.556Z [INFO]: APIs disponíveis:
+2025-05-17T19:30:20.556Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T19:30:20.557Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T19:30:20.557Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T19:30:20.557Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T19:30:27.226Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:30:27.231Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:30:27 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:30:34.627Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T19:30:34.638Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:30:34 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 231 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:30:56.222Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 - API: estabelecimentos
+2025-05-17T19:30:56.226Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:30:56 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=S%C3%A3o%20Lu%C3%ADs%22 HTTP/1.1" 400 202 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:31:05.706Z [INFO]: [GET] /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS - API: estabelecimentos
+2025-05-17T19:31:05.708Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:31:05 +0000] "GET /api/v1/saude/estabelecimentos?tipo=HOSPITAL&municipio=SAO%20LUIS HTTP/1.1" 400 202 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:31:09.877Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T19:31:09.879Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:31:09 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 231 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:31:14.048Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:31:14.049Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:31:14 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:32:54.316Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T19:32:54.318Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T19:32:54.327Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T19:32:54.327Z [INFO]: APIs disponíveis:
+2025-05-17T19:32:54.328Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T19:32:54.328Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T19:32:54.329Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T19:32:54.329Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T19:33:08.525Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:33:08.529Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:33:08 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:33:09.923Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:33:09.925Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:33:09 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:47:08.078Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T19:47:08.079Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T19:47:08.090Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T19:47:08.090Z [INFO]: APIs disponíveis:
+2025-05-17T19:47:08.090Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T19:47:08.091Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T19:47:08.091Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T19:47:08.091Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T19:47:45.688Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:47:45.692Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:47:45 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:48:51.364Z [INFO]: [GET] /api/v1 - API: undefined
+2025-05-17T19:48:51.366Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:48:51 +0000] "GET /api/v1 HTTP/1.1" 404 145 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T19:56:01.978Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-17T19:56:01.979Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:19:56:01 +0000] "GET /api/v1/saude HTTP/1.1" 404 151 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:33:38.230Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T20:33:38.237Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:33:38 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 231 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:35:24.634Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:35:24.635Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:35:24.646Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:35:24.646Z [INFO]: APIs disponíveis:
+2025-05-17T20:35:24.646Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:35:24.646Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:35:24.647Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:35:24.647Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:35:28.074Z [INFO]: [GET] /api/v1/saude/estabelecimentos - API: estabelecimentos
+2025-05-17T20:35:28.081Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:35:28 +0000] "GET /api/v1/saude/estabelecimentos HTTP/1.1" 400 231 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:35:43.612Z [INFO]: [GET] /api/v1/saude?municipio=S%C3%A3o%20Lu%C3%ADs - API: undefined
+2025-05-17T20:35:43.615Z [INFO]: [82773391-bc8c-48df-913c-fd78dc12d30c] Busca no MA iniciada
+2025-05-17T20:35:46.323Z [ERROR]: [82773391-bc8c-48df-913c-fd78dc12d30c] Falha na API CNES-MA:
+2025-05-17T20:35:46.324Z [WARN]: [82773391-bc8c-48df-913c-fd78dc12d30c] API CNES-MA falhou: getaddrinfo ENOTFOUND https
+2025-05-17T20:35:46.390Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:35:46 +0000] "GET /api/v1/saude?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 662 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:36:14.365Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T20:36:14.367Z [INFO]: [18626ace-11d1-4a4e-8358-8e87ee649e99] Busca no MA iniciada
+2025-05-17T20:36:17.067Z [ERROR]: [18626ace-11d1-4a4e-8358-8e87ee649e99] Falha na API CNES-MA:
+2025-05-17T20:36:17.068Z [WARN]: [18626ace-11d1-4a4e-8358-8e87ee649e99] API CNES-MA falhou: getaddrinfo ENOTFOUND https
+2025-05-17T20:36:17.140Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:36:17 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 662 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:41:24.424Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:41:24.425Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:41:24.434Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:41:24.435Z [INFO]: APIs disponíveis:
+2025-05-17T20:41:24.435Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:41:24.435Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:41:24.435Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:41:24.436Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:43:26.125Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:43:26.127Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:43:26.136Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:43:26.136Z [INFO]: APIs disponíveis:
+2025-05-17T20:43:26.137Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:43:26.137Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:43:26.137Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:43:26.137Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:43:29.128Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs - API: estabelecimentos
+2025-05-17T20:43:29.133Z [INFO]: [ddebe0ce-c6dc-41c4-ad0d-e1ddf384b0e7] Busca no MA iniciada
+2025-05-17T20:43:33.392Z [ERROR]: [ddebe0ce-c6dc-41c4-ad0d-e1ddf384b0e7] Falha na API CNES-MA:
+2025-05-17T20:43:33.392Z [WARN]: [ddebe0ce-c6dc-41c4-ad0d-e1ddf384b0e7] API CNES-MA falhou: Nenhum estabelecimento encontrado no MA
+2025-05-17T20:43:33.458Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:43:33 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs HTTP/1.1" 200 662 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:51:08.520Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:51:08.522Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:51:08.530Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:51:08.530Z [INFO]: APIs disponíveis:
+2025-05-17T20:51:08.530Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:51:08.531Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:51:08.532Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:51:08.532Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:52:04.907Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:52:04.908Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:52:04.917Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:52:04.918Z [INFO]: APIs disponíveis:
+2025-05-17T20:52:04.918Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:52:04.919Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:52:04.919Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:52:04.919Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:52:17.794Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:52:17.796Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:52:17.806Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:52:17.806Z [INFO]: APIs disponíveis:
+2025-05-17T20:52:17.806Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:52:17.807Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:52:17.807Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:52:17.807Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:54:37.620Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:54:37.622Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:54:37.630Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:54:37.631Z [INFO]: APIs disponíveis:
+2025-05-17T20:54:37.632Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:54:37.632Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:54:37.632Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:54:37.633Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-17T20:54:54.936Z [INFO]: [GET] /api/v1/saude/teste-cnes - API: teste-cnes
+2025-05-17T20:54:54.942Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:54:54 +0000] "GET /api/v1/saude/teste-cnes HTTP/1.1" 404 162 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:54:58.408Z [INFO]: [GET] /api/v1/saude/teste-cnes - API: teste-cnes
+2025-05-17T20:54:58.409Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:54:58 +0000] "GET /api/v1/saude/teste-cnes HTTP/1.1" 404 162 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:55:08.934Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL - API: estabelecimentos
+2025-05-17T20:55:09.362Z [INFO]: [00ee84ed-ad69-412e-abda-dcde3ed4116f] Busca no MA iniciada
+2025-05-17T20:55:09.478Z [INFO]: [00ee84ed-ad69-412e-abda-dcde3ed4116f] Chamando API CNES: https://apidadosabertos.saude.gov.br/cnes/estabelecimentos?codigo_uf=21&codigo_municipio=2111300&nome_municipio=S%C3%83O+LU%C3%8DS&tipo_unidade=01&limit=20&offset=0&status=1
+2025-05-17T20:55:09.479Z [ERROR]: [00ee84ed-ad69-412e-abda-dcde3ed4116f] Erro na API CNES:
+2025-05-17T20:55:09.480Z [WARN]: [00ee84ed-ad69-412e-abda-dcde3ed4116f] API CNES-MA falhou: Nenhum estabelecimento encontrado na API CNES
+2025-05-17T20:55:09.572Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:55:09 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 200 644 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-17T20:55:39.778Z [INFO]: [GET] /api/v1/saude/teste-cnes - API: teste-cnes
+2025-05-17T20:55:39.780Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:55:39 +0000] "GET /api/v1/saude/teste-cnes HTTP/1.1" 404 162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T20:56:01.534Z [INFO]: [GET] /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL - API: estabelecimentos
+2025-05-17T20:56:01.925Z [INFO]: [a3e64542-5404-4ffd-a162-f010439ac6e6] Busca no MA iniciada
+2025-05-17T20:56:02.035Z [INFO]: [a3e64542-5404-4ffd-a162-f010439ac6e6] Chamando API CNES: https://apidadosabertos.saude.gov.br/cnes/estabelecimentos?codigo_uf=21&codigo_municipio=2111300&nome_municipio=S%C3%83O+LU%C3%8DS&tipo_unidade=01&limit=20&offset=0&status=1
+2025-05-17T20:56:02.035Z [ERROR]: [a3e64542-5404-4ffd-a162-f010439ac6e6] Erro na API CNES:
+2025-05-17T20:56:02.036Z [WARN]: [a3e64542-5404-4ffd-a162-f010439ac6e6] API CNES-MA falhou: Nenhum estabelecimento encontrado na API CNES
+2025-05-17T20:56:02.098Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:56:02 +0000] "GET /api/v1/saude/estabelecimentos?municipio=S%C3%A3o%20Lu%C3%ADs&tipo=HOSPITAL HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T20:56:02.168Z [INFO]: ::ffff:127.0.0.1 - - [17/May/2025:20:56:02 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
+2025-05-17T20:58:06.147Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-17T20:58:06.148Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-17T20:58:06.160Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-17T20:58:06.160Z [INFO]: APIs disponíveis:
+2025-05-17T20:58:06.160Z [INFO]: - Saúde: /api/v1/saude
+2025-05-17T20:58:06.160Z [INFO]: - Educação: /api/v1/educacao
+2025-05-17T20:58:06.161Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-17T20:58:06.161Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T00:12:01.334Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T00:12:01.335Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T00:12:01.344Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T00:12:01.344Z [INFO]: APIs disponíveis:
+2025-05-18T00:12:01.345Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T00:12:01.345Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T00:12:01.345Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T00:12:01.345Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T01:05:15.536Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T01:05:15.537Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T01:05:15.547Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T01:05:15.548Z [INFO]: APIs disponíveis:
+2025-05-18T01:05:15.548Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T01:05:15.548Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T01:05:15.548Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T01:05:15.549Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T01:07:10.468Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T01:07:10.472Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T01:07:10.487Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T01:07:10.487Z [INFO]: APIs disponíveis:
+2025-05-18T01:07:10.488Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T01:07:10.488Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T01:07:10.488Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T01:07:10.489Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T01:08:35.277Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T01:08:35.278Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T01:08:35.287Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T01:08:35.288Z [INFO]: APIs disponíveis:
+2025-05-18T01:08:35.288Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T01:08:35.288Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T01:08:35.288Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T01:08:35.289Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T01:37:48.846Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T01:37:48.847Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T01:37:48.870Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T01:37:48.871Z [INFO]: APIs disponíveis:
+2025-05-18T01:37:48.872Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T01:37:48.872Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T01:37:48.873Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T01:37:48.874Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T01:45:38.026Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T01:45:38.028Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T01:45:38.041Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T01:45:38.041Z [INFO]: APIs disponíveis:
+2025-05-18T01:45:38.042Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T01:45:38.042Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T01:45:38.043Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T01:45:38.043Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T02:13:57.533Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T02:13:57.535Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T02:13:57.549Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T02:13:57.550Z [INFO]: APIs disponíveis:
+2025-05-18T02:13:57.550Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T02:13:57.550Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T02:13:57.551Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T02:13:57.551Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T02:54:50.171Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T02:54:50.173Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T02:54:50.181Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T02:54:50.181Z [INFO]: APIs disponíveis:
+2025-05-18T02:54:50.182Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T02:54:50.182Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T02:54:50.182Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T02:54:50.182Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T02:55:03.748Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T02:55:03.751Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T02:55:03.760Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T02:55:03.760Z [INFO]: APIs disponíveis:
+2025-05-18T02:55:03.761Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T02:55:03.761Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T02:55:03.761Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T02:55:03.762Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:08:13.307Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:08:13.314Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:08:13.326Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:08:13.327Z [INFO]: APIs disponíveis:
+2025-05-18T04:08:13.327Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:08:13.327Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:08:13.327Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:08:13.328Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:11:38.543Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:11:38.544Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:11:38.553Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:11:38.554Z [INFO]: APIs disponíveis:
+2025-05-18T04:11:38.554Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:11:38.554Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:11:38.554Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:11:38.555Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:18:12.162Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:18:12.164Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:18:12.179Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:18:12.180Z [INFO]: APIs disponíveis:
+2025-05-18T04:18:12.180Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:18:12.180Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:18:12.181Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:18:12.181Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:19:21.755Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:19:21.758Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:19:21.772Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:19:21.772Z [INFO]: APIs disponíveis:
+2025-05-18T04:19:21.772Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:19:21.772Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:19:21.773Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:19:21.773Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:24:28.831Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:24:28.832Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:24:28.842Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:24:28.843Z [INFO]: APIs disponíveis:
+2025-05-18T04:24:28.843Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:24:28.843Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:24:28.843Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:24:28.843Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T04:29:11.399Z [INFO]: [GET] /api/v1/saude - API: undefined
+2025-05-18T04:29:11.406Z [INFO]: ::ffff:127.0.0.1 - - [18/May/2025:04:29:11 +0000] "GET /api/v1/saude HTTP/1.1" 400 237 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-18T04:29:26.110Z [INFO]: ::ffff:127.0.0.1 - - [18/May/2025:04:29:26 +0000] "GET /api/saude?municipio=S%C3%A3o%20Lu%C3%ADs&pagina=1 HTTP/1.1" 404 148 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-18T04:29:36.412Z [INFO]: ::ffff:127.0.0.1 - - [18/May/2025:04:29:36 +0000] "GET /api/saude/tipos HTTP/1.1" 404 154 "-" "Thunder Client (https://www.thunderclient.com)"
+2025-05-18T04:37:57.777Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T04:37:57.778Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T04:37:57.794Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T04:37:57.795Z [INFO]: APIs disponíveis:
+2025-05-18T04:37:57.796Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T04:37:57.797Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T04:37:57.797Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T04:37:57.798Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T18:25:43.804Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T18:25:43.806Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T18:25:43.809Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T18:25:43.809Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-18T18:25:43.809Z [INFO]: 📚 APIs disponíveis:
+2025-05-18T18:25:43.810Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T18:25:43.810Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T18:25:43.811Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T18:25:43.811Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T18:25:43.812Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-18T18:34:39.270Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T18:34:39.273Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T18:34:39.276Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T18:34:39.276Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-18T18:34:39.277Z [INFO]: 📚 APIs disponíveis:
+2025-05-18T18:34:39.277Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T18:34:39.277Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T18:34:39.278Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T18:34:39.278Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T18:34:39.278Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-18T21:21:07.723Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-18T21:21:07.724Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-18T21:21:07.726Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-18T21:21:07.726Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-18T21:21:07.727Z [INFO]: 📚 APIs disponíveis:
+2025-05-18T21:21:07.727Z [INFO]: - Saúde: /api/v1/saude
+2025-05-18T21:21:07.727Z [INFO]: - Educação: /api/v1/educacao
+2025-05-18T21:21:07.728Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-18T21:21:07.728Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-18T21:21:07.729Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-18T21:21:28.603Z [INFO]: Requisição recebida
+2025-05-18T21:21:28.608Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-19T17:15:12.408Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T01:01:57.325Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T01:01:57.327Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T01:01:57.329Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T01:01:57.329Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T01:01:57.329Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T01:01:57.329Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T01:01:57.329Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T01:01:57.329Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T01:01:57.329Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T01:01:57.330Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T01:02:59.693Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T01:02:59.694Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T01:02:59.697Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T01:02:59.697Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T01:02:59.697Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T01:02:59.698Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T01:02:59.698Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T01:02:59.698Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T01:02:59.698Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T01:02:59.698Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T01:03:13.978Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T01:03:13.981Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T01:03:13.985Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T01:03:13.985Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T01:03:13.986Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T01:03:13.987Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T01:03:13.987Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T01:03:13.987Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T01:03:13.988Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T01:03:13.989Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T01:55:27.524Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T01:55:27.526Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T01:55:27.535Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T01:55:27.535Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T01:55:27.536Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T01:55:27.537Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T01:55:27.538Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T01:55:27.539Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T01:55:27.539Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T01:55:27.540Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T02:42:23.402Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T02:42:23.405Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T02:42:23.411Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T02:42:23.411Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T02:42:23.412Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T02:42:23.412Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T02:42:23.412Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T02:42:23.413Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T02:42:23.413Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T02:42:23.414Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T03:06:34.893Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T03:06:34.894Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T03:06:34.896Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T03:06:34.896Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T03:06:34.897Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T03:06:34.897Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T03:06:34.897Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T03:06:34.898Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T03:06:34.898Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T03:06:34.898Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T03:44:11.111Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T03:44:11.112Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T03:44:11.114Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T03:44:11.115Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T03:44:11.115Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T03:44:11.115Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T03:44:11.116Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T03:44:11.116Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T03:44:11.116Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T03:44:11.116Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T22:54:39.729Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T22:55:33.043Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T23:17:45.345Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-20T23:17:45.346Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-20T23:17:45.348Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-20T23:17:45.348Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-20T23:17:45.348Z [INFO]: 📚 APIs disponíveis:
+2025-05-20T23:17:45.349Z [INFO]: - Saúde: /api/v1/saude
+2025-05-20T23:17:45.350Z [INFO]: - Educação: /api/v1/educacao
+2025-05-20T23:17:45.350Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-20T23:17:45.351Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-20T23:17:45.351Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-20T23:18:15.216Z [INFO]: Requisição recebida
+2025-05-20T23:18:15.221Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-20T23:36:45.765Z [WARN]: Conexão com MongoDB perdida
+2025-05-20T23:43:51.325Z [INFO]: Requisição recebida
+2025-05-20T23:44:04.068Z [INFO]: Requisição recebida
+2025-05-20T23:44:12.855Z [INFO]: Requisição recebida

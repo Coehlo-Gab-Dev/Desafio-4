@@ -11,3 +11,36 @@
 2025-05-09T03:07:20.725Z [ERROR]: [req_mag7tsq5_tb9jj] Usando dados mockados
 2025-05-09T03:11:47.177Z [ERROR]: [req_mag7zi8m_cqva6] Falha na requisição
 2025-05-09T03:11:47.232Z [ERROR]: [req_mag7zi8m_cqva6] Usando dados mockados
+2025-05-15T03:20:23.048Z [ERROR]: [saude_maosx9jk] Falha na busca: timeout of 20000ms exceeded
+2025-05-15T03:32:25.805Z [ERROR]: [saude_maotcr7k] Falha na busca: timeout of 20000ms exceeded
+2025-05-16T01:53:52.742Z [ERROR]: [saude_maq5a8df] Falha na busca: Request failed with status code 404
+2025-05-16T01:54:19.184Z [ERROR]: Falha na API educacao Invalid URL
+2025-05-16T01:54:19.185Z [ERROR]: [req_maq5av77] Falha na busca de escolas
+2025-05-16T02:22:17.622Z [ERROR]: [saude_maq6ar5a] Falha na busca: Request failed with status code 404
+2025-05-16T02:53:18.546Z [ERROR]: [40bb1738-1cb0-4676-979d-612002c24133] Erro no controller de saúde
+2025-05-16T02:53:32.956Z [ERROR]: [89091f04-9185-476d-bf57-6ae459bf7e3f] Erro no controller de saúde
+2025-05-17T02:24:44.360Z [ERROR]: [06c616e6-0021-4c01-9820-416f1a06cf75] Erro no controller de saúde
+2025-05-17T02:27:31.519Z [ERROR]: [0b4cfc44-e304-4d1d-b340-cdddbc8072f5] Erro no controller de saúde
+2025-05-17T02:27:39.530Z [ERROR]: [93aa02bc-80a4-48d7-baa2-77102a0ffe5e] Erro no controller de saúde
+2025-05-17T02:28:25.018Z [ERROR]: [66a793bf-3454-4a85-a535-0e16bcb9ce9a] Erro no controller de saúde
+2025-05-17T03:42:00.207Z [ERROR]: [c2b14541-a7bc-453a-b61d-f6b42acad26b] Erro crítico
+2025-05-17T03:44:42.379Z [ERROR]: [cfb0cc04-d2b6-4aba-9a84-76cf0599f545] Erro crítico
+2025-05-17T03:47:39.646Z [ERROR]: [8fa1a220-1964-4b55-8dab-50df4a0d61f6] Erro crítico
+2025-05-17T04:22:40.157Z [ERROR]: [b05e433b-1979-4f6c-b862-6f19559ca945] Falha na API CNES
+2025-05-17T04:23:17.740Z [ERROR]: [b002a808-5221-42db-bb2e-81758e6adc0d] Falha na API CNES
+2025-05-17T04:30:38.058Z [ERROR]: [93f5d643-9478-4666-8cba-2069286a289a] Falha na API CNES
+2025-05-17T04:32:50.106Z [ERROR]: [7912bc6d-ff69-41ce-b03c-7c33f7663c1b] Falha na API CNES
+2025-05-17T04:38:29.589Z [ERROR]: [d5db078e-8cf7-46cf-a871-a16d75f9b870] Erro ao atualizar cache: Cannot read properties of undefined (reading 'split')
+2025-05-17T04:43:11.115Z [ERROR]: [8bf9d3dd-a342-48e5-9514-f38b54130ef2] Erro ao atualizar cache: Cannot read properties of undefined (reading 'split')
+2025-05-17T10:35:54.567Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-17T10:36:40.790Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-17T20:35:46.323Z [ERROR]: [82773391-bc8c-48df-913c-fd78dc12d30c] Falha na API CNES-MA:
+2025-05-17T20:36:17.067Z [ERROR]: [18626ace-11d1-4a4e-8358-8e87ee649e99] Falha na API CNES-MA:
+2025-05-17T20:43:33.392Z [ERROR]: [ddebe0ce-c6dc-41c4-ad0d-e1ddf384b0e7] Falha na API CNES-MA:
+2025-05-17T20:55:09.479Z [ERROR]: [00ee84ed-ad69-412e-abda-dcde3ed4116f] Erro na API CNES:
+2025-05-17T20:56:02.035Z [ERROR]: [a3e64542-5404-4ffd-a162-f010439ac6e6] Erro na API CNES:
+2025-05-18T21:21:28.608Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-19T17:15:12.408Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T22:54:39.729Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T22:55:33.043Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-20T23:18:15.221Z [ERROR]: Parâmetro ID é obrigatório

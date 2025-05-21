@@ -1,31 +1,90 @@
 import express from 'express';
 import { 
-  listarEstabelecimentosSaude, 
-  obterEstabelecimentoPorId 
+  listarEstabelecimentosSaude,
+  atualizarDadosSaude,
+  listarTiposEstabelecimentos,
+  listarProximos
 } from '../controllers/saude.controller.js';
-import { 
-  validarConsultaEstabelecimentos as validarParametrosConsulta,
-  validarIdCnes as validarIdEstabelecimento
-} from '../middlewares/validation.js';
+import { validarTokenGoverno } from '../middlewares/tokenValidator.middleware.js';
+import { query } from 'express-validator';
 import rateLimit from 'express-rate-limit';
+import { validarParametros, responderErro } from '../middlewares/errorHandler.js';
 
 const router = express.Router();
 
-// Configuração de rate limiting específica para saúde
-const healthRateLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 150,
+// Constantes para configuração
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutos
+const DEFAULT_RATE_LIMIT = 150;
+const ADMIN_RATE_LIMIT = 300;
+
+// Configurações de Rate Limit
+const rateLimitPadrao = rateLimit({
+  windowMs: RATE_LIMIT_WINDOW_MS,
+  max: DEFAULT_RATE_LIMIT,
   standardHeaders: true,
   legacyHeaders: false,
-  skip: (req) => req.ip === '::1',
-  message: {
-    sucesso: false,
-    erro: {
-      codigo: 'TOO_MANY_REQUESTS',
-      mensagem: 'Limite de requisições excedido para serviços de saúde. Tente novamente mais tarde.'
-    }
+  handler: (req, res) => {
+    responderErro(res, 429, {
+      codigo: 'LIMITE_REQUISICOES',
+      mensagem: 'Muitas requisições deste IP. Tente novamente mais tarde.',
+      detalhes: {
+        limite: DEFAULT_RATE_LIMIT,
+        window: '15 minutos'
+      }
+    });
   }
 });
+
+const rateLimitAdmin = rateLimit({
+  windowMs: RATE_LIMIT_WINDOW_MS,
+  max: ADMIN_RATE_LIMIT,
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res) => {
+    responderErro(res, 429, {
+      codigo: 'LIMITE_REQUISICOES',
+      mensagem: 'Limite de requisições excedido para usuários autenticados',
+      detalhes: {
+        limite: ADMIN_RATE_LIMIT,
+        window: '15 minutos'
+      }
+    });
+  }
+});
+
+// Validações
+const validarConsultaSaude = [
+  query('pagina')
+    .optional()
+    .isInt({ min: 1 }).withMessage('Página deve ser um número inteiro positivo')
+    .toInt(),
+  query('tipo')
+    .optional()
+    .trim()
+    .isIn(['HOSPITAL', 'UPA', 'UBS', 'PS', 'CENTRO_SAUDE', 'FARMACIA_POPULAR'])
+    .withMessage('Tipo de estabelecimento inválido'),
+  query('municipio')
+    .optional()
+    .trim()
+    .isLength({ min: 3, max: 100 })
+    .withMessage('Município deve ter entre 3 e 100 caracteres')
+    .customSanitizer(value => value.toUpperCase())
+];
+
+const validarGeolocalizacao = [
+  query('lat')
+    .exists().withMessage('Latitude é obrigatória')
+    .isFloat({ min: -90, max: 90 }).withMessage('Latitude inválida (-90 a 90)')
+    .toFloat(),
+  query('long')
+    .exists().withMessage('Longitude é obrigatória')
+    .isFloat({ min: -180, max: 180 }).withMessage('Longitude inválida (-180 a 180)')
+    .toFloat(),
+  query('raio')
+    .optional()
+    .isInt({ min: 100, max: 50000 }).withMessage('Raio deve ser entre 100 e 50000 metros')
+    .toInt()
+];
 
 /**
  * @swagger
@@ -36,110 +95,133 @@ const healthRateLimiter = rateLimit({
 
 /**
  * @swagger
- * /saude/estabelecimentos:
+ * /saude:
  *   get:
- *     summary: Lista estabelecimentos de saúde
- *     description: |
- *       Retorna estabelecimentos filtrados com paginação.
- *       Dados podem vir da API CNES, banco local ou mock (fallback).
+ *     summary: Lista estabelecimentos de saúde com filtros
  *     tags: [Saúde]
- *     security:
- *       - ApiKeyAuth: []
  *     parameters:
- *       - in: query
- *         name: pagina
- *         schema:
- *           type: integer
- *           minimum: 1
- *           default: 1
- *         description: Número da página (10 itens por página)
- *       - in: query
- *         name: tipo
- *         schema:
- *           type: string
- *           enum: [UPA, HOSPITAL, PRONTO SOCORRO, UBS, PS]
- *           example: "UPA"
- *         description: Tipo de unidade de saúde
- *       - in: query
- *         name: municipio
- *         schema:
- *           type: string
- *           example: "São Paulo"
- *         description: Filtro por município (case insensitive)
- *       - in: query
- *         name: uf
- *         schema:
- *           type: string
- *           maxLength: 2
- *           minLength: 2
- *           example: "SP"
- *         description: Filtro por UF (2 caracteres maiúsculos)
+ *       - $ref: '#/components/parameters/municipio'
+ *       - $ref: '#/components/parameters/tipo'
+ *       - $ref: '#/components/parameters/pagina'
  *     responses:
  *       200:
- *         description: Lista de estabelecimentos
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/ListaEstabelecimentos'
- *       206:
- *         description: Dados mockados (serviço principal indisponível)
+ *         $ref: '#/components/responses/ListaEstabelecimentos'
  *       400:
- *         description: Parâmetros inválidos
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/ErroValidacao'
+ *         $ref: '#/components/responses/ErroValidacao'
  *       429:
- *         description: Muitas requisições
+ *         $ref: '#/components/responses/LimiteRequisicoes'
  *       500:
- *         description: Erro interno do servidor
+ *         $ref: '#/components/responses/ErroInterno'
  */
 router.get(
-  '/estabelecimentos',
-  healthRateLimiter,
-  validarParametrosConsulta,
+  '/',
+  rateLimitPadrao,
+  validarConsultaSaude,
+  validarParametros,
   listarEstabelecimentosSaude
 );
 
 /**
  * @swagger
- * /saude/estabelecimentos/{id}:
+ * /saude/proximos:
  *   get:
- *     summary: Obtém detalhes de um estabelecimento
- *     description: Retorna informações completas de um estabelecimento específico pelo ID CNES
+ *     summary: Busca estabelecimentos próximos a uma localização
  *     tags: [Saúde]
- *     security:
- *       - ApiKeyAuth: []
  *     parameters:
- *       - in: path
- *         name: id
- *         required: true
- *         schema:
- *           type: string
- *           pattern: '^\d{7}$'
- *           example: "1234567"
- *         description: ID CNES do estabelecimento (7 dígitos)
+ *       - $ref: '#/components/parameters/latitude'
+ *       - $ref: '#/components/parameters/longitude'
+ *       - $ref: '#/components/parameters/raio'
+ *       - $ref: '#/components/parameters/tipo'
  *     responses:
  *       200:
- *         description: Detalhes do estabelecimento
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/EstabelecimentoDetalhado'
- *       404:
- *         description: Estabelecimento não encontrado
+ *         $ref: '#/components/responses/ListaEstabelecimentos'
+ *       400:
+ *         $ref: '#/components/responses/ErroGeolocalizacao'
  *       429:
- *         description: Muitas requisições
+ *         $ref: '#/components/responses/LimiteRequisicoes'
  *       500:
- *         description: Erro interno do servidor
+ *         $ref: '#/components/responses/ErroInterno'
  */
-
 router.get(
-  '/estabelecimentos/:id',
-  healthRateLimiter,
-  validarIdEstabelecimento,
-  obterEstabelecimentoPorId
+  '/proximos',
+  rateLimitPadrao,
+  validarGeolocalizacao,
+  validarParametros,
+  listarProximos
 );
 
+/**
+ * @swagger
+ * /saude/estabelecimentos:
+ *   get:
+ *     summary: Lista estabelecimentos (rota compatibilidade)
+ *     tags: [Saúde]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - $ref: '#/components/parameters/municipio'
+ *       - $ref: '#/components/parameters/tipo'
+ *       - $ref: '#/components/parameters/pagina'
+ *     responses:
+ *       200:
+ *         $ref: '#/components/responses/ListaEstabelecimentos'
+ *       401:
+ *         $ref: '#/components/responses/NaoAutorizado'
+ *       429:
+ *         $ref: '#/components/responses/LimiteRequisicoesAdmin'
+ */
+router.get(
+  '/estabelecimentos',
+  validarTokenGoverno,
+  rateLimitAdmin,
+  validarConsultaSaude,
+  validarParametros,
+  listarEstabelecimentosSaude
+);
+
+/**
+ * @swagger
+ * /saude/atualizar:
+ *   post:
+ *     summary: Força atualização dos dados de saúde
+ *     tags: [Saúde]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         $ref: '#/components/responses/AtualizacaoSucesso'
+ *       401:
+ *         $ref: '#/components/responses/NaoAutorizado'
+ *       429:
+ *         $ref: '#/components/responses/LimiteRequisicoesAdmin'
+ *       500:
+ *         $ref: '#/components/responses/ErroAtualizacao'
+ */
+router.post(
+  '/atualizar',
+  validarTokenGoverno,
+  rateLimitAdmin,
+  atualizarDadosSaude
+);
+
+/**
+ * @swagger
+ * /saude/tipos:
+ *   get:
+ *     summary: Lista tipos de estabelecimentos disponíveis
+ *     tags: [Saúde]
+ *     responses:
+ *       200:
+ *         $ref: '#/components/responses/ListaTipos'
+ *       429:
+ *         $ref: '#/components/responses/LimiteRequisicoes'
+ *       500:
+ *         $ref: '#/components/responses/ErroInterno'
+ */
+router.get(
+  '/tipos',
+  rateLimitPadrao,
+  listarTiposEstabelecimentos
+);
 
 export default router;
