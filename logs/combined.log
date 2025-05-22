@@ -3003,3 +3003,13 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Nenhum município específico fornecido. Buscando para UF 21.
 2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Service (DB Local): buscarEstabelecimentos iniciado
 2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:47 [info]: Requisição recebida
+2025-05-22 16:20:47 [info]: [0a9384ea-5359-4c11-b699-a9196c7ffa0f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 16:20:47 [info]: [0a9384ea-5359-4c11-b699-a9196c7ffa0f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:47 [info]: [0a9384ea-5359-4c11-b699-a9196c7ffa0f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:47 [info]: [0a9384ea-5359-4c11-b699-a9196c7ffa0f] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:49 [info]: Requisição recebida
+2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Nenhum estabelecimento encontrado no serviço para os critérios.
