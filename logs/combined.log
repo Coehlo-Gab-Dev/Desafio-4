@@ -3225,3 +3225,13 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 17:26:19 [info]: - Serviços Públicos: /api/v1/servicos-publicos
 2025-05-22 17:26:19 [info]: 🔐 Autenticação: /api/v1/auth
 2025-05-22 17:26:19 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 17:37:38 [info]: Requisição recebida
+2025-05-22 17:37:38 [info]: [385dea7b-ffff-4f39-a43b-118143661aeb] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 17:37:38 [info]: [385dea7b-ffff-4f39-a43b-118143661aeb] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 17:37:38 [info]: [385dea7b-ffff-4f39-a43b-118143661aeb] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 17:37:41 [info]: Requisição recebida
+2025-05-22 17:37:41 [info]: [7018064f-12d9-4a9e-84ae-1703acd126b5] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"SAO LUIS"}
+2025-05-22 17:37:41 [info]: [7018064f-12d9-4a9e-84ae-1703acd126b5] Buscando por nome de município via query: SAO LUIS
+2025-05-22 17:37:41 [info]: [7018064f-12d9-4a9e-84ae-1703acd126b5] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 17:37:41 [info]: [7018064f-12d9-4a9e-84ae-1703acd126b5] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 17:37:42 [info]: [7018064f-12d9-4a9e-84ae-1703acd126b5] Nenhum estabelecimento encontrado no serviço para os critérios.
