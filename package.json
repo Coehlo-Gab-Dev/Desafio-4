@@ -9,7 +9,6 @@
     "start": "node src/app.js",
     "prisma:generate": "prisma generate",
     "prisma:seed": "node prisma/seeds/seed.js",
-    "vercel-build": "npm run prisma:generate && npm run prisma:seed",
     "clean": "rmdir /s /q node_modules && del package-lock.json",
     "reset": "npm run clean && npm install",
     "seed": "node prisma/seeds/seed.js",
