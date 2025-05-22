@@ -8,7 +8,7 @@
     "reset": "npm run clean && npm install",
     "seed": "node prisma/seeds/seed.js",
     "dev": "nodemon src/app.js",
-    "start": "node src/app.js",
+    "start": " node src/app.js",
     "start:dev": "NODE_ENV=development nodemon src/app.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
@@ -78,6 +78,6 @@
     ]
   },
   "engines": {
-    "node": "14.x"
+    "node": ">=18.0.0"
   }
 }
