@@ -3013,3 +3013,148 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Nenhum município específico fornecido. Buscando para UF 21.
 2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Service (DB Local): buscarEstabelecimentos iniciado
 2025-05-22 16:20:49 [info]: [a65f6d16-e405-4b1b-9702-43e7296bf663] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:28:20 [info]: Requisição recebida
+2025-05-22 16:28:20 [info]: [349e12ef-74db-412a-bf17-f46c15a514a8] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:28:20 [info]: [349e12ef-74db-412a-bf17-f46c15a514a8] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:28:20 [info]: [349e12ef-74db-412a-bf17-f46c15a514a8] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:28:22 [info]: Requisição recebida
+2025-05-22 16:28:22 [info]: [35748f03-e3d7-4d0d-be82-4490a9ba4cac] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:28:22 [info]: [35748f03-e3d7-4d0d-be82-4490a9ba4cac] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:28:22 [info]: [35748f03-e3d7-4d0d-be82-4490a9ba4cac] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:28:23 [info]: Requisição recebida
+2025-05-22 16:28:23 [info]: [382e5839-2b47-4dc3-a887-3f7f6f304812] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 16:28:23 [info]: [382e5839-2b47-4dc3-a887-3f7f6f304812] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:28:23 [info]: [382e5839-2b47-4dc3-a887-3f7f6f304812] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:28:35 [info]: Requisição recebida
+2025-05-22 16:28:35 [info]: [4f02f70e-9599-4c13-80b1-26af00ffd7a1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","municipio_nome":"SAO LUIS"}
+2025-05-22 16:28:35 [info]: [4f02f70e-9599-4c13-80b1-26af00ffd7a1] Buscando por nome de município via query: SAO LUIS
+2025-05-22 16:28:35 [info]: [4f02f70e-9599-4c13-80b1-26af00ffd7a1] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 16:28:35 [info]: [4f02f70e-9599-4c13-80b1-26af00ffd7a1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:28:36 [info]: [4f02f70e-9599-4c13-80b1-26af00ffd7a1] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:28:49 [info]: Requisição recebida
+2025-05-22 16:28:49 [info]: [d3c492ee-14fa-4811-9bd4-c8a3e139c85b] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:28:49 [info]: [d3c492ee-14fa-4811-9bd4-c8a3e139c85b] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:28:49 [info]: [d3c492ee-14fa-4811-9bd4-c8a3e139c85b] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:30:07 [info]: Requisição recebida
+2025-05-22 16:30:07 [info]: [604b2993-4f44-403d-b8a5-9f1923189e46] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:30:07 [info]: [604b2993-4f44-403d-b8a5-9f1923189e46] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:30:07 [info]: [604b2993-4f44-403d-b8a5-9f1923189e46] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:38:09 [info]: Requisição recebida
+2025-05-22 16:38:09 [info]: [f1375074-5232-49ad-baab-9c4742f515a1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:38:09 [info]: [f1375074-5232-49ad-baab-9c4742f515a1] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:38:09 [info]: [f1375074-5232-49ad-baab-9c4742f515a1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:38:11 [info]: Requisição recebida
+2025-05-22 16:38:11 [info]: [3e7e135b-712e-4e02-af61-09ff23dd3e1f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:38:11 [info]: [3e7e135b-712e-4e02-af61-09ff23dd3e1f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:38:11 [info]: [3e7e135b-712e-4e02-af61-09ff23dd3e1f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:38:12 [info]: Requisição recebida
+2025-05-22 16:38:12 [info]: [0e706bde-f641-4a3e-adfe-8ced9551ee1a] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 16:38:12 [info]: [0e706bde-f641-4a3e-adfe-8ced9551ee1a] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:38:12 [info]: [0e706bde-f641-4a3e-adfe-8ced9551ee1a] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:41:53 [info]: Requisição recebida
+2025-05-22 16:41:53 [info]: [ee7ec44f-00a8-4fe1-bccb-78496fe167c0] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 16:41:53 [info]: [ee7ec44f-00a8-4fe1-bccb-78496fe167c0] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:41:53 [info]: [ee7ec44f-00a8-4fe1-bccb-78496fe167c0] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:41:56 [info]: Requisição recebida
+2025-05-22 16:41:56 [info]: [794e41b8-17e1-43e3-87f2-414dbf5e4cec] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 16:41:56 [info]: [794e41b8-17e1-43e3-87f2-414dbf5e4cec] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:41:56 [info]: [794e41b8-17e1-43e3-87f2-414dbf5e4cec] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:42:02 [info]: Requisição recebida
+2025-05-22 16:42:02 [info]: [94c348d1-4f63-4944-9c2c-7d9cba93b157] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:42:02 [info]: [94c348d1-4f63-4944-9c2c-7d9cba93b157] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:42:02 [info]: [94c348d1-4f63-4944-9c2c-7d9cba93b157] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:47:57 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:47:58 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:47:58 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:47:58 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:47:58 [info]: 📚 APIs disponíveis:
+2025-05-22 16:47:58 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:47:58 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:47:58 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:47:58 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:47:58 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:47:58 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:49:06 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:49:07 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:49:07 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:49:07 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:49:07 [info]: 📚 APIs disponíveis:
+2025-05-22 16:49:07 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:49:07 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:49:07 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:49:07 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:49:07 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:49:07 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:49:20 [info]: Requisição recebida
+2025-05-22 16:49:20 [info]: [249b6c97-287c-423a-ae16-7a3122f29b42] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22 16:49:20 [info]: [249b6c97-287c-423a-ae16-7a3122f29b42] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:49:20 [info]: [249b6c97-287c-423a-ae16-7a3122f29b42] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:52:33 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:52:34 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:52:34 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:52:34 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:52:34 [info]: 📚 APIs disponíveis:
+2025-05-22 16:52:34 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:52:34 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:52:34 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:52:34 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:52:34 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:52:34 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:56:52 [info]: Requisição recebida
+2025-05-22 16:56:52 [info]: [4dbbad51-8de3-4a9a-b309-d9936f99f7e5] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:56:52 [info]: [4dbbad51-8de3-4a9a-b309-d9936f99f7e5] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:56:52 [info]: [4dbbad51-8de3-4a9a-b309-d9936f99f7e5] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:56:55 [info]: Requisição recebida
+2025-05-22 16:56:55 [info]: [a62bf6dd-c3c6-4ba1-b156-40b5a44d24a3] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:56:55 [info]: [a62bf6dd-c3c6-4ba1-b156-40b5a44d24a3] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:56:55 [info]: [a62bf6dd-c3c6-4ba1-b156-40b5a44d24a3] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:56:55 [info]: [a62bf6dd-c3c6-4ba1-b156-40b5a44d24a3] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:57:33 [info]: Requisição recebida
+2025-05-22 16:57:33 [info]: [47d7e47a-63f7-4e59-bbef-542b679e767c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:57:33 [info]: [47d7e47a-63f7-4e59-bbef-542b679e767c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:57:33 [info]: [47d7e47a-63f7-4e59-bbef-542b679e767c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:57:36 [info]: Requisição recebida
+2025-05-22 16:57:36 [info]: [c0d4f32f-bdaa-4ae8-aacd-305a43d95a8a] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"SAO LUIS"}
+2025-05-22 16:57:36 [info]: [c0d4f32f-bdaa-4ae8-aacd-305a43d95a8a] Buscando por nome de município via query: SAO LUIS
+2025-05-22 16:57:36 [info]: [c0d4f32f-bdaa-4ae8-aacd-305a43d95a8a] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 16:57:36 [info]: [c0d4f32f-bdaa-4ae8-aacd-305a43d95a8a] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:57:36 [info]: [c0d4f32f-bdaa-4ae8-aacd-305a43d95a8a] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:57:43 [info]: Requisição recebida
+2025-05-22 16:57:43 [info]: [f2eee477-2d53-4f76-bbde-d503e9aea473] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:57:43 [info]: [f2eee477-2d53-4f76-bbde-d503e9aea473] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:57:43 [info]: [f2eee477-2d53-4f76-bbde-d503e9aea473] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:57:43 [info]: [f2eee477-2d53-4f76-bbde-d503e9aea473] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:57:57 [info]: Requisição recebida
+2025-05-22 16:57:57 [info]: [1080c35d-fa28-46d3-ab32-f29c874ab58f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:57:57 [info]: [1080c35d-fa28-46d3-ab32-f29c874ab58f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:57:57 [info]: [1080c35d-fa28-46d3-ab32-f29c874ab58f] Service (DB Local): buscarEstabelecimentos iniciado
