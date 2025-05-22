@@ -1,532 +1,222 @@
-import { PrismaClient } from '@prisma/client';
-import axios from 'axios';
+// src/services/saude.service.js
+import { PrismaClient, TipoEstabelecimentoSaude, FonteDados } from '@prisma/client';
 import { logger } from '../utils/logger.js';
-import { CODIGOS_MUNICIPIOS_MA, CODIGO_UF_MA } from '../utils/ibgeCodes.js';
-import redis from '../config/redis.js';
+import { CODIGOS_MUNICIPIOS_MA, CODIGO_UF_MA, getNomeMunicipioMAPorCodigo } from '../utils/ibgeCodes.js'; // Importa o real
+import redis from '../config/redis.js'; // Se for usar cache com DB
 
 const prisma = new PrismaClient();
-const redisClient = redis;
+const redisClient = redis; // Se for usar cache
 
-// Configurações
-const CACHE_TTL = process.env.CACHE_TTL || 3600; // 1 hora padrão
-const LIMITE_POR_PAGINA = 20;
-const MUNICIPIO_PADRAO_MA = 'SAO LUIS';
-const CODIGO_MUNICIPIO_PADRAO = 2111300;
-const RAIO_MAXIMO = 50000; // 50km em metros
+const CACHE_TTL = parseInt(process.env.CACHE_TTL, 10) || 3600;
+const LIMITE_POR_PAGINA_NOSSA_API = 25;   
+const MUNICIPIO_PADRAO_NOME = 'SAO LUIS';
+const TIPOS_SAUDE_VALIDOS_ENUM = Object.values(TipoEstabelecimentoSaude);
 
-// Configurações das APIs
-const APIs = {
-  CNES: {
-    url: 'https://apidadosabertos.saude.gov.br/cnes/estabelecimentos?codigo_uf=21&limit=100&offset=100',
-    key: process.env.CNES_API_KEY,
-    timeout: 15000
-  },
-  HOSPITAIS: {
-    url: 'https://apidadosabertos.saude.gov.br/assistencia-a-saude/hospitais-e-leitos?uf=ma&limit=100&offset=0',
-    key: process.env.SAUDE_API_KEY,
-    timeout: 20000
-  },
-  UBS: {
-    url: 'https://apidadosabertos.saude.gov.br/assistencia-a-saude/unidade-basicas-de-saude?limit=100&offset=0',
-    key: process.env.SAUDE_API_KEY,
-    timeout: 20000
-  }
-};
 
-export default {
-  // ========== MÉTODOS PRINCIPAIS ==========
-  
-  /**
-   * Busca hierárquica de estabelecimentos
-   * @param {Object} params - Parâmetros de busca
-   */
-  async buscarHierarquico({ pagina = 1, tipo, municipio, requestId }) {
-    const cacheKey = `saude:${municipio}:${tipo || 'all'}:${pagina}`;
-    
-    try {
-      logger.info(`[${requestId}] Busca hierárquica iniciada`, { 
-        pagina, tipo, municipio 
-      });
-
-      // 1. Verificar cache
-      const cachedData = await this._verificarCache(cacheKey);
-      if (cachedData) {
-        logger.debug(`[${requestId}] Cache hit para ${cacheKey}`);
-        return cachedData;
-      }
-
-      // 2. Normalizar parâmetros
-      const { nomeNormalizado, codigoIBGE } = this._normalizarMunicipioMA(municipio);
-      const tipoNormalizado = this._normalizarTipoMA(tipo);
-      const paginaNum = Math.max(1, parseInt(pagina));
-
-      // 3. Estratégia de busca hierárquica
-      const resultado = await this._executarEstrategiaBusca({
-        pagina: paginaNum,
-        tipo: tipoNormalizado,
-        nomeNormalizado,
-        codigoIBGE,
-        requestId
-      });
-
-      // 4. Armazenar em cache se veio de fonte externa
-      if (resultado.metadados.fonte !== 'mongodb') {
-        await this._armazenarCache(cacheKey, resultado);
-      }
-
-      return resultado;
-
-    } catch (error) {
-      logger.error(`[${requestId}] Falha na busca hierárquica`, error);
-      throw error;
-    }
-  },
-
-  /**
-   * Busca estabelecimentos por proximidade geográfica
-   * @param {Object} params - Parâmetros de busca
-   */
-  async buscarPorProximidade({ latitude, longitude, raio = 5000, tipo, requestId }) {
-    const cacheKey = `proximos:${latitude}:${longitude}:${raio}:${tipo || 'all'}`;
-    
-    try {
-      logger.info(`[${requestId}] Busca por proximidade iniciada`, {
-        coordinates: [longitude, latitude],
-        raio,
-        tipo
-      });
-
-      // 1. Validação do raio
-      const raioMetros = Math.min(parseInt(raio), RAIO_MAXIMO);
-
-      // 2. Verificar cache
-      const cached = await this._verificarCache(cacheKey);
-      if (cached) return cached;
-
-      // 3. Consulta ao banco de dados
-      const resultados = await prisma.estabelecimentoSaude.findMany({
-        where: {
-          localizacao: {
-            coordinates: {
-              $nearSphere: {
-                $geometry: {
-                  type: "Point",
-                  coordinates: [longitude, latitude]
-                },
-                $maxDistance: raioMetros
-              }
-            }
-          },
-          ...(tipo && { tipo })
-        },
-        take: 100
-      });
-
-      // 4. Calcular distâncias e formatar resultados
-      const dadosFormatados = resultados.map(item => {
-        const distancia = this._calcularDistancia(
-          latitude,
-          longitude,
-          item.localizacao.coordinates[1],
-          item.localizacao.coordinates[0]
-        );
-        
-        return {
-          ...item,
-          distancia,
-          distanciaFormatada: `${distancia.toFixed(0)}m`
-        };
-      }).sort((a, b) => a.distancia - b.distancia);
-
-      // 5. Armazenar em cache
-      await this._armazenarCache(cacheKey, dadosFormatados);
-
-      return dadosFormatados;
-    } catch (error) {
-      logger.error(`[${requestId}] Falha na busca por proximidade`, error);
-      throw error;
-    }
-  },
-
-  /**
-   * Atualiza dados de hospitais
-   * @param {Object} params - Parâmetros de atualização
-   */
-  async atualizarHospitais({ requestId }) {
-    try {
-      logger.info(`[${requestId}] Iniciando atualização de hospitais`);
-      
-      const dados = await this._buscarHospitaisAPI({ requestId });
-      const processados = this._processarDadosAPI(dados);
-      
-      await this._upsertEmMassa(processados, requestId);
-      
-      return {
-        total: processados.length,
-        atualizadoEm: new Date().toISOString()
-      };
-    } catch (error) {
-      logger.error(`[${requestId}] Falha ao atualizar hospitais`, error);
-      throw error;
-    }
-  },
-
-  /**
-   * Atualiza dados de UBS
-   * @param {Object} params - Parâmetros de atualização
-   */
-  async atualizarUBS({ requestId }) {
-    try {
-      logger.info(`[${requestId}] Iniciando atualização de UBS`);
-      
-      const dados = await this._buscarUBSAPI({ requestId });
-      const processados = this._processarDadosAPI(dados);
-      
-      await this._upsertEmMassa(processados, requestId);
-      
-      return {
-        total: processados.length,
-        atualizadoEm: new Date().toISOString()
-      };
-    } catch (error) {
-      logger.error(`[${requestId}] Falha ao atualizar UBS`, error);
-      throw error;
-    }
-  },
-
-  /**
-   * Lista tipos de estabelecimentos disponíveis
-   */
-  async obterTiposEstabelecimentos() {
-    const tipos = {
-      'HOSPITAL': { label: 'Hospital Geral', icone: 'hospital' },
-      'UPA': { label: 'Unidade de Pronto Atendimento', icone: 'emergency' },
-      'UBS': { label: 'Unidade Básica de Saúde', icone: 'healthcare' },
-      'PS': { label: 'Posto de Saúde', icone: 'medical-bag' },
-      'CENTRO_SAUDE': { label: 'Centro de Saúde', icone: 'medical-center' },
-      'FARMACIA_POPULAR': { label: 'Farmácia Popular', icone: 'pharmacy' }
-    };
-    
-    return Object.entries(tipos).map(([valor, { label, icone }]) => ({ 
-      valor, 
-      label,
-      icone
-    }));
-  },
-
-  // ========== MÉTODOS AUXILIARES ==========
-
-  async _executarEstrategiaBusca({ pagina, tipo, nomeNormalizado, codigoIBGE, requestId }) {
-    // 1. Tentar APIs Governamentais
-    try {
-      const [dadosHospitais, dadosUBS, dadosCNES] = await Promise.allSettled([
-        this._buscarHospitaisAPI({ codigoIBGE, requestId }),
-        this._buscarUBSAPI({ codigoIBGE, requestId }),
-        this._buscarAPIGovernamental({
-          pagina,
-          tipo,
-          municipio: nomeNormalizado,
-          codigoMunicipio: codigoIBGE,
-          requestId
-        })
-      ]);
-
-      const dadosValidos = [dadosHospitais, dadosUBS, dadosCNES]
-        .filter(p => p.status === 'fulfilled')
-        .flatMap(p => p.value);
-
-      if (dadosValidos.length > 0) {
-        const dadosProcessados = this._processarDadosAPI(dadosValidos);
-        await this._upsertEmMassa(dadosProcessados, requestId);
-
-        return {
-          dados: dadosProcessados,
-          metadados: this._gerarMetadados({
-            fonte: 'apis_governamentais',
-            total: dadosProcessados.length,
-            pagina,
-            requestId,
-            municipio: nomeNormalizado
-          })
-        };
-      }
-    } catch (error) {
-      logger.warn(`[${requestId}] Falha nas APIs governamentais`, error);
-    }
-
-    // 2. Fallback para MongoDB
-    const dadosMongoDB = await this._buscarNoMongoDB({
-      pagina,
-      tipo,
-      codigoIBGE,
-      requestId
-    });
-
-    if (dadosMongoDB?.length > 0) {
-      return {
-        dados: dadosMongoDB,
-        metadados: this._gerarMetadados({
-          fonte: 'mongodb',
-          total: dadosMongoDB.length,
-          pagina,
-          requestId,
-          municipio: nomeNormalizado,
-          aviso: 'Dados podem estar desatualizados'
-        })
-      };
-    }
-
-    // 3. Fallback para mock data
-    return this._gerarDadosMockados({
-      tipo,
-      municipio: nomeNormalizado,
-      codigoMunicipio: codigoIBGE,
-      requestId
-    });
-  },
-
-  async _upsertEmMassa(dados, requestId) {
-    const operacoes = dados.map(item => ({
-      updateOne: {
-        filter: { idCnes: item.idCnes },
-        update: { 
-          $set: item,
-          $currentDate: { dataAtualizacao: true }
-        },
-        upsert: true
-      }
-    }));
-
-    try {
-      const resultado = await prisma.$runCommandRaw({
-        update: 'EstabelecimentoSaude',
-        updates: operacoes,
-        ordered: false
-      });
-      
-      logger.info(`[${requestId}] MongoDB - ${resultado.nModified} atualizados, ${resultado.nUpserted} inseridos`);
-      return resultado;
-    } catch (error) {
-      logger.error(`[${requestId}] Erro no upsert em massa`, error);
-      throw error;
-    }
-  },
-
-  async _buscarNoMongoDB({ pagina, tipo, codigoIBGE, requestId }) {
-    const filtro = {
-      'localizacao.municipio': codigoIBGE ? 
-        this._obterNomeMunicipioMA(codigoIBGE) : 
-        { $exists: true }
-    };
-
-    if (tipo) {
-      filtro.tipo = tipo;
-    }
-
-    try {
-      const [dados, total] = await Promise.all([
-        prisma.estabelecimentoSaude.findMany({
-          where: filtro,
-          skip: (pagina - 1) * LIMITE_POR_PAGINA,
-          take: LIMITE_POR_PAGINA,
-          orderBy: { dataAtualizacao: 'desc' }
-        }),
-        prisma.estabelecimentoSaude.count({ where: filtro })
-      ]);
-
-      return dados.map(item => ({
-        ...item,
-        localizacao: {
-          ...item.localizacao,
-          coordenadas: item.localizacao.coordinates || []
+const saudeService = {
+    // --- FUNÇÕES DE MAPEAMENTO E NORMALIZAÇÃO (Internas ao serviço) ---
+    _normalizarTipoInterno(tipoFrontend) {
+        logger.debug(`[SERVICE _normalizarTipoInterno] Recebido para normalizar: ${tipoFrontend}`);
+        if (!tipoFrontend || typeof tipoFrontend !== 'string') {
+            logger.debug('[SERVICE _normalizarTipoInterno] Retornando null (input inválido)');
+            return null;
         }
-      }));
-    } catch (error) {
-      logger.error(`[${requestId}] Erro ao buscar no MongoDB`, error);
-      return [];
-    }
-  },
+        const tipoUpper = tipoFrontend.trim().toUpperCase().replace(/-/g, '_').replace(/ /g, '_');
+        if (TIPOS_SAUDE_VALIDOS_ENUM.includes(tipoUpper)) {
+            logger.debug(`[SERVICE _normalizarTipoInterno] Retornando tipoUpper: ${tipoUpper}`);
+            return tipoUpper; 
+        }
+        switch (tipoUpper) {
+            case 'CENTRO_DE_SAUDE': 
+                logger.debug('[SERVICE _normalizarTipoInterno] Mapeado para CENTRO_SAUDE');
+                return TipoEstabelecimentoSaude.CENTRO_SAUDE;
+            case 'POSTO_DE_SAUDE':
+                logger.debug('[SERVICE _normalizarTipoInterno] Mapeado para PS');
+                return TipoEstabelecimentoSaude.PS;
+            default:
+                logger.warn(`[SERVICE _normalizarTipoInterno] Tipo '${tipoFrontend}' não normalizado.`);
+                return null;
+        }
+    },
 
-  // ========== MÉTODOS DE FORMATAÇÃO ==========
+    // --- BUSCA NO PRISMA DB (COPIADA DO TURNO 69) ---
+    async _buscarNoPrisma({ pagina, tipo, codigoIBGE, codigoUF, requestId, takeOverride = null }) {
+        const whereClause = {};
+        let nomeMunicipioParaFiltro = null;
 
-  _processarDadosAPI(dados) {
-    return [...new Map(dados.map(item => [item.idCnes, item])).values()]
-      .filter(item => item.idCnes && item.nome && item.localizacao?.coordinates)
-      .map(item => this._formatarParaMongoDB(item));
-  },
+        logger.debug(`[${requestId}] Service _buscarNoPrisma: Parâmetros recebidos:`, { pagina, tipo, codigoIBGE, codigoUF });
 
-  _formatarParaMongoDB(dados) {
-    return {
-      idCnes: dados.idCnes || dados.id,
-      nome: dados.nome,
-      tipo: dados.tipo,
-      localizacao: {
-        type: 'Point',
-        coordinates: dados.localizacao.coordenadas || [
-          parseFloat(dados.localizacao.longitude),
-          parseFloat(dados.localizacao.latitude)
-        ],
-        municipio: dados.localizacao.municipio,
-        uf: dados.localizacao.uf || 'MA',
-        enderecoCompleto: dados.localizacao.enderecoCompleto,
-        cep: dados.localizacao.cep
-      },
-      contato: dados.contato || {},
-      servicos: dados.servicos || [],
-      leitos: dados.leitos || undefined,
-      fonteDados: dados.fonteDados || 'API',
-      dataAtualizacao: new Date()
-    };
-  },
+        if (codigoIBGE) {
+            nomeMunicipioParaFiltro = getNomeMunicipioMAPorCodigo(codigoIBGE); // Usa a função importada
+            if (nomeMunicipioParaFiltro) {
+                // Assumindo que 'Localizacao' é um tipo composto no schema
+                whereClause.localizacao = { is: { municipio: nomeMunicipioParaFiltro } }; 
+            } else {
+                logger.warn(`[${requestId}] _buscarNoPrisma: Nome do município não encontrado para código IBGE ${codigoIBGE}. Retornando vazio.`);
+                return { dados: [], metadados: { totalItens: 0, fonte: FonteDados.MANUAL } };
+            }
+        } else if (codigoUF) {
+            // No seu caso, codigoUF será 21 (CODIGO_UF_MA)
+            const siglaUf = String(codigoUF) === String(CODIGO_UF_MA) ? 'MA' : String(codigoUF).toUpperCase();
+            whereClause.localizacao = { is: { ...(whereClause.localizacao?.is || {}), uf: siglaUf } };
+        }
 
-  _gerarMetadados({ fonte, total, pagina, requestId, municipio, aviso }) {
-    return {
-      fonte,
-      total,
-      requestId,
-      municipio: municipio || MUNICIPIO_PADRAO_MA,
-      uf: 'MA',
-      paginacao: {
-        pagina: Number(pagina),
-        itensPorPagina: LIMITE_POR_PAGINA,
-        totalItens: total,
-        totalPaginas: Math.ceil(total / LIMITE_POR_PAGINA)
-      },
-      ...(aviso && { aviso })
-    };
-  },
+        if (tipo && TIPOS_SAUDE_VALIDOS_ENUM.includes(tipo)) { // tipo já é o valor do Enum
+            whereClause.tipo = tipo;
+        }
+        
+        const take = takeOverride !== null ? takeOverride : LIMITE_POR_PAGINA_NOSSA_API;
+        const skip = takeOverride !== null ? 0 : (Math.max(1, pagina) - 1) * LIMITE_POR_PAGINA_NOSSA_API;
 
-  // ========== MÉTODOS GEOESPACIAIS ==========
+        logger.debug(`[${requestId}] Service _buscarNoPrisma: Cláusula WHERE montada:`, JSON.stringify(whereClause));
+        logger.debug(`[${requestId}] Service _buscarNoPrisma: Skip: ${skip}, Take: ${take}`);
 
-  _calcularDistancia(lat1, lon1, lat2, lon2) {
-    const R = 6371e3; // Raio da Terra em metros
-    const φ1 = lat1 * Math.PI/180;
-    const φ2 = lat2 * Math.PI/180;
-    const Δφ = (lat2-lat1) * Math.PI/180;
-    const Δλ = (lon2-lon1) * Math.PI/180;
+        try {
+            const [dados, total] = await Promise.all([
+                prisma.estabelecimentoSaude.findMany({
+                    where: whereClause,
+                    skip: skip,
+                    take: take,
+                    orderBy: { nome: 'asc' } // ou outra ordenação
+                }),
+                prisma.estabelecimentoSaude.count({ where: whereClause })
+            ]);
+            logger.debug(`[${requestId}] Service _buscarNoPrisma: Encontrados ${dados.length} registros. Total (count): ${total}.`);
+            return { dados, metadados: { totalItens: total, fonte: FonteDados.MANUAL } }; // Adiciona fonte aos metadados
+        } catch (error) {
+            logger.error(`[${requestId}] Erro ao buscar no Prisma DB (service _buscarNoPrisma)`, { message: error.message, where: whereClause, stack: error.stack?.substring(0,500) });
+            throw this._erroServico('Falha ao buscar dados no banco local.', 'DB_QUERY_FALHOU', 500, { details: error.message });
+        }
+    },
 
-    const a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
-              Math.cos(φ1) * Math.cos(φ2) *
-              Math.sin(Δλ/2) * Math.sin(Δλ/2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    // --- GERADOR DE METADADOS (COPIADO DO TURNO 69) ---
+    _gerarMetadados({ fonte, total, pagina, itensPorPagina = LIMITE_POR_PAGINA_NOSSA_API, requestId, municipio, aviso }) {
+        const paginaNum = Number(pagina) || 1;
+        const totalItensNum = Number(total) || 0;
+        const itensPorPaginaFinal = Number(itensPorPagina) || LIMITE_POR_PAGINA_NOSSA_API;
+        return {
+            fonte: Object.values(FonteDados).includes(fonte) ? fonte : FonteDados.MANUAL,
+            requestId,
+            municipioConsultado: municipio || MUNICIPIO_PADRAO_NOME,
+            uf: 'MA',
+            paginacao: {
+                paginaAtual: paginaNum,
+                itensPorPagina: itensPorPaginaFinal,
+                totalItens: totalItensNum,
+                totalPaginas: Math.ceil(totalItensNum / itensPorPaginaFinal) || 0
+            },
+            ...(aviso && { avisoConsulta: aviso }),
+            timestamp: new Date().toISOString()
+        };
+    },
+    
+    // --- Cache (se for usar com DB local) ---
+    async _verificarCache(chave) { try { const dados = await redisClient.get(chave); return dados ? JSON.parse(dados) : null; } catch (error) { logger.warn('Erro ao verificar cache', error); return null; } },
+    async _armazenarCache(chave, dados) { try { await redisClient.setEx(chave, CACHE_TTL, JSON.stringify(dados)); } catch (error) { logger.warn('Erro ao armazenar cache', error); } },
 
-    return R * c; // Distância em metros
-  },
 
-  // ========== MÉTODOS DE CACHE ==========
+    // --- MÉTODO PRINCIPAL MODIFICADO PARA USAR APENAS O BANCO LOCAL ---
+    async buscarEstabelecimentos({ codigoIbge, codigoUf, tipo, pagina = 1, userLat, userLong, requestId }) {
+        const identificadorGeo = codigoIbge ? `IBGE_${codigoIbge}` : `UF_${codigoUf || CODIGO_UF_MA}`;
+        let nomeReferencia = codigoIbge 
+            ? (getNomeMunicipioMAPorCodigo(codigoIbge) || identificadorGeo) 
+            : `Estado do Maranhão (UF ${codigoUf || CODIGO_UF_MA})`;
+        
+        const cacheKey = `saude_estab_db_v1:${identificadorGeo}:${tipo || 'todos'}:${pagina}:${userLat || 'noLat'}:${userLong || 'noLong'}`;
+        logger.info(`[${requestId}] Service (DB Local): buscarEstabelecimentos iniciado`, { identificadorGeo, nomeReferencia, tipo, pagina });
+        logger.debug(`[${requestId}] Service (DB Local): ENTRANDO em buscarEstabelecimentos`);
 
-  async _verificarCache(chave) {
-    try {
-      const dados = await redisClient.get(chave);
-      return dados ? JSON.parse(dados) : null;
-    } catch (error) {
-      logger.warn('Erro ao verificar cache', error);
-      return null;
-    }
-  },
+        try {
+            const cachedData = await this._verificarCache(cacheKey);
+            if (cachedData) { logger.debug(`[${requestId}] Cache hit para ${cacheKey}`); return cachedData; }
+            logger.debug(`[${requestId}] Cache miss para ${cacheKey}`);
 
-  async _armazenarCache(chave, dados) {
-    try {
-      await redisClient.setEx(
-        chave,
-        CACHE_TTL,
-        JSON.stringify(dados)
-      );
-    } catch (error) {
-      logger.warn('Erro ao armazenar cache', error);
-    }
-  },
+            const paginaNum = Math.max(1, parseInt(pagina, 10));
+            const tipoNormalizado = this._normalizarTipoInterno(tipo);
+            logger.debug(`[${requestId}] Service (DB Local): tipoNormalizado para '${tipo}' é '${tipoNormalizado}'`);
 
-  async _invalidarCache(pattern) {
-    try {
-      const keys = await redisClient.keys(pattern);
-      if (keys.length) {
-        await redisClient.del(keys);
-      }
-    } catch (error) {
-      logger.warn('Erro ao invalidar cache', error);
-    }
-  },
+            // Chama diretamente _buscarNoPrisma
+            const resultadoDoBanco = await this._buscarNoPrisma({
+                pagina: paginaNum,
+                tipo: tipoNormalizado,
+                codigoIBGE: codigoIbge,
+                codigoUF: codigoUf || CODIGO_UF_MA, // Passa UF se não houver codigoIbge
+                requestId,
+            });
+            
+            let dadosParaRetorno = resultadoDoBanco.dados;
 
-  // ========== MÉTODOS DE API EXTERNA ==========
+            // Se houver coordenadas do usuário, calcula distância e ordena
+            if (userLat != null && userLong != null && dadosParaRetorno.length > 0) {
+                logger.debug(`[${requestId}] Service (DB Local): Calculando e ordenando por distância.`);
+                dadosParaRetorno = dadosParaRetorno.map(est => {
+                    const coords = est.localizacao?.coordenadas?.coordinates;
+                    if (coords && coords.length === 2) {
+                        const [estLongitude, estLatitude] = coords;
+                        const distancia = this._calcularDistancia(parseFloat(userLat), parseFloat(userLong), estLatitude, estLongitude);
+                        return { ...est, distancia }; // Adiciona a distância para ordenação
+                    }
+                    return { ...est, distancia: Infinity };
+                }).sort((a, b) => a.distancia - b.distancia);
+                // Remover a propriedade 'distancia' se não quiser enviá-la ao frontend
+                // dadosParaRetorno = dadosParaRetorno.map(d => { const { distancia, ...resto } = d; return resto; });
+            }
 
-  async _buscarHospitaisAPI({ codigoIBGE, requestId }) {
-    try {
-      const response = await axios.get(APIs.HOSPITAIS.url, {
-        params: { codigoIBGE },
-        headers: this._getHeaders(APIs.HOSPITAIS.key),
-        timeout: APIs.HOSPITAIS.timeout
-      });
-      
-      return response.data.dados || [];
-    } catch (error) {
-      logger.error(`[${requestId}] Falha ao buscar hospitais`, error);
-      throw error;
-    }
-  },
 
-  async _buscarUBSAPI({ codigoIBGE, requestId }) {
-    try {
-      const response = await axios.get(APIs.UBS.url, {
-        params: { codigoIBGE },
-        headers: this._getHeaders(APIs.UBS.key),
-        timeout: APIs.UBS.timeout
-      });
-      
-      return response.data.dados || [];
-    } catch (error) {
-      logger.error(`[${requestId}] Falha ao buscar UBS`, error);
-      throw error;
-    }
-  },
+            const metadadosCompletos = this._gerarMetadados({
+                fonte: FonteDados.MANUAL, // Sempre MANUAL pois estamos lendo do DB
+                total: resultadoDoBanco.metadados.totalItens,
+                pagina: paginaNum,
+                requestId,
+                municipio: nomeReferencia,
+                aviso: "Dados consultados do banco de dados local."
+            });
 
-  async _buscarAPIGovernamental({ pagina, tipo, municipio, codigoMunicipio, requestId }) {
-    try {
-      const response = await axios.get(APIs.CNES.url, {
-        params: {
-          pagina,
-          tipo: this._mapearTipoCNES_MA(tipo),
-          municipio,
-          codigoMunicipio
-        },
-        headers: this._getHeaders(APIs.CNES.key),
-        timeout: APIs.CNES.timeout
-      });
-      
-      return response.data;
-    } catch (error) {
-      logger.error(`[${requestId}] Falha ao buscar API governamental`, error);
-      throw error;
-    }
-  },
+            const resultadoFinal = {
+                dados: dadosParaRetorno,
+                metadados: metadadosCompletos
+            };
 
-  // ========== MÉTODOS DE APOIO ==========
+            if (resultadoFinal.dados && resultadoFinal.dados.length > 0) { // Cache apenas se houver dados
+                await this._armazenarCache(cacheKey, resultadoFinal);
+            }
+            return resultadoFinal;
 
-  _getHeaders(apiKey) {
-    return {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`,
-      'Accept-Encoding': 'gzip,deflate,compress'
-    };
-  },
+        } catch (error) {
+            const errorMessage = (error instanceof Error && error.message) ? error.message : 'Erro desconhecido em buscarEstabelecimentos (DB Local)';
+            logger.error(`[${requestId}] Falha em buscarEstabelecimentos (DB Local - service)`, { identificadorGeo, tipo, pagina, message: errorMessage, stack: error.stack?.substring(0, 500) });
+            throw this._erroServico(errorMessage, error.code || 'BUSCA_DB_LOCAL_FALHOU', error.status || 500, error.details);
+        }
+    },
 
-  _normalizarMunicipioMA(municipio) {
-    // Implementação existente
-  },
+    // --- Outras funções do serviço (stubs por enquanto) ---
+    async sincronizarEstabelecimentosCNESdoMA({requestId}) { logger.warn(`[${requestId}] Sincronização CNES MA não ativa no modo DB local.`); return {mensagem: "Sincronização não ativa"}; },
+    // async buscarPorProximidade({requestId}) { logger.warn(`[${requestId}] Buscar por proximidade (DB Local) - ADAPTAR _buscarNoPrisma com query geoespacial.`); return []; },
+    async atualizarHospitais({requestId}) { logger.warn(`[${requestId}] Atualizar Hospitais não ativa no modo DB local.`); return {mensagem: "Não ativa"}; },
+    async atualizarUBS({requestId}) { logger.warn(`[${requestId}] Atualizar UBS não ativa no modo DB local.`); return {mensagem: "Não ativa"}; },
+    // async obterTiposEstabelecimentos({requestId}) { /* ... como antes ... */ }, // Pode manter esta
 
-  _obterNomeMunicipioMA(codigoIBGE) {
-    // Implementação existente
-  },
-
-  _normalizarTipoMA(tipo) {
-    // Implementação existente
-  },
-
-  _mapearTipoCNES_MA(tipo) {
-    // Implementação existente
-  },
-
-  _gerarDadosMockados(params) {
-    // Implementação existente
-  }
+    _erroServico(mensagem, codigo, status = 500, detalhes = null) {
+        const erro = new Error(mensagem);
+        erro.status = status;
+        erro.code = codigo;
+        erro.details = detalhes;
+        return erro;
+    },
+    // Funções que _buscarPorProximidade e _executarEstrategiaBuscaV2 usavam e que agora podem ser necessárias aqui ou em ibgeCodes
+    _calcularDistancia(lat1, lon1, lat2, lon2) {
+        if (lat1 == null || lon1 == null || lat2 == null || lon2 == null) return Infinity;
+        const R = 6371e3; // Raio da Terra em metros
+        const φ1 = lat1 * Math.PI / 180; // φ, λ em radianos
+        const φ2 = lat2 * Math.PI / 180;
+        const Δφ = (lat2 - lat1) * Math.PI / 180;
+        const Δλ = (lon2 - lon1) * Math.PI / 180;
+        const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+                  Math.cos(φ1) * Math.cos(φ2) *
+                  Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return R * c; // em metros
+    },
 };
+
+export default saudeService;

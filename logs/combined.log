@@ -1058,3 +1058,1948 @@
 2025-05-20T23:43:51.325Z [INFO]: Requisição recebida
 2025-05-20T23:44:04.068Z [INFO]: Requisição recebida
 2025-05-20T23:44:12.855Z [INFO]: Requisição recebida
+2025-05-21T00:15:31.040Z [INFO]: Requisição recebida
+2025-05-21T00:15:31.048Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:16:42.775Z [INFO]: Requisição recebida
+2025-05-21T00:16:42.777Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:03.099Z [INFO]: Requisição recebida
+2025-05-21T00:23:03.101Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:06.847Z [INFO]: Requisição recebida
+2025-05-21T00:23:06.848Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:07.956Z [INFO]: Requisição recebida
+2025-05-21T00:23:07.957Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:13.866Z [INFO]: Requisição recebida
+2025-05-21T00:23:13.866Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:14.722Z [INFO]: Requisição recebida
+2025-05-21T00:23:14.723Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:16.764Z [INFO]: Requisição recebida
+2025-05-21T00:34:39.515Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T00:34:39.517Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T00:34:39.522Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T00:34:39.523Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T00:34:39.523Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T00:34:39.523Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T00:34:39.524Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T00:34:39.524Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T00:34:39.524Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T00:34:39.524Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T00:34:48.665Z [INFO]: Requisição recebida
+2025-05-21T01:06:13.858Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:06:13.859Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:06:13.862Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:06:13.862Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:06:13.863Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:06:13.863Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:06:13.863Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:06:13.863Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:06:13.864Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:06:13.864Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T01:16:25.893Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:16:25.895Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:16:25.898Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:16:25.898Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:16:25.898Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:16:25.899Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:16:25.899Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:16:25.899Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:16:25.899Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:16:25.900Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T01:16:27.945Z [INFO]: Requisição recebida
+2025-05-21T01:30:11.298Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:30:11.301Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:30:11.307Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:30:11.307Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:30:11.307Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:30:11.308Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:30:11.308Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:30:11.308Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:30:11.308Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:30:11.309Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T01:30:18.132Z [INFO]: Requisição recebida
+2025-05-21T01:30:27.973Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:30:27.976Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:30:27.981Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:30:27.981Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:30:27.982Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:30:27.983Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:30:27.983Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:30:27.983Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:30:27.984Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:30:27.984Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T01:31:36.275Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:31:36.278Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:31:36.280Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:31:36.280Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:31:36.280Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:31:36.281Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:31:36.281Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:31:36.281Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:31:36.281Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:31:36.281Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T01:31:47.745Z [INFO]: Requisição recebida
+2025-05-21T01:31:56.118Z [INFO]: Requisição recebida
+2025-05-21T01:31:56.121Z [INFO]: [6c86e10c-0974-41bd-9e57-d3cfbae0bd52] Busca hierárquica iniciada
+2025-05-21T01:31:56.130Z [ERROR]: [6c86e10c-0974-41bd-9e57-d3cfbae0bd52] Falha na busca hierárquica Cannot destructure property 'nomeNormalizado' of 'this._normalizarMunicipioMA(...)' as it is undefined.
+2025-05-21T01:31:56.130Z [ERROR]: [6c86e10c-0974-41bd-9e57-d3cfbae0bd52] Erro no controller de saúde:
+2025-05-21T01:32:07.817Z [INFO]: Requisição recebida
+2025-05-21T01:32:23.078Z [INFO]: Requisição recebida
+2025-05-21T01:32:24.899Z [INFO]: Requisição recebida
+2025-05-21T01:32:43.876Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T01:32:43.883Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T01:32:43.889Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T01:32:43.889Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T01:32:43.890Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T01:32:43.890Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T01:32:43.890Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T01:32:43.891Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T01:32:43.891Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T01:32:43.891Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:18:37.184Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:18:37.186Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:18:37.189Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:18:37.190Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:18:37.190Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:18:37.190Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:18:37.191Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:18:37.191Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:18:37.192Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:18:37.192Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:18:43.796Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:18:43.799Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:18:43.803Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:18:43.804Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:18:43.804Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:18:43.805Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:18:43.805Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:18:43.805Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:18:43.806Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:18:43.806Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:18:50.702Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:18:50.705Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:18:50.708Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:18:50.708Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:18:50.709Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:18:50.709Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:18:50.710Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:18:50.710Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:18:50.711Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:18:50.711Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:18:59.068Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:18:59.070Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:18:59.073Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:18:59.073Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:18:59.073Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:18:59.074Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:18:59.074Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:18:59.074Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:18:59.075Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:18:59.075Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:22:30.328Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:22:30.330Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:22:30.332Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:22:30.332Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:22:30.332Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:22:30.332Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:22:30.332Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:22:30.333Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:22:30.333Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:22:30.334Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:22:33.698Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:22:33.699Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:22:33.701Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:22:33.702Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:22:33.702Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:22:33.702Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:22:33.703Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:22:33.703Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:22:33.705Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:22:33.706Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:22:45.865Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:22:45.867Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:22:45.868Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:22:45.869Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:22:45.869Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:22:45.869Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:22:45.870Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:22:45.870Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:22:45.870Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:22:45.870Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T02:59:35.686Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T02:59:35.688Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T02:59:35.691Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T02:59:35.692Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T02:59:35.692Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T02:59:35.693Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T02:59:35.694Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T02:59:35.694Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T02:59:35.694Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T02:59:35.695Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T02:59:35.695Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T03:15:32.090Z [INFO]: Requisição recebida
+2025-05-21T03:15:40.646Z [INFO]: Requisição recebida
+2025-05-21T03:50:04.074Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T03:50:04.084Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T03:50:04.095Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T03:50:04.095Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T03:50:04.095Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T03:50:04.095Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T03:50:04.096Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T03:50:04.096Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T03:50:04.096Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T03:50:04.096Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T03:50:04.097Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T03:50:17.485Z [INFO]: Requisição recebida
+2025-05-21T03:50:22.698Z [INFO]: Requisição recebida
+2025-05-21T04:01:33.860Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T04:01:33.862Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T04:01:33.866Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T04:01:33.867Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T04:01:33.867Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T04:01:33.868Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T04:01:33.869Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T04:01:33.869Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T04:01:33.869Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T04:01:33.870Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T04:01:33.870Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T04:01:42.140Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T04:01:42.141Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T04:01:42.144Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T04:01:42.144Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T04:01:42.144Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T04:01:42.144Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T04:01:42.145Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T04:01:42.145Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T04:01:42.145Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T04:01:42.146Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T04:01:42.146Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T04:01:48.804Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T04:01:48.805Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T04:01:48.808Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T04:01:48.809Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T04:01:48.809Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T04:01:48.809Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T04:01:48.810Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T04:01:48.810Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T04:01:48.810Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T04:01:48.811Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T04:01:48.811Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T04:02:07.997Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T04:02:07.999Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T04:02:08.001Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T04:02:08.001Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T04:02:08.002Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T04:02:08.002Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T04:02:08.002Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T04:02:08.003Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T04:02:08.003Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T04:02:08.003Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T04:02:08.003Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T05:37:06.431Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:37:06.430Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:37:06.439Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T05:37:06.450Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T05:37:06.450Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T05:37:06.451Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T05:37:06.452Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T05:37:06.453Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T05:37:06.453Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T05:37:06.454Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T05:37:06.455Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T05:37:06.456Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T05:39:02.763Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:39:02.764Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:39:02.764Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T05:39:02.767Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T05:39:02.768Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T05:39:02.768Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T05:39:02.768Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T05:39:02.769Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T05:39:02.769Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T05:39:02.769Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T05:39:02.769Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T05:39:02.770Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T05:40:16.815Z [INFO]: Requisição recebida
+2025-05-21T05:40:16.820Z [INFO]: [888e884e-cb29-4ae2-8c43-f69da6c4e52d] GET /saude ou /saude/codigo - Parâmetros path: {}, Query: {}
+2025-05-21T05:40:16.820Z [WARN]: [888e884e-cb29-4ae2-8c43-f69da6c4e52d] Nenhum identificador de município fornecido.
+2025-05-21T05:40:33.838Z [INFO]: Requisição recebida
+2025-05-21T05:40:33.841Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] GET /saude ou /saude/codigo - Parâmetros path: {"codigo_ibge":2111300}, Query: {}
+2025-05-21T05:40:33.842Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Usando código IBGE do path: 2111300
+2025-05-21T05:40:33.842Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Service: buscarEstabelecimentos iniciado
+2025-05-21T05:40:33.843Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Estratégia de busca: Tentando API Governamental CNES
+2025-05-21T05:40:33.843Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Buscando API CNES /estabelecimentos com params:
+2025-05-21T05:40:34.235Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Nenhum dado encontrado na API CNES para os critérios.
+2025-05-21T05:40:34.235Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Estratégia de busca: Fallback para MongoDB
+2025-05-21T05:40:34.435Z [ERROR]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Erro ao buscar no MongoDB (service) 
+Invalid `prisma.estabelecimentoSaude.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    localizacao.municipio: "São Luís",
+    ~~~~~~~~~~~~~~~~~~~~~
+?   AND?: EstabelecimentoSaudeWhereInput | EstabelecimentoSaudeWhereInput[],
+?   OR?: EstabelecimentoSaudeWhereInput[],
+?   NOT?: EstabelecimentoSaudeWhereInput | EstabelecimentoSaudeWhereInput[],
+?   id?: StringFilter | String,
+?   idCnes?: StringFilter | String,
+?   nome?: StringFilter | String,
+?   tipo?: EnumTipoEstabelecimentoSaudeFilter | TipoEstabelecimentoSaude,
+?   localizacao?: LocalizacaoCompositeFilter | LocalizacaoObjectEqualityInput,
+?   contato?: ContatoCompositeFilter | ContatoObjectEqualityInput,
+?   servicos?: ServicoCompositeListFilter | ServicoObjectEqualityInput[],
+?   leitos?: LeitosNullableCompositeFilter | LeitosObjectEqualityInput | Null,
+?   acessibilidade?: AcessibilidadeNullableCompositeFilter | AcessibilidadeObjectEqualityInput | Null,
+?   horarioFuncionamento?: StringNullableFilter | String | Null,
+?   fonteDados?: EnumFonteDadosFilter | FonteDados,
+?   dataAtualizacao?: DateTimeFilter | DateTime
+  }
+}
+
+Unknown argument `localizacao.municipio`. Available options are marked with ?.
+2025-05-21T05:40:34.435Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Nenhum dado encontrado no MongoDB para os critérios.
+2025-05-21T05:40:34.436Z [WARN]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Nenhum dado encontrado em nenhuma fonte para
+2025-05-21T05:40:34.436Z [INFO]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Nenhum estabelecimento encontrado para os critérios fornecidos.
+2025-05-21T05:57:51.281Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:57:51.285Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T05:57:51.283Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T05:57:51.286Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T05:57:51.287Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T05:57:51.287Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T05:57:51.288Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T05:57:51.288Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T05:57:51.288Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T05:57:51.288Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T05:57:51.289Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T05:57:51.289Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T06:04:32.126Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T06:04:32.128Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T06:04:32.130Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T06:04:32.131Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T06:04:32.131Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T06:04:32.132Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T06:04:32.133Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T06:04:32.133Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T06:04:32.133Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T06:04:32.133Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T06:04:32.134Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T06:04:32.139Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T06:13:59.236Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T06:13:59.237Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T06:13:59.239Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T06:13:59.239Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T06:13:59.239Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T06:13:59.240Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T06:13:59.240Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T06:13:59.240Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T06:13:59.241Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T06:13:59.241Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T06:13:59.241Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T06:13:59.293Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T06:17:50.604Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T18:35:13.527Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-21T19:50:38.937Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T19:50:38.941Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T19:50:38.946Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T19:50:38.946Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T19:50:38.947Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T19:50:38.947Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T19:50:38.947Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T19:50:38.948Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T19:50:38.948Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T19:50:38.948Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T19:50:38.949Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T20:41:45.846Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-21T20:41:56.045Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T20:41:56.046Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T20:41:56.051Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T20:41:56.052Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T20:41:56.052Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T20:41:56.052Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T20:41:56.052Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T20:41:56.053Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T20:41:56.053Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T20:41:56.053Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T20:41:56.054Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T20:42:06.445Z [INFO]: Requisição recebida
+2025-05-21T20:42:17.095Z [INFO]: Requisição recebida
+2025-05-21T20:42:17.101Z [INFO]: [a4b9b835-4d07-4528-bbbc-ee2329ff1098] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T20:42:17.101Z [WARN]: [a4b9b835-4d07-4528-bbbc-ee2329ff1098] Nenhum identificador de município (codigo_ibge ou municipio_nome) fornecido.
+2025-05-21T20:42:22.300Z [INFO]: Requisição recebida
+2025-05-21T20:42:22.301Z [INFO]: [8187a2fa-ea78-4e74-8494-9e5971fe955c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T20:42:22.301Z [WARN]: [8187a2fa-ea78-4e74-8494-9e5971fe955c] Nenhum identificador de município (codigo_ibge ou municipio_nome) fornecido.
+2025-05-21T20:46:08.002Z [INFO]: Requisição recebida
+2025-05-21T20:46:08.005Z [INFO]: [049f23a6-570b-4bd3-933a-4e4c82f6db51] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"IMPERATRIZ"}
+2025-05-21T20:46:08.006Z [INFO]: [049f23a6-570b-4bd3-933a-4e4c82f6db51] Buscando código IBGE para o nome: IMPERATRIZ
+2025-05-21T20:46:08.006Z [WARN]: [049f23a6-570b-4bd3-933a-4e4c82f6db51] Município não encontrado no mapeamento local: IMPERATRIZ
+2025-05-21T20:46:38.877Z [INFO]: Requisição recebida
+2025-05-21T20:46:38.878Z [INFO]: [307aa0de-85b3-4605-b9f1-523415927ba7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"2111300"}
+2025-05-21T20:46:38.878Z [INFO]: [307aa0de-85b3-4605-b9f1-523415927ba7] Buscando código IBGE para o nome: 2111300
+2025-05-21T20:46:38.878Z [WARN]: [307aa0de-85b3-4605-b9f1-523415927ba7] Município não encontrado no mapeamento local: 2111300
+2025-05-21T20:46:59.469Z [INFO]: Requisição recebida
+2025-05-21T20:46:59.471Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2111300}, Query: {}
+2025-05-21T20:46:59.472Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Usando código IBGE do path: 2111300
+2025-05-21T20:46:59.472Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Service: buscarEstabelecimentos iniciado
+2025-05-21T20:46:59.473Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Estratégia de busca: API CNES
+2025-05-21T20:46:59.473Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Buscando API CNES /estabelecimentos (externa) com params:
+2025-05-21T20:46:59.846Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Nenhum dado encontrado na API CNES.
+2025-05-21T20:46:59.847Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Estratégia de busca: Fallback para Prisma DB
+2025-05-21T20:47:00.098Z [ERROR]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Erro ao buscar no Prisma DB (service) 
+Invalid `prisma.estabelecimentoSaude.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    localizacao: {
+      municipio: "São Luís",
+      ~~~~~~~~~
+?     equals?: LocalizacaoObjectEqualityInput,
+?     is?: LocalizacaoWhereInput,
+?     isNot?: LocalizacaoWhereInput
+    }
+  }
+}
+
+Unknown argument `municipio`. Available options are marked with ?.
+2025-05-21T20:47:00.099Z [WARN]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Nenhum dado encontrado em nenhuma fonte para
+2025-05-21T20:47:00.099Z [INFO]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T20:47:11.745Z [INFO]: Requisição recebida
+2025-05-21T20:47:11.746Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-21T20:47:11.746Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Usando código IBGE do path: 2105302
+2025-05-21T20:47:11.747Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Service: buscarEstabelecimentos iniciado
+2025-05-21T20:47:11.747Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Estratégia de busca: API CNES
+2025-05-21T20:47:11.747Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Buscando API CNES /estabelecimentos (externa) com params:
+2025-05-21T20:47:12.154Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Nenhum dado encontrado na API CNES.
+2025-05-21T20:47:12.155Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Estratégia de busca: Fallback para Prisma DB
+2025-05-21T20:47:12.156Z [WARN]: [a65775d4-4cce-42dc-9438-2b40c242539b] Nome do município não encontrado para 2105302 na busca Prisma.
+2025-05-21T20:47:12.867Z [WARN]: [a65775d4-4cce-42dc-9438-2b40c242539b] Nenhum dado encontrado em nenhuma fonte para
+2025-05-21T20:47:12.868Z [INFO]: [a65775d4-4cce-42dc-9438-2b40c242539b] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T20:47:39.939Z [INFO]: Requisição recebida
+2025-05-21T20:47:39.939Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-21T20:47:39.940Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Usando código IBGE do path: 2105302
+2025-05-21T20:47:39.940Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Service: buscarEstabelecimentos iniciado
+2025-05-21T20:47:39.940Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Estratégia de busca: API CNES
+2025-05-21T20:47:39.940Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Buscando API CNES /estabelecimentos (externa) com params:
+2025-05-21T20:47:40.259Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Nenhum dado encontrado na API CNES.
+2025-05-21T20:47:40.259Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Estratégia de busca: Fallback para Prisma DB
+2025-05-21T20:47:40.259Z [WARN]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Nome do município não encontrado para 2105302 na busca Prisma.
+2025-05-21T20:47:40.338Z [WARN]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Nenhum dado encontrado em nenhuma fonte para
+2025-05-21T20:47:40.338Z [INFO]: [2b069629-c2d2-4922-8c6e-7c3edeecb747] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T22:02:22.652Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:02:22.663Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:02:22.667Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:02:22.667Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:02:22.668Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:02:22.669Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:02:22.670Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:02:22.670Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:02:22.671Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:02:22.671Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:02:22.672Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:05:04.574Z [INFO]: Requisição recebida
+2025-05-21T22:18:21.363Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:18:21.365Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:18:21.369Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:18:21.370Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:18:21.370Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:18:21.370Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:18:21.371Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:18:21.371Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:18:21.372Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:18:21.372Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:18:21.372Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:18:36.181Z [INFO]: Requisição recebida
+2025-05-21T22:32:34.062Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:32:34.064Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:32:34.066Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:32:34.066Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:32:34.066Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:32:34.067Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:32:34.067Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:32:34.067Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:32:34.067Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:32:34.068Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:32:34.068Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:32:36.452Z [INFO]: Requisição recebida
+2025-05-21T22:39:39.764Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:39:39.766Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:39:39.769Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:39:39.769Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:39:39.769Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:39:39.770Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:39:39.770Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:39:39.770Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:39:39.771Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:39:39.771Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:39:39.771Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:39:42.473Z [INFO]: Requisição recebida
+2025-05-21T22:39:42.477Z [INFO]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T22:39:42.477Z [INFO]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-21T22:39:42.478Z [INFO]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Service: buscarEstabelecimentos V3 iniciado
+2025-05-21T22:39:42.480Z [ERROR]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Falha em buscarEstabelecimentos V3 (service) LIMITE_POR_PAGINA_PADRAO is not defined
+2025-05-21T22:39:42.481Z [ERROR]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Erro no controller: undefined
+2025-05-21T22:49:58.043Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:49:58.046Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:49:58.051Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:49:58.051Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:49:58.052Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:49:58.053Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:49:58.053Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:49:58.054Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:49:58.054Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:49:58.055Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:49:58.055Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:50:33.074Z [INFO]: Requisição recebida
+2025-05-21T22:50:33.079Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T22:50:33.079Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-21T22:50:33.079Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Service: buscarEstabelecimentos V3 iniciado
+2025-05-21T22:50:33.080Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Estratégia Busca V2: API CNES para UF 21
+2025-05-21T22:50:33.080Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8-FULL_UF_FETCH] Buscando TODOS os estabelecimentos da API CNES para UF 21 (tipo: Todos)
+2025-05-21T22:50:33.602Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Nenhum dado encontrado na API CNES para UF 21 e tipo Todos.
+2025-05-21T22:50:33.603Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Fallback para Prisma DB.
+2025-05-21T22:50:33.604Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Nenhum dado encontrado no Prisma DB (fallback).
+2025-05-21T22:50:33.605Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Total após filtros/ordenação: 0. Enviando 0 para página 1.
+2025-05-21T22:50:33.606Z [INFO]: [f176b38b-ab82-459f-9b2a-e45eea8fdbd8] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T22:51:33.487Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:51:33.491Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:51:33.500Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:51:33.501Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:51:33.501Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:51:33.503Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:51:33.504Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:51:33.505Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:51:33.506Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:51:33.507Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:51:33.508Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:51:52.048Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:51:52.050Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:51:52.052Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:51:52.052Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:51:52.053Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:51:52.053Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:51:52.053Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:51:52.053Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:51:52.053Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:51:52.053Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:51:52.053Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:52:02.249Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T22:52:02.251Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T22:52:02.254Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T22:52:02.254Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T22:52:02.255Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T22:52:02.255Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T22:52:02.256Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T22:52:02.256Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T22:52:02.256Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T22:52:02.257Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T22:52:02.257Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T22:54:42.375Z [INFO]: Requisição recebida
+2025-05-21T22:54:42.384Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T22:54:42.385Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-21T22:54:42.385Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Service: buscarEstabelecimentos V3 iniciado
+2025-05-21T22:54:42.386Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Estratégia Busca V2: API CNES para UF 21
+2025-05-21T22:54:42.387Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26-FULL_UF_FETCH] Buscando TODOS os estabelecimentos da API CNES para UF 21 (tipo: Todos)
+2025-05-21T22:54:42.763Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Nenhum dado encontrado na API CNES para UF 21 e tipo Todos.
+2025-05-21T22:54:42.764Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Fallback para Prisma DB.
+2025-05-21T22:54:42.764Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Nenhum dado encontrado no Prisma DB (fallback).
+2025-05-21T22:54:42.764Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Total após filtros/ordenação: 0. Enviando 0 para página 1.
+2025-05-21T22:54:42.765Z [INFO]: [a244f874-418f-4a15-ba2e-bdee8018ff26] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T23:00:09.173Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:00:09.174Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:00:09.176Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:00:09.177Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:00:09.177Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:00:09.177Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:00:09.177Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:00:09.178Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:00:09.179Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:00:09.179Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:00:09.180Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T23:00:10.814Z [INFO]: Requisição recebida
+2025-05-21T23:00:10.818Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T23:00:10.819Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-21T23:00:10.820Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Service: buscarEstabelecimentos V3 iniciado
+2025-05-21T23:00:10.820Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Estratégia Busca V2: API CNES para UF 21
+2025-05-21T23:00:10.821Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409-FULL_UF_FETCH] Buscando TODOS os estabelecimentos da API CNES para UF 21 (tipo: Todos)
+2025-05-21T23:00:11.594Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Nenhum dado encontrado na API CNES para UF 21 e tipo Todos.
+2025-05-21T23:00:11.595Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Fallback para Prisma DB.
+2025-05-21T23:00:11.595Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Nenhum dado encontrado no Prisma DB (fallback).
+2025-05-21T23:00:11.596Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Total após filtros/ordenação: 0. Enviando 0 para página 1.
+2025-05-21T23:00:11.596Z [INFO]: [72566c1f-578d-4a2d-9732-2e59d5069409] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-21T23:00:32.419Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:00:32.421Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:00:32.424Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:00:32.424Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:00:32.425Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:00:32.425Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:00:32.425Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:00:32.426Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:00:32.426Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:00:32.426Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:00:32.426Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T23:30:17.941Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:30:17.942Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:30:17.944Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:30:17.945Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:30:17.946Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:30:17.947Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:30:17.947Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:30:17.948Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:30:17.949Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:30:17.949Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:30:17.949Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T23:32:24.893Z [INFO]: Requisição recebida
+2025-05-21T23:32:24.897Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-21T23:32:24.897Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-21T23:32:24.898Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Service: buscarEstabelecimentos V3 iniciado
+2025-05-21T23:32:24.899Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Estratégia Busca V2: API CNES para UF 21
+2025-05-21T23:32:24.900Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a-FULL_UF_FETCH] Buscando TODOS os estabelecimentos da API CNES para UF 21 (tipo: Todos)
+2025-05-21T23:32:25.522Z [INFO]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] 20 registros da API CNES para UF 21.
+2025-05-21T23:32:25.524Z [ERROR]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Falha em buscarEstabelecimentos V3 (service) Cannot destructure property '_distanciaMetros' of 'd' as it is undefined.
+2025-05-21T23:32:25.525Z [ERROR]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Erro no controller: undefined
+2025-05-21T23:32:32.375Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-21T23:32:42.783Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:32:42.785Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:32:42.787Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:32:42.787Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:32:42.788Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:32:42.788Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:32:42.788Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:32:42.789Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:32:42.790Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:32:42.791Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:32:42.791Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T23:40:02.887Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:40:02.892Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:40:02.897Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:40:02.897Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:40:02.898Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:40:02.898Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:40:02.899Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:40:02.899Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:40:02.899Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:40:02.900Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:40:02.900Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-21T23:56:26.204Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-21T23:56:26.207Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-21T23:56:26.210Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-21T23:56:26.210Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-21T23:56:26.211Z [INFO]: 📚 APIs disponíveis:
+2025-05-21T23:56:26.211Z [INFO]: - Saúde: /api/v1/saude
+2025-05-21T23:56:26.211Z [INFO]: - Educação: /api/v1/educacao
+2025-05-21T23:56:26.212Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-21T23:56:26.212Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-21T23:56:26.212Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-21T23:56:26.213Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:01:27.897Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:01:27.898Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:01:27.900Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:01:27.901Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:01:27.901Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:01:27.901Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:01:27.901Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:01:27.901Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:01:27.901Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:01:27.902Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:01:27.902Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:01:30.559Z [INFO]: Requisição recebida
+2025-05-22T00:01:30.563Z [INFO]: [39391e9d-02c5-48aa-9221-07146f45866b] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:01:30.563Z [INFO]: [39391e9d-02c5-48aa-9221-07146f45866b] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:01:30.563Z [INFO]: [39391e9d-02c5-48aa-9221-07146f45866b] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:01:30.564Z [INFO]: [39391e9d-02c5-48aa-9221-07146f45866b] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T00:01:30.565Z [ERROR]: [39391e9d-02c5-48aa-9221-07146f45866b] Erro no controller: Cannot read properties of undefined (reading 'metadados')
+2025-05-22T00:19:55.902Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:19:55.903Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:19:55.907Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:19:55.907Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:19:55.908Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:19:55.908Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:19:55.908Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:19:55.908Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:19:55.909Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:19:55.909Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:19:55.909Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:20:02.398Z [INFO]: Requisição recebida
+2025-05-22T00:20:02.403Z [INFO]: [84c38894-7a07-4556-8d14-24ba3bd42856] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:20:02.403Z [INFO]: [84c38894-7a07-4556-8d14-24ba3bd42856] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:20:02.404Z [INFO]: [84c38894-7a07-4556-8d14-24ba3bd42856] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:20:02.404Z [ERROR]: [84c38894-7a07-4556-8d14-24ba3bd42856] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:20:02.405Z [ERROR]: [84c38894-7a07-4556-8d14-24ba3bd42856] Erro no controller: undefined
+2025-05-22T00:28:42.992Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:28:42.993Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:28:42.997Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:28:42.997Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:28:42.998Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:28:42.998Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:28:42.998Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:28:42.998Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:28:42.999Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:28:42.999Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:28:42.999Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:28:44.846Z [INFO]: Requisição recebida
+2025-05-22T00:28:44.850Z [INFO]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:28:44.850Z [INFO]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:28:44.851Z [INFO]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:28:44.851Z [ERROR]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:28:44.851Z [ERROR]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Erro no controller: undefined
+2025-05-22T00:34:30.112Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:34:30.113Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:34:30.118Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:34:30.119Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:34:30.119Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:34:30.120Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:34:30.120Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:34:30.120Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:34:30.121Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:34:30.121Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:34:30.122Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:34:41.260Z [INFO]: Requisição recebida
+2025-05-22T00:34:41.263Z [INFO]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:34:41.263Z [INFO]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:34:41.264Z [INFO]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:34:41.264Z [ERROR]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:34:41.266Z [ERROR]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Erro no controller: undefined
+2025-05-22T00:49:01.402Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:49:01.403Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:49:01.405Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:49:01.405Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:49:01.405Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:49:01.406Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:49:01.407Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:49:01.407Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:49:01.408Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:49:01.409Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:49:01.409Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:49:03.599Z [INFO]: Requisição recebida
+2025-05-22T00:49:03.602Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:49:03.603Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:49:03.603Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:49:03.610Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Estratégia Busca V2: API CNES para UF 21
+2025-05-22T00:49:03.611Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482-FULL_UF_FETCH] Buscando TODOS os estabelecimentos da API CNES para UF 21 (tipo: Todos)
+2025-05-22T00:49:04.161Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] 20 registros da API CNES para UF 21.
+2025-05-22T00:49:04.162Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.162Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.162Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.162Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.162Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.163Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.163Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.163Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.163Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.163Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.164Z [WARN]: [SERVICE _formatarParaPrisma] Item da API sem CNES válido, pulando:
+2025-05-22T00:49:04.165Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Total após filtros/ordenação: 0. Enviando 0 para página 1.
+2025-05-22T00:49:04.167Z [INFO]: [8de5cbfa-7ea4-4cc5-85b1-09e480428482] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T00:50:03.768Z [INFO]: Requisição recebida
+2025-05-22T00:50:03.770Z [INFO]: [e4b8b2a4-0b71-4537-856b-6602a35045e9] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:50:03.771Z [INFO]: [e4b8b2a4-0b71-4537-856b-6602a35045e9] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:50:03.771Z [INFO]: [e4b8b2a4-0b71-4537-856b-6602a35045e9] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:50:03.773Z [INFO]: [e4b8b2a4-0b71-4537-856b-6602a35045e9] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T00:50:14.172Z [INFO]: Requisição recebida
+2025-05-22T00:50:14.173Z [INFO]: [1dd29969-594b-40a2-8d90-ad9b6a552005] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:50:14.173Z [INFO]: [1dd29969-594b-40a2-8d90-ad9b6a552005] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:50:14.173Z [INFO]: [1dd29969-594b-40a2-8d90-ad9b6a552005] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:50:14.175Z [INFO]: [1dd29969-594b-40a2-8d90-ad9b6a552005] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T00:59:53.395Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T00:59:53.397Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T00:59:53.399Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T00:59:53.399Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T00:59:53.399Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T00:59:53.399Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T00:59:53.400Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T00:59:53.400Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T00:59:53.400Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T00:59:53.400Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T00:59:53.400Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T00:59:59.888Z [INFO]: Requisição recebida
+2025-05-22T00:59:59.893Z [INFO]: [628af925-744f-4234-af36-efbfede68151] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T00:59:59.894Z [INFO]: [628af925-744f-4234-af36-efbfede68151] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T00:59:59.894Z [INFO]: [628af925-744f-4234-af36-efbfede68151] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T00:59:59.896Z [INFO]: [628af925-744f-4234-af36-efbfede68151] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T01:08:31.773Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T01:08:31.774Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T01:08:31.777Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T01:08:31.778Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T01:08:31.779Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T01:08:31.781Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T01:08:31.782Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T01:08:31.783Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T01:08:31.784Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T01:08:31.784Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T01:08:31.785Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T01:08:35.775Z [INFO]: Requisição recebida
+2025-05-22T01:08:35.782Z [INFO]: [6a9a9227-5dba-4cfe-8897-d24485a1d1bd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T01:08:35.782Z [INFO]: [6a9a9227-5dba-4cfe-8897-d24485a1d1bd] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T01:08:35.783Z [INFO]: [6a9a9227-5dba-4cfe-8897-d24485a1d1bd] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T01:08:35.784Z [INFO]: [6a9a9227-5dba-4cfe-8897-d24485a1d1bd] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T01:26:41.177Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T01:26:41.178Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T01:26:41.180Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T01:26:41.180Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T01:26:41.181Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T01:26:41.181Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T01:26:41.181Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T01:26:41.181Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T01:26:41.182Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T01:26:41.182Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T01:26:41.183Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T01:26:45.026Z [INFO]: Requisição recebida
+2025-05-22T01:26:45.030Z [INFO]: [cd86aa4c-6957-4030-a22c-07077f87ef5f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T01:26:45.030Z [INFO]: [cd86aa4c-6957-4030-a22c-07077f87ef5f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T01:26:45.030Z [INFO]: [cd86aa4c-6957-4030-a22c-07077f87ef5f] Service: buscarEstabelecimentos V3 iniciado
+2025-05-22T01:26:45.031Z [INFO]: [cd86aa4c-6957-4030-a22c-07077f87ef5f] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T02:11:58.977Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T02:11:58.980Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T02:11:58.982Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T02:11:58.983Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T02:11:58.983Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T02:11:58.984Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T02:11:58.985Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T02:11:58.985Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T02:11:58.985Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T02:11:58.986Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T02:11:58.986Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T02:16:35.191Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T02:16:35.194Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T02:16:35.197Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T02:16:35.198Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T02:16:35.198Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T02:16:35.198Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T02:16:35.199Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T02:16:35.199Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T02:16:35.199Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T02:16:35.201Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T02:16:35.201Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T02:16:58.592Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T02:16:58.593Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T02:16:58.596Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T02:16:58.597Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T02:16:58.597Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T02:16:58.597Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T02:16:58.597Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T02:16:58.597Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T02:16:58.598Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T02:16:58.598Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T02:16:58.598Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T02:17:10.783Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T02:17:10.785Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T02:17:10.787Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T02:17:10.788Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T02:17:10.788Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T02:17:10.788Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T02:17:10.789Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T02:17:10.789Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T02:17:10.789Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T02:17:10.789Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T02:17:10.790Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T03:12:05.525Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T03:12:05.526Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T03:12:05.531Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T03:12:05.532Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T03:12:05.532Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T03:12:05.533Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T03:12:05.534Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T03:12:05.534Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T03:12:05.534Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T03:12:05.535Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T03:12:05.535Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T03:38:01.113Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T03:38:01.117Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T03:38:01.121Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T03:38:01.122Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T03:38:01.122Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T03:38:01.122Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T03:38:01.122Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T03:38:01.122Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T03:38:01.123Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T03:38:01.123Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T03:38:01.123Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:06:22.279Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:06:22.281Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:06:22.284Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:06:22.284Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:06:22.285Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:06:22.285Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:06:22.285Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:06:22.285Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:06:22.285Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:06:22.286Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:06:22.286Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:15:03.144Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:15:03.146Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:15:03.150Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:15:03.151Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:15:03.151Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:15:03.151Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:15:03.151Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:15:03.152Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:15:03.152Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:15:03.152Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:15:03.153Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:22:05.462Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:22:05.464Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:22:05.467Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:22:05.468Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:22:05.468Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:22:05.469Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:22:05.469Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:22:05.470Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:22:05.470Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:22:05.471Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:22:05.471Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:34:50.063Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:34:50.066Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:34:50.069Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:34:50.069Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:34:50.070Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:34:50.070Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:34:50.070Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:34:50.070Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:34:50.071Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:34:50.072Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:34:50.072Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:35:03.329Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:35:03.331Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:35:03.337Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:35:03.337Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:35:03.338Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:35:03.339Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:35:03.339Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:35:03.340Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:35:03.340Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:35:03.341Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:35:03.342Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:35:21.069Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:35:21.070Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:35:21.073Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:35:21.073Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:35:21.074Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:35:21.074Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:35:21.074Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:35:21.075Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:35:21.075Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:35:21.076Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:35:21.077Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:35:41.618Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:35:41.619Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:35:41.621Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:35:41.622Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:35:41.622Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:35:41.622Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:35:41.622Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:35:41.623Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:35:41.623Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:35:41.623Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:35:41.623Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:36:18.563Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:36:18.564Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:36:18.567Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:36:18.567Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:36:18.567Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:36:18.568Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:36:18.568Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:36:18.569Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:36:18.569Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:36:18.569Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:36:18.569Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:36:25.527Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:36:25.529Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:36:25.531Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:36:25.532Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:36:25.532Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:36:25.532Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:36:25.532Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:36:25.532Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:36:25.532Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:36:25.532Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:36:25.532Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T04:57:30.924Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T04:57:30.926Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T04:57:30.932Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T04:57:30.933Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T04:57:30.933Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T04:57:30.933Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T04:57:30.934Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T04:57:30.934Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T04:57:30.935Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T04:57:30.935Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T04:57:30.935Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:07:40.560Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:07:40.561Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:07:40.563Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:07:40.563Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:07:40.563Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:07:40.563Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:07:40.564Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:07:40.564Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:07:40.564Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:07:40.564Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:07:40.564Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:17:14.472Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:17:14.474Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:17:14.481Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:17:14.483Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:17:14.484Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:17:14.484Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:17:14.485Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:17:14.485Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:17:14.485Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:17:14.486Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:17:14.486Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:31:11.939Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:31:11.940Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:31:11.942Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:31:11.943Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:31:11.943Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:31:11.943Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:31:11.943Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:31:11.944Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:31:11.944Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:31:11.944Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:31:11.945Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:31:33.887Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:31:33.889Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:31:33.893Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:31:33.895Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:31:33.895Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:31:33.897Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:31:33.898Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:31:33.899Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:31:33.900Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:31:33.902Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:31:33.903Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:32:29.394Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:32:29.395Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:32:29.398Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:32:29.399Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:32:29.399Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:32:29.399Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:32:29.400Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:32:29.400Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:32:29.400Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:32:29.400Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:32:29.400Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:36:11.275Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:36:11.277Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:36:11.281Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:36:11.282Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:36:11.283Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:36:11.284Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:36:11.284Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:36:11.285Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:36:11.285Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:36:11.285Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:36:11.286Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T05:54:28.793Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T05:54:28.794Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T05:54:28.796Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T05:54:28.797Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T05:54:28.797Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T05:54:28.797Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T05:54:28.798Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T05:54:28.798Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T05:54:28.799Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T05:54:28.800Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T05:54:28.800Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:16:06.970Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:16:06.973Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:16:06.976Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:16:06.976Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:16:06.976Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:16:06.977Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:16:06.977Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:16:06.977Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:16:06.978Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:16:06.978Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:16:06.978Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:17:27.211Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:17:27.213Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:17:27.219Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:17:27.219Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:17:27.219Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:17:27.220Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:17:27.220Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:17:27.220Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:17:27.221Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:17:27.221Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:17:27.221Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:18:31.855Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:18:31.859Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:18:31.861Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:18:31.861Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:18:31.861Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:18:31.862Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:18:31.862Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:18:31.862Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:18:31.862Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:18:31.862Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:18:31.863Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:19:33.592Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:19:33.593Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:19:33.596Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:19:33.596Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:19:33.596Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:19:33.598Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:19:33.600Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:19:33.600Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:19:33.601Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:19:33.602Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:19:33.603Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:19:54.156Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:19:54.158Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:19:54.161Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:19:54.161Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:19:54.162Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:19:54.162Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:19:54.162Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:19:54.163Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:19:54.163Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:19:54.163Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:19:54.163Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:24:36.101Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:24:36.105Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:24:36.110Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:24:36.111Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:24:36.111Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:24:36.112Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:24:36.112Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:24:36.112Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:24:36.113Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:24:36.114Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:24:36.114Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:24:48.061Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:24:48.063Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:24:48.066Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:24:48.067Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:24:48.067Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:24:48.067Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:24:48.068Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:24:48.068Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:24:48.068Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:24:48.069Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:24:48.069Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:30:37.695Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:30:37.697Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:30:37.699Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:30:37.699Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:30:37.699Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:30:37.700Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:30:37.700Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:30:37.700Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:30:37.700Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:30:37.700Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:30:37.700Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:35:11.065Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:35:11.067Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:35:11.069Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:35:11.069Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:35:11.070Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:35:11.071Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:35:11.072Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:35:11.072Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:35:11.073Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:35:11.074Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:35:11.075Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:39:57.515Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:39:57.516Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:39:57.522Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:39:57.522Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:39:57.523Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:39:57.523Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:39:57.523Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:39:57.523Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:39:57.524Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:39:57.524Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:39:57.525Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:45:33.003Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:45:33.004Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:45:33.006Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:45:33.007Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:45:33.007Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:45:33.009Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:45:33.010Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:45:33.011Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:45:33.011Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:45:33.012Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:45:33.012Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:46:08.923Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:46:08.924Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:46:08.927Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:46:08.928Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:46:08.928Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:46:08.929Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:46:08.930Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:46:08.930Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:46:08.931Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:46:08.932Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:46:08.932Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T06:46:55.870Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T06:46:55.872Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T06:46:55.875Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T06:46:55.876Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T06:46:55.876Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T06:46:55.877Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T06:46:55.878Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T06:46:55.878Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T06:46:55.879Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T06:46:55.880Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T06:46:55.881Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:42:24.660Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T08:42:24.661Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T08:42:24.663Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T08:42:24.663Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T08:42:24.664Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T08:42:24.666Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T08:42:24.667Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T08:42:24.667Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T08:42:24.667Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T08:42:24.667Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T08:42:24.668Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:42:42.461Z [INFO]: Requisição recebida
+2025-05-22T08:42:42.466Z [INFO]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T08:42:42.466Z [INFO]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T08:42:42.467Z [INFO]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Service: buscarEstabelecimentos iniciado
+2025-05-22T08:42:42.470Z [ERROR]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:42:42.471Z [ERROR]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:42:44.954Z [INFO]: Requisição recebida
+2025-05-22T08:42:44.957Z [INFO]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T08:42:44.958Z [INFO]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T08:42:44.958Z [INFO]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Service: buscarEstabelecimentos iniciado
+2025-05-22T08:42:44.960Z [ERROR]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:42:44.960Z [ERROR]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:50:27.313Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T08:50:27.320Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T08:50:27.324Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T08:50:27.324Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T08:50:27.325Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T08:50:27.325Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T08:50:27.326Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T08:50:27.326Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T08:50:27.326Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T08:50:27.327Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T08:50:27.327Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:50:30.641Z [INFO]: Requisição recebida
+2025-05-22T08:50:30.645Z [INFO]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T08:50:30.645Z [INFO]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T08:50:30.645Z [INFO]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Service: buscarEstabelecimentos iniciado
+2025-05-22T08:50:30.647Z [ERROR]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:50:30.647Z [ERROR]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:53:38.611Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T08:53:38.613Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T08:53:38.617Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T08:53:38.618Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T08:53:38.618Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T08:53:38.618Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T08:53:38.619Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T08:53:38.619Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T08:53:38.620Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T08:53:38.621Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T08:53:38.621Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:54:07.415Z [INFO]: Requisição recebida
+2025-05-22T08:54:07.421Z [INFO]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T08:54:07.421Z [INFO]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T08:54:07.422Z [INFO]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Service: buscarEstabelecimentos iniciado
+2025-05-22T08:54:07.423Z [ERROR]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:54:07.424Z [ERROR]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:54:40.351Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T08:54:40.352Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T08:54:40.355Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T08:54:40.355Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T08:54:40.355Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T08:54:40.356Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T08:54:40.356Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T08:54:40.356Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T08:54:40.356Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T08:54:40.357Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T08:54:40.357Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:55:54.901Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-22T08:56:09.832Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T08:56:09.833Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T08:56:09.835Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T08:56:09.835Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T08:56:09.835Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T08:56:09.835Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T08:56:09.835Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T08:56:09.835Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T08:56:09.836Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T08:56:09.836Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T08:56:09.836Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T08:59:34.039Z [INFO]: Requisição recebida
+2025-05-22T08:59:34.046Z [INFO]: [dc7ef13a-2ea7-4f1b-b288-a51698e16429] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"IMPERATRIZ"}
+2025-05-22T08:59:34.047Z [INFO]: [dc7ef13a-2ea7-4f1b-b288-a51698e16429] Buscando por nome de município: IMPERATRIZ
+2025-05-22T08:59:34.047Z [WARN]: [dc7ef13a-2ea7-4f1b-b288-a51698e16429] Município não encontrado no mapeamento local: IMPERATRIZ
+2025-05-22T09:03:49.177Z [INFO]: Requisição recebida
+2025-05-22T09:03:49.178Z [INFO]: [bb754a33-26e0-4a33-87ce-c58d7f9d09c1] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:03:49.179Z [ERROR]: [bb754a33-26e0-4a33-87ce-c58d7f9d09c1] Erro no controller: getNomeMunicipioMAPorCodigo is not defined
+2025-05-22T09:08:25.452Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T09:08:25.454Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T09:08:25.456Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T09:08:25.457Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T09:08:25.457Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T09:08:25.458Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T09:08:25.458Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T09:08:25.459Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T09:08:25.460Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T09:08:25.461Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T09:08:25.462Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T09:16:06.237Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T09:16:06.239Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T09:16:06.241Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T09:16:06.242Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T09:16:06.242Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T09:16:06.242Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T09:16:06.243Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T09:16:06.243Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T09:16:06.244Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T09:16:06.244Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T09:16:06.244Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T09:16:24.526Z [INFO]: Requisição recebida
+2025-05-22T09:16:24.531Z [INFO]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:16:24.531Z [INFO]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:16:24.532Z [INFO]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:16:24.533Z [ERROR]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:16:24.534Z [ERROR]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:16:32.765Z [INFO]: Requisição recebida
+2025-05-22T09:16:32.766Z [INFO]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T09:16:32.766Z [INFO]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:16:32.766Z [INFO]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:16:32.768Z [ERROR]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:16:32.768Z [ERROR]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:27.296Z [INFO]: Requisição recebida
+2025-05-22T09:18:27.297Z [INFO]: [69804249-2032-46a8-8eb6-a482d343d085] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:18:27.297Z [INFO]: [69804249-2032-46a8-8eb6-a482d343d085] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:18:27.297Z [INFO]: [69804249-2032-46a8-8eb6-a482d343d085] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:18:27.299Z [ERROR]: [69804249-2032-46a8-8eb6-a482d343d085] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:27.299Z [ERROR]: [69804249-2032-46a8-8eb6-a482d343d085] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:29.150Z [INFO]: Requisição recebida
+2025-05-22T09:18:29.151Z [INFO]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:18:29.151Z [INFO]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:18:29.152Z [INFO]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:18:29.154Z [ERROR]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:29.154Z [ERROR]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:35.535Z [INFO]: Requisição recebida
+2025-05-22T09:18:35.536Z [INFO]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T09:18:35.536Z [INFO]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:18:35.536Z [INFO]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:18:35.537Z [ERROR]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:35.538Z [ERROR]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:39.223Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-22T09:20:23.045Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T09:20:23.046Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T09:20:23.048Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T09:20:23.049Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T09:20:23.049Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T09:20:23.049Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T09:20:23.050Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T09:20:23.050Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T09:20:23.050Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T09:20:23.050Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T09:20:23.051Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T09:20:34.449Z [INFO]: Requisição recebida
+2025-05-22T09:20:34.453Z [INFO]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T09:20:34.453Z [INFO]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:20:34.453Z [INFO]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:20:34.455Z [ERROR]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:20:34.456Z [ERROR]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:21:23.893Z [INFO]: Requisição recebida
+2025-05-22T09:21:23.898Z [INFO]: [68af5599-733b-4973-8cd1-2c95d6899749] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:21:23.900Z [INFO]: [68af5599-733b-4973-8cd1-2c95d6899749] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:21:23.900Z [INFO]: [68af5599-733b-4973-8cd1-2c95d6899749] Service: buscarEstabelecimentos iniciado
+2025-05-22T09:21:23.904Z [ERROR]: [68af5599-733b-4973-8cd1-2c95d6899749] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:21:23.904Z [ERROR]: [68af5599-733b-4973-8cd1-2c95d6899749] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:25:01.958Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T09:25:01.960Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T09:25:01.966Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T09:25:01.967Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T09:25:01.967Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T09:25:01.967Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T09:25:01.967Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T09:25:01.968Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T09:25:01.968Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T09:25:01.969Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T09:25:01.969Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T09:25:03.804Z [INFO]: Requisição recebida
+2025-05-22T09:25:03.809Z [INFO]: [79cc24b7-ac8b-467b-850a-20ecfb86e7ff] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:25:03.810Z [INFO]: [79cc24b7-ac8b-467b-850a-20ecfb86e7ff] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:25:03.810Z [INFO]: [79cc24b7-ac8b-467b-850a-20ecfb86e7ff] Service SIMPLIFICADO: buscarEstabelecimentos iniciado com tipo: undefined
+2025-05-22T09:25:03.811Z [INFO]: [79cc24b7-ac8b-467b-850a-20ecfb86e7ff] Service SIMPLIFICADO: _normalizarTipoInterno chamado. Tipo normalizado: null
+2025-05-22T09:25:14.202Z [INFO]: Requisição recebida
+2025-05-22T09:25:14.204Z [INFO]: [689c7bad-154c-4221-8919-74e56b945fcf] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T09:25:14.205Z [INFO]: [689c7bad-154c-4221-8919-74e56b945fcf] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:25:14.205Z [INFO]: [689c7bad-154c-4221-8919-74e56b945fcf] Service SIMPLIFICADO: buscarEstabelecimentos iniciado com tipo: undefined
+2025-05-22T09:25:14.205Z [INFO]: [689c7bad-154c-4221-8919-74e56b945fcf] Service SIMPLIFICADO: _normalizarTipoInterno chamado. Tipo normalizado: null
+2025-05-22T09:25:46.085Z [INFO]: Requisição recebida
+2025-05-22T09:25:46.086Z [INFO]: [07124543-2ea6-40a9-955c-725b488d7f78] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:25:46.087Z [INFO]: [07124543-2ea6-40a9-955c-725b488d7f78] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:25:46.087Z [INFO]: [07124543-2ea6-40a9-955c-725b488d7f78] Service SIMPLIFICADO: buscarEstabelecimentos iniciado com tipo: undefined
+2025-05-22T09:25:46.087Z [INFO]: [07124543-2ea6-40a9-955c-725b488d7f78] Service SIMPLIFICADO: _normalizarTipoInterno chamado. Tipo normalizado: null
+2025-05-22T09:29:35.604Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T09:29:35.606Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T09:29:35.608Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T09:29:35.608Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T09:29:35.608Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T09:29:35.608Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T09:29:35.608Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T09:29:35.609Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T09:29:35.609Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T09:29:35.609Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T09:29:35.609Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T09:29:53.521Z [INFO]: Requisição recebida
+2025-05-22T09:29:53.532Z [INFO]: [61a1b28e-bc01-4592-b61e-14503f4eee43] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T09:29:53.533Z [INFO]: [61a1b28e-bc01-4592-b61e-14503f4eee43] Buscando por código IBGE específico do path: 2105302 (Município IBGE 2105302)
+2025-05-22T09:29:53.534Z [INFO]: [61a1b28e-bc01-4592-b61e-14503f4eee43] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T09:29:53.538Z [WARN]: [61a1b28e-bc01-4592-b61e-14503f4eee43] _buscarNoPrisma: Nome do município não encontrado para código IBGE 2105302. Retornando vazio.
+2025-05-22T09:29:53.539Z [INFO]: [61a1b28e-bc01-4592-b61e-14503f4eee43] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T09:29:59.758Z [INFO]: Requisição recebida
+2025-05-22T09:29:59.761Z [INFO]: [3735ea90-5963-4499-bdc6-e1e9ff45e6bd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T09:29:59.762Z [INFO]: [3735ea90-5963-4499-bdc6-e1e9ff45e6bd] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:29:59.763Z [INFO]: [3735ea90-5963-4499-bdc6-e1e9ff45e6bd] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T09:30:47.668Z [INFO]: Requisição recebida
+2025-05-22T09:30:47.669Z [INFO]: [d9a5e069-794d-4929-bb88-79a67cc88d5d] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2100204}, Query: {}
+2025-05-22T09:30:47.669Z [INFO]: [d9a5e069-794d-4929-bb88-79a67cc88d5d] Buscando por código IBGE específico do path: 2100204 (Alcântara)
+2025-05-22T09:30:47.669Z [INFO]: [d9a5e069-794d-4929-bb88-79a67cc88d5d] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T09:30:47.742Z [INFO]: [d9a5e069-794d-4929-bb88-79a67cc88d5d] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T09:32:00.288Z [INFO]: Requisição recebida
+2025-05-22T09:32:00.289Z [INFO]: [6ba9d984-56a8-43a1-819d-2fada00997f0] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2100204}, Query: {}
+2025-05-22T09:32:00.289Z [INFO]: [6ba9d984-56a8-43a1-819d-2fada00997f0] Buscando por código IBGE específico do path: 2100204 (Alcântara)
+2025-05-22T09:32:00.290Z [INFO]: [6ba9d984-56a8-43a1-819d-2fada00997f0] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T09:32:00.362Z [INFO]: [6ba9d984-56a8-43a1-819d-2fada00997f0] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T09:43:50.850Z [INFO]: Requisição recebida
+2025-05-22T09:43:50.858Z [INFO]: [663299d9-2a65-4d1b-9d5a-de6e2f2ed2f6] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"BACABAL`"}
+2025-05-22T09:43:50.859Z [INFO]: [663299d9-2a65-4d1b-9d5a-de6e2f2ed2f6] Buscando por nome de município via query: BACABAL`
+2025-05-22T09:43:50.860Z [WARN]: [663299d9-2a65-4d1b-9d5a-de6e2f2ed2f6] Município 'BACABAL`' não encontrado no mapeamento local.
+2025-05-22T09:44:12.090Z [INFO]: Requisição recebida
+2025-05-22T09:44:12.091Z [INFO]: [c502ff77-bdfa-4c99-ba40-100631b3d4ed] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"BACABAL"}
+2025-05-22T09:44:12.091Z [INFO]: [c502ff77-bdfa-4c99-ba40-100631b3d4ed] Buscando por nome de município via query: BACABAL
+2025-05-22T09:44:12.092Z [WARN]: [c502ff77-bdfa-4c99-ba40-100631b3d4ed] Município 'BACABAL' não encontrado no mapeamento local.
+2025-05-22T09:44:16.635Z [INFO]: Requisição recebida
+2025-05-22T09:44:16.636Z [INFO]: [abd2516e-a6ec-4ee0-bba6-216846867d74] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"BACABAL"}
+2025-05-22T09:44:16.636Z [INFO]: [abd2516e-a6ec-4ee0-bba6-216846867d74] Buscando por nome de município via query: BACABAL
+2025-05-22T09:44:16.636Z [WARN]: [abd2516e-a6ec-4ee0-bba6-216846867d74] Município 'BACABAL' não encontrado no mapeamento local.
+2025-05-22T09:44:23.827Z [INFO]: Requisição recebida
+2025-05-22T09:44:23.828Z [INFO]: [88bfd131-a7d6-4c43-8796-9f31bae1f5ed] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio":""}
+2025-05-22T09:44:23.828Z [INFO]: [88bfd131-a7d6-4c43-8796-9f31bae1f5ed] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T09:44:23.828Z [INFO]: [88bfd131-a7d6-4c43-8796-9f31bae1f5ed] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:03:19.528Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:03:19.531Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T10:03:19.535Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T10:03:19.535Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T10:03:19.536Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T10:03:19.536Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T10:03:19.537Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T10:03:19.537Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T10:03:19.537Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T10:03:19.538Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T10:03:19.538Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T10:03:28.159Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-22T10:03:35.382Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:03:35.384Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T10:03:35.386Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T10:03:35.386Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T10:03:35.386Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T10:03:35.387Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T10:03:35.387Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T10:03:35.387Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T10:03:35.387Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T10:03:35.387Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T10:03:35.388Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T10:04:05.288Z [INFO]: Requisição recebida
+2025-05-22T10:04:05.291Z [INFO]: [6df261e2-e7ff-41bf-aad3-00686ac5796c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio":""}
+2025-05-22T10:04:05.291Z [INFO]: [6df261e2-e7ff-41bf-aad3-00686ac5796c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T10:04:05.292Z [INFO]: [6df261e2-e7ff-41bf-aad3-00686ac5796c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:04:19.115Z [INFO]: Requisição recebida
+2025-05-22T10:04:19.116Z [INFO]: [3619b4db-2179-43cf-802a-62810a613748] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio_nome":"IMPERATRIZ"}
+2025-05-22T10:04:19.117Z [INFO]: [3619b4db-2179-43cf-802a-62810a613748] Buscando por nome de município via query: IMPERATRIZ
+2025-05-22T10:04:19.117Z [INFO]: [3619b4db-2179-43cf-802a-62810a613748] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-22T10:04:19.117Z [INFO]: [3619b4db-2179-43cf-802a-62810a613748] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:04:20.054Z [INFO]: [3619b4db-2179-43cf-802a-62810a613748] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T10:04:28.669Z [INFO]: Requisição recebida
+2025-05-22T10:04:28.670Z [INFO]: [881717ef-245b-4a73-ada3-6d632312a109] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"municipio":"IMPERATRIZ"}
+2025-05-22T10:04:28.670Z [INFO]: [881717ef-245b-4a73-ada3-6d632312a109] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T10:04:28.670Z [INFO]: [881717ef-245b-4a73-ada3-6d632312a109] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:10:54.083Z [INFO]: Requisição recebida
+2025-05-22T10:10:54.085Z [INFO]: [9240520e-66c0-4a6c-acc7-d310978a44d7] Controller: listarEstabelecimentosSaude - Path: {"codigo_ibge":2105302}, Query: {}
+2025-05-22T10:10:54.085Z [INFO]: [9240520e-66c0-4a6c-acc7-d310978a44d7] Buscando por código IBGE específico do path: 2105302 (Imperatriz)
+2025-05-22T10:10:54.085Z [INFO]: [9240520e-66c0-4a6c-acc7-d310978a44d7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:10:54.209Z [INFO]: [9240520e-66c0-4a6c-acc7-d310978a44d7] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22T10:31:35.045Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:31:35.047Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T10:31:35.049Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T10:31:35.050Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T10:31:35.050Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T10:31:35.050Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T10:31:35.050Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T10:31:35.050Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T10:31:35.051Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T10:31:35.051Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T10:31:35.051Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T10:31:40.184Z [INFO]: Requisição recebida
+2025-05-22T10:31:40.188Z [INFO]: [eed8b1b2-d68e-432e-b1d6-5c990c1d89ba] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22T10:31:40.188Z [INFO]: [eed8b1b2-d68e-432e-b1d6-5c990c1d89ba] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22T10:31:40.188Z [INFO]: [eed8b1b2-d68e-432e-b1d6-5c990c1d89ba] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22T10:31:58.922Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:32:13.440Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:40:37.476Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:41:04.168Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:41:54.292Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:41:54.295Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T10:41:54.299Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T10:41:54.299Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T10:41:54.299Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T10:41:54.300Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T10:41:54.300Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T10:41:54.300Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T10:41:54.301Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T10:41:54.301Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T10:41:54.301Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T10:41:54.561Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:42:06.462Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:42:06.462Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T10:42:06.464Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T10:42:06.468Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T10:42:06.471Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T10:42:06.471Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T10:42:06.472Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T10:42:06.473Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T10:42:06.474Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T10:42:06.474Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T10:42:06.475Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T10:42:06.476Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T10:42:52.328Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:43:07.263Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:45:30.075Z [WARN]: Bloqueado por CORS: http://127.0.0.1:5501
+2025-05-22T10:45:47.053Z [INFO]: Recebido SIGINT. Encerrando servidor...
+2025-05-22T17:53:41.506Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T17:53:41.509Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T17:53:41.513Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T17:53:41.513Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T17:53:41.514Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T17:53:41.515Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T17:53:41.515Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T17:53:41.516Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T17:53:41.516Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T17:53:41.517Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T17:53:41.517Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T18:09:50.276Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T18:09:50.277Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T18:09:50.279Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T18:09:50.280Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T18:09:50.280Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T18:09:50.280Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T18:09:50.280Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T18:09:50.280Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T18:09:50.281Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T18:09:50.281Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T18:09:50.281Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22T18:14:23.331Z [INFO]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22T18:14:23.333Z [INFO]: ✔ Conexão com MongoDB estabelecida para todas as APIs
+2025-05-22T18:14:23.335Z [INFO]: 🚀 Servidor rodando na porta 3000
+2025-05-22T18:14:23.335Z [INFO]: 🔗 Acesso base: /api/v1
+2025-05-22T18:14:23.336Z [INFO]: 📚 APIs disponíveis:
+2025-05-22T18:14:23.336Z [INFO]: - Saúde: /api/v1/saude
+2025-05-22T18:14:23.337Z [INFO]: - Educação: /api/v1/educacao
+2025-05-22T18:14:23.337Z [INFO]: - Cultura: /api/v1/cultura
+2025-05-22T18:14:23.337Z [INFO]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22T18:14:23.337Z [INFO]: 🔐 Autenticação: /api/v1/auth
+2025-05-22T18:14:23.338Z [INFO]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 15:47:20 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 15:47:21 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 15:47:21 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 15:47:21 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 15:47:21 [info]: 📚 APIs disponíveis:
+2025-05-22 15:47:21 [info]: - Saúde: /api/v1/saude
+2025-05-22 15:47:21 [info]: - Educação: /api/v1/educacao
+2025-05-22 15:47:21 [info]: - Cultura: /api/v1/cultura
+2025-05-22 15:47:21 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 15:47:21 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 15:47:21 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 15:47:23 [info]: Requisição recebida
+2025-05-22 15:47:23 [info]: [c40613fe-84a9-4eff-8719-c1ea529f9db7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22 15:47:23 [info]: [c40613fe-84a9-4eff-8719-c1ea529f9db7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:47:23 [info]: [c40613fe-84a9-4eff-8719-c1ea529f9db7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:47:51 [info]: Requisição recebida
+2025-05-22 15:47:51 [info]: [2fa1b4d3-5743-4482-b85d-05b02a8e54ee] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 15:47:51 [info]: [2fa1b4d3-5743-4482-b85d-05b02a8e54ee] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:47:51 [info]: [2fa1b4d3-5743-4482-b85d-05b02a8e54ee] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:47:51 [info]: [2fa1b4d3-5743-4482-b85d-05b02a8e54ee] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:06 [info]: Requisição recebida
+2025-05-22 15:48:06 [info]: [52b06bca-7cf2-496b-88b1-79c133a4112b] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 15:48:06 [info]: [52b06bca-7cf2-496b-88b1-79c133a4112b] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:48:06 [info]: [52b06bca-7cf2-496b-88b1-79c133a4112b] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:06 [info]: [52b06bca-7cf2-496b-88b1-79c133a4112b] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:09 [info]: Requisição recebida
+2025-05-22 15:48:09 [info]: [75d5b724-7927-4581-af7b-b7ab54c21540] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA","municipio_nome":"SAO LUIS"}
+2025-05-22 15:48:09 [info]: [75d5b724-7927-4581-af7b-b7ab54c21540] Buscando por nome de município via query: SAO LUIS
+2025-05-22 15:48:09 [info]: [75d5b724-7927-4581-af7b-b7ab54c21540] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 15:48:09 [info]: [75d5b724-7927-4581-af7b-b7ab54c21540] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:09 [info]: [75d5b724-7927-4581-af7b-b7ab54c21540] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:11 [info]: Requisição recebida
+2025-05-22 15:48:11 [info]: [0977c679-075d-4a68-85f7-9b95050c5c4f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA","municipio_nome":"SAO LUIS"}
+2025-05-22 15:48:11 [info]: [0977c679-075d-4a68-85f7-9b95050c5c4f] Buscando por nome de município via query: SAO LUIS
+2025-05-22 15:48:11 [info]: [0977c679-075d-4a68-85f7-9b95050c5c4f] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 15:48:11 [info]: [0977c679-075d-4a68-85f7-9b95050c5c4f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:11 [info]: [0977c679-075d-4a68-85f7-9b95050c5c4f] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:13 [info]: Requisição recebida
+2025-05-22 15:48:13 [info]: [8d3fcccf-7be6-4773-a69b-14a3888fa1db] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA","municipio_nome":"SAO LUIS"}
+2025-05-22 15:48:13 [info]: [8d3fcccf-7be6-4773-a69b-14a3888fa1db] Buscando por nome de município via query: SAO LUIS
+2025-05-22 15:48:13 [info]: [8d3fcccf-7be6-4773-a69b-14a3888fa1db] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 15:48:13 [info]: [8d3fcccf-7be6-4773-a69b-14a3888fa1db] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:13 [info]: [8d3fcccf-7be6-4773-a69b-14a3888fa1db] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:17 [info]: Requisição recebida
+2025-05-22 15:48:17 [info]: [74f4b532-2da5-4991-b882-8205bd766582] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA","municipio_nome":"IMPERATRIZ"}
+2025-05-22 15:48:17 [info]: [74f4b532-2da5-4991-b882-8205bd766582] Buscando por nome de município via query: IMPERATRIZ
+2025-05-22 15:48:17 [info]: [74f4b532-2da5-4991-b882-8205bd766582] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-22 15:48:17 [info]: [74f4b532-2da5-4991-b882-8205bd766582] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:17 [info]: [74f4b532-2da5-4991-b882-8205bd766582] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:20 [info]: Requisição recebida
+2025-05-22 15:48:20 [info]: [125dba77-b026-4558-a2f9-0eade54fc8aa] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA","municipio_nome":"BACABAL"}
+2025-05-22 15:48:20 [info]: [125dba77-b026-4558-a2f9-0eade54fc8aa] Buscando por nome de município via query: BACABAL
+2025-05-22 15:48:20 [info]: [125dba77-b026-4558-a2f9-0eade54fc8aa] Código IBGE 2101202 encontrado para BACABAL
+2025-05-22 15:48:20 [info]: [125dba77-b026-4558-a2f9-0eade54fc8aa] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:20 [info]: [125dba77-b026-4558-a2f9-0eade54fc8aa] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:24 [info]: Requisição recebida
+2025-05-22 15:48:24 [info]: [1c2ffcbd-f9e8-49ea-9548-bea832c31079] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 15:48:24 [info]: [1c2ffcbd-f9e8-49ea-9548-bea832c31079] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:48:24 [info]: [1c2ffcbd-f9e8-49ea-9548-bea832c31079] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:29 [info]: Requisição recebida
+2025-05-22 15:48:29 [info]: [342909c3-2e96-4ddd-86f1-54c11b7e6062] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 15:48:29 [info]: [342909c3-2e96-4ddd-86f1-54c11b7e6062] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:48:29 [info]: [342909c3-2e96-4ddd-86f1-54c11b7e6062] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:29 [info]: [342909c3-2e96-4ddd-86f1-54c11b7e6062] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:31 [info]: Requisição recebida
+2025-05-22 15:48:31 [info]: [5ca6edbd-af15-4618-b6c1-898381bec5c4] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 15:48:31 [info]: [5ca6edbd-af15-4618-b6c1-898381bec5c4] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:48:31 [info]: [5ca6edbd-af15-4618-b6c1-898381bec5c4] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:31 [info]: [5ca6edbd-af15-4618-b6c1-898381bec5c4] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:48:33 [info]: Requisição recebida
+2025-05-22 15:48:33 [info]: [195f6a33-f383-4e76-aff8-df2680248cf7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 15:48:33 [info]: [195f6a33-f383-4e76-aff8-df2680248cf7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:48:33 [info]: [195f6a33-f383-4e76-aff8-df2680248cf7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:48:33 [info]: [195f6a33-f383-4e76-aff8-df2680248cf7] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:49:23 [info]: Requisição recebida
+2025-05-22 15:49:23 [info]: [25bbfade-732d-499c-ace6-8aba59aaf276] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:49:23 [info]: [25bbfade-732d-499c-ace6-8aba59aaf276] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:23 [info]: [25bbfade-732d-499c-ace6-8aba59aaf276] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:24 [info]: Requisição recebida
+2025-05-22 15:49:24 [info]: [d71e8a7e-114b-4652-910c-1602a8b8b699] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 15:49:24 [info]: [d71e8a7e-114b-4652-910c-1602a8b8b699] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:24 [info]: [d71e8a7e-114b-4652-910c-1602a8b8b699] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:33 [info]: Requisição recebida
+2025-05-22 15:49:33 [info]: [1343ad88-0fed-4e01-92db-5731be7f5ccd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","municipio_nome":"BACABAL"}
+2025-05-22 15:49:33 [info]: [1343ad88-0fed-4e01-92db-5731be7f5ccd] Buscando por nome de município via query: BACABAL
+2025-05-22 15:49:33 [info]: [1343ad88-0fed-4e01-92db-5731be7f5ccd] Código IBGE 2101202 encontrado para BACABAL
+2025-05-22 15:49:33 [info]: [1343ad88-0fed-4e01-92db-5731be7f5ccd] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:33 [info]: [1343ad88-0fed-4e01-92db-5731be7f5ccd] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:49:38 [info]: Requisição recebida
+2025-05-22 15:49:38 [info]: [25a930c3-e2c7-43dd-bb78-c82e27cb2835] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 15:49:38 [info]: [25a930c3-e2c7-43dd-bb78-c82e27cb2835] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:38 [info]: [25a930c3-e2c7-43dd-bb78-c82e27cb2835] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:38 [info]: [25a930c3-e2c7-43dd-bb78-c82e27cb2835] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:49:41 [info]: Requisição recebida
+2025-05-22 15:49:41 [info]: [d8c573b7-a91c-4ace-a66c-cdca8007ea72] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:49:41 [info]: [d8c573b7-a91c-4ace-a66c-cdca8007ea72] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:41 [info]: [d8c573b7-a91c-4ace-a66c-cdca8007ea72] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:44 [info]: Requisição recebida
+2025-05-22 15:49:44 [info]: [121a0f98-5dfd-4c18-a886-c65c428c3dd8] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 15:49:44 [info]: [121a0f98-5dfd-4c18-a886-c65c428c3dd8] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:44 [info]: [121a0f98-5dfd-4c18-a886-c65c428c3dd8] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:46 [info]: Requisição recebida
+2025-05-22 15:49:46 [info]: [3a458305-835a-4deb-82de-99949651f54d] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 15:49:46 [info]: [3a458305-835a-4deb-82de-99949651f54d] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:49:46 [info]: [3a458305-835a-4deb-82de-99949651f54d] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:46 [info]: [3a458305-835a-4deb-82de-99949651f54d] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:49:50 [info]: Requisição recebida
+2025-05-22 15:49:50 [info]: [1233baea-6bb7-4fcc-ac90-b888dc4b9018] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"CAXIAS"}
+2025-05-22 15:49:50 [info]: [1233baea-6bb7-4fcc-ac90-b888dc4b9018] Buscando por nome de município via query: CAXIAS
+2025-05-22 15:49:50 [info]: [1233baea-6bb7-4fcc-ac90-b888dc4b9018] Código IBGE 2103000 encontrado para CAXIAS
+2025-05-22 15:49:50 [info]: [1233baea-6bb7-4fcc-ac90-b888dc4b9018] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:49:50 [info]: [1233baea-6bb7-4fcc-ac90-b888dc4b9018] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:26 [info]: Requisição recebida
+2025-05-22 15:55:26 [info]: [c0d8624e-c4fc-40a1-aa3c-1541e28adefc] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 15:55:26 [info]: [c0d8624e-c4fc-40a1-aa3c-1541e28adefc] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:26 [info]: [c0d8624e-c4fc-40a1-aa3c-1541e28adefc] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:26 [info]: [c0d8624e-c4fc-40a1-aa3c-1541e28adefc] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:28 [info]: Requisição recebida
+2025-05-22 15:55:28 [info]: [cdfda980-eacd-4d7c-8ca4-cd2d7260608a] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:55:28 [info]: [cdfda980-eacd-4d7c-8ca4-cd2d7260608a] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:28 [info]: [cdfda980-eacd-4d7c-8ca4-cd2d7260608a] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:29 [info]: Requisição recebida
+2025-05-22 15:55:29 [info]: [fe17681f-27f3-4c93-bf7f-17c3b0d7c272] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 15:55:29 [info]: [fe17681f-27f3-4c93-bf7f-17c3b0d7c272] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:29 [info]: [fe17681f-27f3-4c93-bf7f-17c3b0d7c272] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:31 [info]: Requisição recebida
+2025-05-22 15:55:31 [info]: [cbaffe04-e5a7-46a1-8748-98fc2e6c4164] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 15:55:31 [info]: [cbaffe04-e5a7-46a1-8748-98fc2e6c4164] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:31 [info]: [cbaffe04-e5a7-46a1-8748-98fc2e6c4164] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:32 [info]: Requisição recebida
+2025-05-22 15:55:32 [info]: [f67f1670-9099-4fc9-a1e9-6d2b66681224] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:55:32 [info]: [f67f1670-9099-4fc9-a1e9-6d2b66681224] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:32 [info]: [f67f1670-9099-4fc9-a1e9-6d2b66681224] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:44 [info]: Requisição recebida
+2025-05-22 15:55:44 [info]: [106c20be-0a18-4094-a670-0b685e08a8f9] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"SAO LUIS"}
+2025-05-22 15:55:44 [info]: [106c20be-0a18-4094-a670-0b685e08a8f9] Buscando por nome de município via query: SAO LUIS
+2025-05-22 15:55:44 [info]: [106c20be-0a18-4094-a670-0b685e08a8f9] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 15:55:44 [info]: [106c20be-0a18-4094-a670-0b685e08a8f9] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:45 [info]: [106c20be-0a18-4094-a670-0b685e08a8f9] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:47 [info]: Requisição recebida
+2025-05-22 15:55:47 [info]: [6978c31b-e625-4b31-9466-5238337af081] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"IMPERATRIZ"}
+2025-05-22 15:55:47 [info]: [6978c31b-e625-4b31-9466-5238337af081] Buscando por nome de município via query: IMPERATRIZ
+2025-05-22 15:55:47 [info]: [6978c31b-e625-4b31-9466-5238337af081] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-22 15:55:47 [info]: [6978c31b-e625-4b31-9466-5238337af081] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:47 [info]: [6978c31b-e625-4b31-9466-5238337af081] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:50 [info]: Requisição recebida
+2025-05-22 15:55:50 [info]: [5a6ce738-cec9-4fbe-95be-3a47fbb1c2ba] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"CAXIAS"}
+2025-05-22 15:55:50 [info]: [5a6ce738-cec9-4fbe-95be-3a47fbb1c2ba] Buscando por nome de município via query: CAXIAS
+2025-05-22 15:55:50 [info]: [5a6ce738-cec9-4fbe-95be-3a47fbb1c2ba] Código IBGE 2103000 encontrado para CAXIAS
+2025-05-22 15:55:50 [info]: [5a6ce738-cec9-4fbe-95be-3a47fbb1c2ba] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:51 [info]: [5a6ce738-cec9-4fbe-95be-3a47fbb1c2ba] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:52 [info]: Requisição recebida
+2025-05-22 15:55:52 [info]: [3f2d7652-19dd-49ea-8d16-ba25071703e3] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"BACABAL"}
+2025-05-22 15:55:52 [info]: [3f2d7652-19dd-49ea-8d16-ba25071703e3] Buscando por nome de município via query: BACABAL
+2025-05-22 15:55:52 [info]: [3f2d7652-19dd-49ea-8d16-ba25071703e3] Código IBGE 2101202 encontrado para BACABAL
+2025-05-22 15:55:52 [info]: [3f2d7652-19dd-49ea-8d16-ba25071703e3] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:52 [info]: [3f2d7652-19dd-49ea-8d16-ba25071703e3] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:54 [info]: Requisição recebida
+2025-05-22 15:55:54 [info]: [eed1fc49-65c6-4490-8b96-5a835720f022] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","municipio_nome":"ACAILANDIA"}
+2025-05-22 15:55:54 [info]: [eed1fc49-65c6-4490-8b96-5a835720f022] Buscando por nome de município via query: ACAILANDIA
+2025-05-22 15:55:54 [info]: [eed1fc49-65c6-4490-8b96-5a835720f022] Código IBGE 2100055 encontrado para ACAILANDIA
+2025-05-22 15:55:54 [info]: [eed1fc49-65c6-4490-8b96-5a835720f022] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:55:54 [info]: [eed1fc49-65c6-4490-8b96-5a835720f022] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 15:55:56 [info]: Requisição recebida
+2025-05-22 15:55:56 [info]: [3f3f39be-00f1-4d9e-9913-829eaba6f83e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:55:56 [info]: [3f3f39be-00f1-4d9e-9913-829eaba6f83e] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:55:56 [info]: [3f3f39be-00f1-4d9e-9913-829eaba6f83e] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:56:12 [info]: Requisição recebida
+2025-05-22 15:56:12 [info]: [8a5f639b-9eac-430d-aa03-ee6cc6c532fd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 15:56:12 [info]: [8a5f639b-9eac-430d-aa03-ee6cc6c532fd] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:56:12 [info]: [8a5f639b-9eac-430d-aa03-ee6cc6c532fd] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:56:22 [info]: Requisição recebida
+2025-05-22 15:56:22 [info]: [8e4b50c2-cce7-4f50-897a-2aa491294b96] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:56:22 [info]: [8e4b50c2-cce7-4f50-897a-2aa491294b96] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:56:22 [info]: [8e4b50c2-cce7-4f50-897a-2aa491294b96] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:56:31 [info]: Requisição recebida
+2025-05-22 15:56:31 [info]: [c92b0722-5c30-49cd-9d2f-fd983a57d978] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:56:31 [info]: [c92b0722-5c30-49cd-9d2f-fd983a57d978] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:56:31 [info]: [c92b0722-5c30-49cd-9d2f-fd983a57d978] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 15:56:35 [info]: Requisição recebida
+2025-05-22 15:56:35 [info]: [f96a8b26-55a5-4d69-9769-3b8db561e339] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 15:56:35 [info]: [f96a8b26-55a5-4d69-9769-3b8db561e339] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 15:56:35 [info]: [f96a8b26-55a5-4d69-9769-3b8db561e339] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:00:28 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:00:29 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:00:29 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:00:29 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:00:29 [info]: 📚 APIs disponíveis:
+2025-05-22 16:00:29 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:00:29 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:00:29 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:00:29 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:00:29 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:00:29 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:00:43 [info]: Requisição recebida
+2025-05-22 16:00:43 [info]: [9bc203fa-21a7-44c3-969d-b23d6087dd4f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 16:00:43 [info]: [9bc203fa-21a7-44c3-969d-b23d6087dd4f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:00:43 [info]: [9bc203fa-21a7-44c3-969d-b23d6087dd4f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:00:44 [info]: [9bc203fa-21a7-44c3-969d-b23d6087dd4f] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:02:00 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:02:01 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:02:01 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:02:01 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:02:01 [info]: 📚 APIs disponíveis:
+2025-05-22 16:02:01 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:02:01 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:02:01 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:02:01 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:02:01 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:02:01 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:05:17 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:05:18 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:05:18 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:05:18 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:05:18 [info]: 📚 APIs disponíveis:
+2025-05-22 16:05:18 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:05:18 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:05:18 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:05:18 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:05:18 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:05:18 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:17:28 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:17:29 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:17:29 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:17:29 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:17:29 [info]: 📚 APIs disponíveis:
+2025-05-22 16:17:29 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:17:29 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:17:29 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:17:29 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:17:29 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:17:29 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:17:45 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:17:46 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 16:17:46 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 16:17:46 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 16:17:46 [info]: 📚 APIs disponíveis:
+2025-05-22 16:17:46 [info]: - Saúde: /api/v1/saude
+2025-05-22 16:17:46 [info]: - Educação: /api/v1/educacao
+2025-05-22 16:17:46 [info]: - Cultura: /api/v1/cultura
+2025-05-22 16:17:46 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 16:17:46 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 16:17:46 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 16:18:49 [info]: Requisição recebida
+2025-05-22 16:18:49 [info]: [e614d03c-811f-4b1b-b27b-ade2105ee9ad] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22 16:18:49 [info]: [e614d03c-811f-4b1b-b27b-ade2105ee9ad] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:18:49 [info]: [e614d03c-811f-4b1b-b27b-ade2105ee9ad] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:19:28 [info]: Requisição recebida
+2025-05-22 16:19:28 [info]: [1b93ce2d-fc80-44b6-ac04-c26ee0146b7c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:19:28 [info]: [1b93ce2d-fc80-44b6-ac04-c26ee0146b7c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:19:28 [info]: [1b93ce2d-fc80-44b6-ac04-c26ee0146b7c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:19:32 [info]: Requisição recebida
+2025-05-22 16:19:32 [info]: [26f5f743-595d-4cea-b71b-4a745ae43ae2] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 16:19:32 [info]: [26f5f743-595d-4cea-b71b-4a745ae43ae2] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:19:32 [info]: [26f5f743-595d-4cea-b71b-4a745ae43ae2] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:19:33 [info]: [26f5f743-595d-4cea-b71b-4a745ae43ae2] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:19:37 [info]: Requisição recebida
+2025-05-22 16:19:37 [info]: [5441da7d-9ae2-42c6-ba08-26709f4a3074] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 16:19:37 [info]: [5441da7d-9ae2-42c6-ba08-26709f4a3074] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:19:37 [info]: [5441da7d-9ae2-42c6-ba08-26709f4a3074] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:19:37 [info]: [5441da7d-9ae2-42c6-ba08-26709f4a3074] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:19:40 [info]: Requisição recebida
+2025-05-22 16:19:40 [info]: [407797f7-0286-436a-9512-db12d5eccde7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 16:19:40 [info]: [407797f7-0286-436a-9512-db12d5eccde7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:19:40 [info]: [407797f7-0286-436a-9512-db12d5eccde7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:19:40 [info]: [407797f7-0286-436a-9512-db12d5eccde7] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:19:44 [info]: Requisição recebida
+2025-05-22 16:19:44 [info]: [ba490b77-0dc4-4871-9e46-14ebd9fc4cfd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:19:44 [info]: [ba490b77-0dc4-4871-9e46-14ebd9fc4cfd] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:19:44 [info]: [ba490b77-0dc4-4871-9e46-14ebd9fc4cfd] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:19 [info]: Requisição recebida
+2025-05-22 16:20:19 [info]: [36279cf7-8f08-4bf0-a8e8-1228e9b76dff] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UPA"}
+2025-05-22 16:20:19 [info]: [36279cf7-8f08-4bf0-a8e8-1228e9b76dff] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:19 [info]: [36279cf7-8f08-4bf0-a8e8-1228e9b76dff] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:19 [info]: [36279cf7-8f08-4bf0-a8e8-1228e9b76dff] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:21 [info]: Requisição recebida
+2025-05-22 16:20:21 [info]: [4a1a709e-0ad8-4225-b21b-632a054250d0] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 16:20:21 [info]: [4a1a709e-0ad8-4225-b21b-632a054250d0] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:21 [info]: [4a1a709e-0ad8-4225-b21b-632a054250d0] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:22 [info]: Requisição recebida
+2025-05-22 16:20:22 [info]: [c640e9ee-d2d0-4ef1-927f-068c051c3bac] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 16:20:22 [info]: [c640e9ee-d2d0-4ef1-927f-068c051c3bac] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:22 [info]: [c640e9ee-d2d0-4ef1-927f-068c051c3bac] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:24 [info]: Requisição recebida
+2025-05-22 16:20:24 [info]: [4d0fe03e-6d98-4de7-90ac-f8bb6dea4302] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-22 16:20:24 [info]: [4d0fe03e-6d98-4de7-90ac-f8bb6dea4302] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:24 [info]: [4d0fe03e-6d98-4de7-90ac-f8bb6dea4302] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:26 [info]: Requisição recebida
+2025-05-22 16:20:26 [info]: [9ae1ac7b-f9b6-4d3b-ab87-fcbc0f8bfa27] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 16:20:26 [info]: [9ae1ac7b-f9b6-4d3b-ab87-fcbc0f8bfa27] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:26 [info]: [9ae1ac7b-f9b6-4d3b-ab87-fcbc0f8bfa27] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:26 [info]: [9ae1ac7b-f9b6-4d3b-ab87-fcbc0f8bfa27] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:29 [info]: Requisição recebida
+2025-05-22 16:20:29 [info]: [51b9331d-cdac-4215-ade2-1348e9b3ceb5] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE","municipio_nome":"SAO LUIS"}
+2025-05-22 16:20:29 [info]: [51b9331d-cdac-4215-ade2-1348e9b3ceb5] Buscando por nome de município via query: SAO LUIS
+2025-05-22 16:20:29 [info]: [51b9331d-cdac-4215-ade2-1348e9b3ceb5] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-22 16:20:29 [info]: [51b9331d-cdac-4215-ade2-1348e9b3ceb5] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:29 [info]: [51b9331d-cdac-4215-ade2-1348e9b3ceb5] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:31 [info]: Requisição recebida
+2025-05-22 16:20:31 [info]: [62b8225a-86c3-4612-90ae-33de51ea7db3] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE","municipio_nome":"IMPERATRIZ"}
+2025-05-22 16:20:31 [info]: [62b8225a-86c3-4612-90ae-33de51ea7db3] Buscando por nome de município via query: IMPERATRIZ
+2025-05-22 16:20:31 [info]: [62b8225a-86c3-4612-90ae-33de51ea7db3] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-22 16:20:31 [info]: [62b8225a-86c3-4612-90ae-33de51ea7db3] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:31 [info]: [62b8225a-86c3-4612-90ae-33de51ea7db3] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:35 [info]: Requisição recebida
+2025-05-22 16:20:35 [info]: [920567fa-ff91-4ff6-b0f3-5c7f846dea57] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE","municipio_nome":"CAXIAS"}
+2025-05-22 16:20:35 [info]: [920567fa-ff91-4ff6-b0f3-5c7f846dea57] Buscando por nome de município via query: CAXIAS
+2025-05-22 16:20:35 [info]: [920567fa-ff91-4ff6-b0f3-5c7f846dea57] Código IBGE 2103000 encontrado para CAXIAS
+2025-05-22 16:20:35 [info]: [920567fa-ff91-4ff6-b0f3-5c7f846dea57] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:35 [info]: [920567fa-ff91-4ff6-b0f3-5c7f846dea57] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:37 [info]: Requisição recebida
+2025-05-22 16:20:37 [info]: [6f91bd54-2cf6-4270-8a16-c1528082da3e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE","municipio_nome":"BACABAL"}
+2025-05-22 16:20:37 [info]: [6f91bd54-2cf6-4270-8a16-c1528082da3e] Buscando por nome de município via query: BACABAL
+2025-05-22 16:20:37 [info]: [6f91bd54-2cf6-4270-8a16-c1528082da3e] Código IBGE 2101202 encontrado para BACABAL
+2025-05-22 16:20:37 [info]: [6f91bd54-2cf6-4270-8a16-c1528082da3e] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:37 [info]: [6f91bd54-2cf6-4270-8a16-c1528082da3e] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 16:20:41 [info]: Requisição recebida
+2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"CENTRO_SAUDE"}
+2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 16:20:41 [info]: [3826838c-f168-4d96-adc5-a164c06c66be] Nenhum estabelecimento encontrado no serviço para os critérios.

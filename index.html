@@ -14,11 +14,11 @@
         <nav class="menu-navegacao" aria-label="Navegação principal">
             <div class="menu_titulo">
                 <img src="src/img/logo-trilhas-inova.png" 
-                      alt="Logo Trilhas Inova - Governo do Maranhão" 
-                      id="img-logo-trilhas"
-                      width="250"
-                      height="60"
-                      loading="lazy">
+                     alt="Logo Trilhas Inova - Governo do Maranhão" 
+                     id="img-logo-trilhas"
+                     width="250"
+                     height="60"
+                     loading="lazy">
                 <h1 class="texto-cabecalho">Portal Acesso Fácil - Conectando Cidadãos aos Serviços do Maranhão</h1>
             </div>
 
@@ -53,30 +53,19 @@
                 <button class="btn" id="btn_servicos_sociais" data-alvo="servicos-sociais" role="tab" aria-selected="false" aria-controls="servicos-sociais-content">Serviços Sociais</button>
             </div>
 
-            <!-- Saúde -->
             <div id="saude-content" class="box_servico" role="tabpanel" aria-labelledby="btn_saude" hidden>
                 <h3>Serviços de Saúde</h3>
                 <p>Selecione o tipo de serviço de saúde:</p>
 
                 <div class="sub_servicos" role="group" aria-label="Sub-serviços de saúde">
-                    <button class="sub_btn" id="btn_subservico-s-upa" data-alvo="upa" role="tab" aria-selected="false">
-                        <span>UPA</span>
-                    </button>
-                    
-                    <button class="sub_btn" id="btn_subservico-s-ubs" data-alvo="ubs" role="tab" aria-selected="false">
+                    <button class="sub_btn" id="btn_subservico-s-ubs" data-alvo="UBS" role="tab" aria-selected="false">
                         <span>UBS</span>
                     </button>
-                    
-                    <button class="sub_btn" id="btn_subservico-s-os" data-alvo="os" role="tab" aria-selected="false">
-                        <span>OS</span>
+                    <button class="sub_btn" id="btn_subservico-s-policlinica" data-alvo="POLICLINICA" role="tab" aria-selected="false">
+                        <span>Policlínica</span>
                     </button>
-                    
-                    <button class="sub_btn" id="btn_subservico-s-hospital" data-alvo="hospital" role="tab" aria-selected="false">
+                    <button class="sub_btn" id="btn_subservico-s-hospital" data-alvo="HOSPITAL" role="tab" aria-selected="false">
                         <span>Hospital</span>
-                    </button>
-                    
-                    <button class="sub_btn" id="btn_subservico-s-centro-saude" data-alvo="centro-saude" role="tab" aria-selected="false">
-                        <span>Centro de Saúde</span>
                     </button>
                 </div>
 
@@ -84,176 +73,144 @@
                     <div id="filtro_local_saude">
                         <label for="select_local_saude">Local</label>
                         <select name="local" id="select_local_saude" aria-label="Selecione a localização">
-                            <option value="">Selecione uma localização</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
-                        </select>
+                            <option value="">Todo o Maranhão</option>
+                            </select>
                     </div>
-
                     <div id="filtro_horario_saude">
                         <label for="select_horario_saude">Horário</label>
                         <select name="horario" id="select_horario_saude" aria-label="Selecione o horário">
-                            <option value="">Selecione um horário</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
-                        </select>
+                            <option value="">Qualquer Horário</option>
+                            </select>
                     </div>
-
                     <button type="button" id="btn_buscar_saude" class="btn_buscar">Buscar</button>
                 </form>
 
                 <div class="resultados_busca" aria-live="polite">
-                    <h4>Resultados:</h4>
-                    <div id="resultados-saude"></div>
+                    <h4>Resultados para saúde</h4>
+                    <div id="resultados-saude">
+                        <p>Utilize os filtros acima para buscar os estabelecimentos.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Educação -->
             <div id="educacao-content" class="box_servico" role="tabpanel" aria-labelledby="btn_educacao" hidden>
                 <h3>Serviços de Educação</h3>
                 <p>Selecione o nível educacional:</p>
-
                 <div class="sub_servicos" role="group" aria-label="Sub-serviços de educação">
                     <button class="sub_btn" id="btn_subservico-e-infantil" data-alvo="infantil" role="tab" aria-selected="false">
                         <span>Infantil</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-e-fundamental" data-alvo="fundamental" role="tab" aria-selected="false">
                         <span>Fundamental</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-e-medio" data-alvo="medio" role="tab" aria-selected="false">
                         <span>Médio</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-e-eja" data-alvo="eja" role="tab" aria-selected="false">
                         <span>EJA</span>
                     </button>
                 </div>
-
                 <form class="div_filtros" aria-label="Filtros de busca para educação">
                     <div id="filtro_local_educacao">
                         <label for="select_local_educacao">Local</label>
                         <select name="local" id="select_local_educacao" aria-label="Selecione a localização">
                             <option value="">Selecione uma localização</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <div id="filtro_horario_educacao">
                         <label for="select_horario_educacao">Horário</label>
                         <select name="horario" id="select_horario_educacao" aria-label="Selecione o horário">
                             <option value="">Selecione um horário</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <button type="button" id="btn_buscar_educacao" class="btn_buscar">Buscar</button>
                 </form>
-
                 <div class="resultados_busca" aria-live="polite">
                     <h4>Resultados:</h4>
-                    <div id="resultados-educacao"></div>
+                    <div id="resultados-educacao">
+                         <p>Utilize os filtros acima para buscar.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Cultura -->
             <div id="cultura-content" class="box_servico" role="tabpanel" aria-labelledby="btn_cultura" hidden>
                 <h3>Serviços de Cultura</h3>
                 <p>Selecione o tipo de serviço cultural:</p>
-
                 <div class="sub_servicos" role="group" aria-label="Sub-serviços de cultura">
                     <button class="sub_btn" id="btn_subservico-c-museu" data-alvo="museu" role="tab" aria-selected="false">
                         <span>Museu</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-c-biblioteca" data-alvo="biblioteca" role="tab" aria-selected="false">
                         <span>Biblioteca</span>
                     </button>
-
-                    <button class="sub_btn" id="btn_subservico-c-centro_cultural" data-alvo="centro-cultural" role="tab" aria-selected="false">
+                    <button class="sub_btn" id="btn_subservico-c-centro_cultural" data-alvo="centro_cultural" role="tab" aria-selected="false"> 
                         <span>Centro Cultural</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-c-galeria" data-alvo="galeria" role="tab" aria-selected="false">
                         <span>Galeria</span>
                     </button>
                 </div>
-
                 <form class="div_filtros" aria-label="Filtros de busca para cultura">
                     <div id="filtro_local_cultura">
                         <label for="select_local_cultura">Local</label>
                         <select name="local" id="select_local_cultura" aria-label="Selecione a localização">
                             <option value="">Selecione uma localização</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <div id="filtro_horario_cultura">
                         <label for="select_horario_cultura">Horário</label>
                         <select name="horario" id="select_horario_cultura" aria-label="Selecione o horário">
                             <option value="">Selecione um horário</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <button type="button" id="btn_buscar_cultura" class="btn_buscar">Buscar</button>
                 </form>
-
                 <div class="resultados_busca" aria-live="polite">
                     <h4>Resultados:</h4>
-                    <div id="resultados-cultura"></div>
+                    <div id="resultados-cultura">
+                        <p>Utilize os filtros acima para buscar.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Serviços Sociais -->
             <div id="servicos-sociais-content" class="box_servico" role="tabpanel" aria-labelledby="btn_servicos_sociais" hidden>
                 <h3>Serviços Sociais</h3>
                 <p>Selecione o tipo de serviço social:</p>
-
                 <div class="sub_servicos" role="group" aria-label="Sub-serviços sociais">
-                    <button class="sub_btn" id="btn_subservico-sc-assistencia-social" data-alvo="assistencia-social" role="tab" aria-selected="false">
+                    <button class="sub_btn" id="btn_subservico-sc-assistencia-social" data-alvo="assistencia_social" role="tab" aria-selected="false">
                         <span>Assistência Social</span>
                     </button>
-
-                    <button class="sub_btn" id="btn_subservico-sc-saude" data-alvo="saude" role="tab" aria-selected="false">
-                        <span>Saúde</span>
+                    <button class="sub_btn" id="btn_subservico-sc-saude" data-alvo="saude_social" role="tab" aria-selected="false"> <span>Saúde</span>
                     </button>
-
-                    <button class="sub_btn" id="btn_subservico-sc-educacao" data-alvo="educacao" role="tab" aria-selected="false">
-                        <span>Educação</span>
+                    <button class="sub_btn" id="btn_subservico-sc-educacao" data-alvo="educacao_social" role="tab" aria-selected="false"> <span>Educação</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-sc-trabalho" data-alvo="trabalho" role="tab" aria-selected="false">
                         <span>Trabalho</span>
                     </button>
-
                     <button class="sub_btn" id="btn_subservico-sc-habitacao" data-alvo="habitacao" role="tab" aria-selected="false">
                         <span>Habitação</span>
                     </button>
                 </div>
-
                 <form class="div_filtros" aria-label="Filtros de busca para serviços sociais">
-                    <div id="filtro_local_servicos-sociais">
+                     <div id="filtro_local_servicos-sociais">
                         <label for="select_local_servicos-sociais">Local</label>
                         <select name="local" id="select_local_servicos-sociais" aria-label="Selecione a localização">
                             <option value="">Selecione uma localização</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <div id="filtro_horario_servicos-sociais">
                         <label for="select_horario_servicos-sociais">Horário</label>
                         <select name="horario" id="select_horario_servicos-sociais" aria-label="Selecione o horário">
                             <option value="">Selecione um horário</option>
-                            <!-- Opções serão preenchidas via JavaScript -->
                         </select>
                     </div>
-
                     <button type="button" id="btn_buscar_servicos-sociais" class="btn_buscar">Buscar</button>
                 </form>
-
                 <div class="resultados_busca" aria-live="polite">
                     <h4>Resultados:</h4>
-                    <div id="resultados-servicos-sociais"></div>
+                    <div id="resultados-servicos-sociais">
+                        <p>Utilize os filtros acima para buscar.</p>
+                    </div>
                 </div>
             </div>
         </section>

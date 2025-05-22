@@ -1,98 +1,62 @@
+// src/app.js
 import express from 'express';
-import cors from './config/cors.config.js';
+import cors from 'cors'; // Importando o pacote cors diretamente
 import morgan from 'morgan';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import apiRoutes from './routes/index.js';
+import apiRoutes from './routes/index.js'; // Seu agregador de rotas
 import * as dotenv from 'dotenv';
 import helmet from 'helmet';
-import rateLimiter from './config/rateLimit.config.js';
-import errorHandler from './middlewares/errorHandler.js';
-import { logger } from './utils/logger.js';
+import rateLimiter from './config/rateLimit.config.js'; // Seu rate limiter
+import errorHandler from './middlewares/errorHandler.js'; 
+import { logger, stream } from './utils/logger.js'; // Seu logger e stream para Morgan
 import { connectMongoose, checkDatabaseHealth } from './config/database.js';
+import autenticacaoRoutes from './auth/auth.routes.js';
+import connectRedis from './config/redis.js'; // Sua conexão com Redis
 
-// Configuração inicial
+// 1. Configuração inicial
 dotenv.config();
+const app = express();
+
+// 2. Constantes de configuração
 const PORT = process.env.PORT || 3000;
 const API_VERSION = process.env.API_VERSION || 'v1';
 const BASE_PATH = `/api/${API_VERSION}`;
 
-// Definição das categorias de API
+// 3. Definição das categorias de API (do seu original)
 const API_CATEGORIES = [
-  {
-    name: 'Saúde',
-    path: 'saude',
-    description: 'Estabelecimentos de saúde e serviços médicos'
-  },
-  {
-    name: 'Educação',
-    path: 'educacao',
-    description: 'Escolas e instituições educacionais'
-  },
-  {
-    name: 'Cultura',
-    path: 'cultura',
-    description: 'Eventos e espaços culturais'
-  },
-  {
-    name: 'Serviços Públicos',
-    path: 'servicos-publicos',
-    description: 'Serviços governamentais'
-  }
+    { name: 'Saúde', path: 'saude', description: 'Estabelecimentos de saúde e serviços médicos' },
+    { name: 'Educação', path: 'educacao', description: 'Escolas e instituições educacionais' },
+    { name: 'Cultura', path: 'cultura', description: 'Eventos e espaços culturais' },
+    { name: 'Serviços Públicos', path: 'servicos-publicos', description: 'Serviços governamentais' }
 ];
 
-// Conexão com o banco de dados com tratamento aprimorado
-const initializeDatabase = async () => {
-  try {
-    await connectMongoose();
-    logger.info('✔ Conexão com MongoDB estabelecida para todas as APIs');
-    
-    // Verificação adicional de índices para saúde
-    if (process.env.ENABLE_INDEX_CHECK === 'true') {
-      await checkHealthIndexes();
-    }
-  } catch (err) {
-    logger.error('✖ Falha crítica na conexão com MongoDB:', {
-      error: err.message,
-      stack: err.stack
-    });
-    process.exit(1);
-  }
-};
-
-// Verificação de índices específicos para saúde
-const checkHealthIndexes = async () => {
-  try {
-    // Implementação específica para verificar índices do modelo de saúde
-    logger.info('Verificando índices do modelo de saúde...');
-    // Adicione aqui verificações específicas se necessário
-  } catch (error) {
-    logger.warn('Aviso na verificação de índices:', error.message);
-  }
-};
-
-// Configuração do Express
-const app = express();
-
-// Configurações de Segurança Aprimoradas
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net'],
-      styleSrc: ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net']
-    }
-  },
-  crossOriginResourcePolicy: { policy: "cross-origin" }
+// 4. Middlewares de segurança e configuração
+app.use(helmet({ // Sua configuração do helmet
+    contentSecurityPolicy: {
+        directives: {
+            defaultSrc: ["'self'"],
+            scriptSrc: ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net', 'unpkg.com'],
+            styleSrc: ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net', 'unpkg.com'],
+            imgSrc: ["'self'", "data:", 'validator.swagger.io'] 
+        }
+    },
+    crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 
-app.use(cors);
+// Configuração do CORS (para resolver o bloqueio do frontend)
+const corsOptions = {
+  origin: ['http://127.0.0.1:5501', 'http://localhost:5501', `http://localhost:${PORT}`], 
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true, 
+  optionsSuccessStatus: 200 
+};
+app.use(cors(corsOptions));
 
-// Middlewares Aprimorados
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Logging personalizado
+// 5. Logging HTTP com Morgan e Winston
 app.use(morgan((tokens, req, res) => {
   return [
     tokens.method(req, res),
@@ -101,32 +65,35 @@ app.use(morgan((tokens, req, res) => {
     '-',
     tokens['response-time'](req, res), 'ms',
     '-',
-    req.ip,
-    '-',
+    req.ip, // Mantido req.ip para simplicidade, mas pode ser tokens['remote-addr'](req,res)
     req.headers['user-agent']
   ].join(' ');
-}, { stream: { write: msg => logger.http(msg.trim()) } }));
+}, { stream: stream }));
 
-// Configuração do Swagger com componentes reutilizáveis
+// 6. Configuração do Swagger (sua configuração original completa)
 const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API Governo Integrado',
-      version: '1.0.0',
-      description: 'Integração unificada dos sistemas públicos',
+      title: 'API Governo Integrado - Acesso Fácil Maranhão',
+      version: process.env.npm_package_version || '1.0.0',
+      description: 'Integração unificada dos sistemas públicos para acesso a serviços essenciais do estado do Maranhão.',
       contact: {
-        name: "Suporte Técnico",
-        email: "suporte@governo.api"
-      }
+        name: "Suporte Técnico - Desafio 4 Inova Maranhão",
+        email: "suporte.desafio4@governo.ma.example.com"
+      },
+      license: {
+        name: 'MIT',
+        url: 'https://spdx.org/licenses/MIT.html',
+      },
     },
     servers: [
       {
         url: `http://localhost:${PORT}${BASE_PATH}`,
-        description: "Servidor de Desenvolvimento"
+        description: "Servidor de Desenvolvimento Local"
       },
       {
-        url: "https://api.governo.digital/{basePath}",
+        url: "https://api.governo.digital/{basePath}", // Exemplo de produção
         description: "Servidor de Produção",
         variables: {
           basePath: {
@@ -148,94 +115,139 @@ const swaggerOptions = {
         }
       }
     }
+    // Se todas as rotas são protegidas por padrão:
+    // security: [{ bearerAuth: [] }] 
   },
-  apis: [
-    './routes/*.js',
-    './routes/saude/*.js',
-    './routes/educacao/*.js',
-    './routes/cultura/*.js',
-    './routes/servicos-publicos/*.js'
+  apis: [ // Caminhos para seus arquivos de rotas com anotações JSDoc para Swagger
+    './src/routes/*.js', // Pega o index.js das rotas
+    './src/routes/saude.routes.js',
+    './src/routes/educacao.routes.js', // Adicione se tiver rotas e anotações
+    './src/routes/cultura.routes.js',   // Adicione se tiver rotas e anotações
+    './src/routes/servicos-publicos.routes.js', // Adicione se tiver rotas e anotações
+    './src/auth/auth.routes.js' 
   ]
 };
 
-// Documentação Swagger
-const swaggerSpec = swaggerJsdoc(swaggerOptions);
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+try {
+    const swaggerSpec = swaggerJsdoc(swaggerOptions);
+    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
+        customCss: '.swagger-ui .topbar { display: none }',
+        customSiteTitle: "Documentação API - Acesso Fácil MA"
+    }));
+} catch (e) {
+    logger.error('Erro ao configurar o Swagger com swagger-jsdoc:', e);
+}
 
-// Health Check Aprimorado
+// 7. Rotas de Autenticação
+app.use(`${BASE_PATH}/auth`, autenticacaoRoutes);
+
+// 8. Health Check (completo como no seu original)
 app.get(`${BASE_PATH}/health`, async (req, res) => {
   try {
     const dbStatus = await checkDatabaseHealth();
-    const status = dbStatus.status === 'connected' ? 'operacional' : 'degraded';
+    // const redisStatus = await checkRedisHealth(); // Descomente se tiver checkRedisHealth
+    
+    let overallStatus = 'operacional';
+    if (dbStatus.status !== 'connected' /* || (redisClient && !redisClient.isOpen) */) { // Ajuste para checar status do Redis
+        overallStatus = 'degradado';
+    }
     
     res.json({
-      status,
+      status: overallStatus,
       version: process.env.npm_package_version || '1.0.0',
       timestamp: new Date().toISOString(),
-      database: dbStatus,
+      dependencies: {
+          database: dbStatus,
+          // redis: redisStatus // Adicione o status do Redis aqui
+      },
       categories: API_CATEGORIES.map(category => ({
         name: category.name,
         path: `${BASE_PATH}/${category.path}`,
-        status: 'operational'
+        status: 'operacional' 
       })),
       environment: process.env.NODE_ENV || 'development'
     });
   } catch (error) {
+    logger.error(`[HEALTH_CHECK] Erro: ${error.message}`);
     res.status(503).json({
-      status: 'offline',
-      error: 'Serviço indisponível',
+      status: 'indisponivel',
+      error: 'Serviço ou uma de suas dependências críticas está indisponível.',
       details: process.env.NODE_ENV === 'development' ? error.message : undefined
     });
   }
 });
 
-// Rotas principais
-app.use(BASE_PATH, rateLimiter, apiRoutes);
+// 9. Rotas principais da API (com rate limit)
+// `apiRoutes` deve ser o seu router principal de `src/routes/index.js`
+app.use(BASE_PATH, rateLimiter, apiRoutes); 
 
-// Middleware de erro aprimorado
-app.use(errorHandler);
+// 10. Middleware de erro (DEVE SER O ÚLTIMO middleware de tratamento de rota/erro)
+app.use(errorHandler); // Usando o errorHandler robusto do Turno 77
 
-// Inicialização do servidor
+// 11. Inicialização do servidor (completa com tratamento de sinais)
 const startServer = async () => {
-  await initializeDatabase();
-  
-  const server = app.listen(PORT, () => {
-    logger.info(`🚀 Servidor rodando na porta ${PORT}`);
-    logger.info(`🔗 Acesso base: ${BASE_PATH}`);
-    logger.info('📚 APIs disponíveis:');
-    API_CATEGORIES.forEach(category => {
-      logger.info(`- ${category.name}: ${BASE_PATH}/${category.path}`);
-    });
-    logger.info(`📄 Documentação: http://localhost:${PORT}/api-docs`);
-  });
+  try {
+    await connectMongoose(); 
+    // O log de conexão com MongoDB já deve estar em connectMongoose()
 
-  // Tratamento de encerramento gracioso
-  process.on('SIGTERM', () => {
-    logger.info('Recebido SIGTERM. Encerrando servidor...');
-    server.close(() => {
-      logger.info('Servidor encerrado');
-      process.exit(0);
-    });
-  });
+    if (connectRedis && typeof connectRedis === 'function') {
+        await connectRedis(); // O log de conexão com Redis já deve estar em connectRedis()
+    }
 
-  process.on('SIGINT', () => {
-    logger.info('Recebido SIGINT. Encerrando servidor...');
-    server.close(() => {
-      logger.info('Servidor encerrado');
-      process.exit(0);
+    const server = app.listen(PORT, () => {
+      logger.info(`🚀 Servidor rodando na porta ${PORT}`);
+      logger.info(`🔗 Acesso base: ${BASE_PATH}`);
+      logger.info('📚 APIs disponíveis:');
+      API_CATEGORIES.forEach(category => {
+        logger.info(`- ${category.name}: ${BASE_PATH}/${category.path}`);
+      });
+      logger.info(`🔐 Autenticação: ${BASE_PATH}/auth`);
+      logger.info(`📄 Documentação: http://localhost:${PORT}/api-docs`);
     });
-  });
 
-  return server;
+    const shutdown = (signal) => {
+      logger.info(`Recebido ${signal}. Encerrando servidor...`);
+      server.close(async () => { 
+        logger.info('Servidor HTTP encerrado.');
+        try {
+            // Fechar conexão com MongoDB (se sua função `connectMongoose` não retornar a conexão para fechar aqui,
+            // o mongoose geralmente lida com isso no encerramento do processo, mas fechar explicitamente é mais seguro)
+            // await mongoose.disconnect(); // Se você importou mongoose
+            // logger.info('Conexão MongoDB fechada.');
+            
+            if (redisClient && typeof redisClient.quit === 'function') { // Se você exporta o cliente Redis
+                await redisClient.quit();
+                logger.info('Conexão Redis fechada.');
+            } else if (redisClient && typeof redisClient.disconnect === 'function') {
+                await redisClient.disconnect(); // Algumas libs usam disconnect
+                logger.info('Conexão Redis desconectada.');
+            }
+        } catch (err) {
+            logger.error('Erro ao fechar conexões durante o shutdown:', err);
+        } finally {
+            logger.info('Processo encerrado.');
+            process.exit(0);
+        }
+      });
+      // Forçar o encerramento após um timeout se o servidor não fechar graciosamente
+      setTimeout(() => {
+        logger.error('Desligamento forçado após timeout.');
+        process.exit(1);
+      }, 10000).unref(); // 10 segundos de timeout
+    };
+
+    process.on('SIGTERM', () => shutdown('SIGTERM'));
+    process.on('SIGINT', () => shutdown('SIGINT')); // Captura Ctrl+C
+
+  } catch (error) {
+    logger.error('Falha crítica na inicialização do servidor:', {
+      error: error.message,
+      stack: error.stack
+    });
+    process.exit(1);
+  }
 };
 
-// Inicialização
-startServer().catch(error => {
-  logger.error('Falha crítica na inicialização:', {
-    error: error.message,
-    stack: error.stack
-  });
-  process.exit(1);
-});
+startServer();
 
 export default app;

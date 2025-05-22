@@ -21,7 +21,7 @@ model EstabelecimentoSaude {
   horarioFuncionamento String?
   fonteDados       FonteDados
   dataAtualizacao  DateTime   @default(now())
-  
+   codigoIbge  String?
 
   @@index([tipo])
   @@index([localizacao.municipio])
@@ -97,8 +97,9 @@ type Localizacao {
   bairro        String
   municipio     String
   uf            String
-  cep           String
   coordenadas   Json?  // { type: "Point", coordinates: [long, lat] }
+  codigoIbge  String?
+  cep            String?
 }
 
 type Contato {

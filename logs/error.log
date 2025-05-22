@@ -44,3 +44,172 @@
 2025-05-20T22:54:39.729Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
 2025-05-20T22:55:33.043Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
 2025-05-20T23:18:15.221Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:15:31.048Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:16:42.777Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:03.101Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:06.848Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:07.957Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:13.866Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T00:23:14.723Z [ERROR]: Parâmetro ID é obrigatório
+2025-05-21T01:31:56.130Z [ERROR]: [6c86e10c-0974-41bd-9e57-d3cfbae0bd52] Falha na busca hierárquica Cannot destructure property 'nomeNormalizado' of 'this._normalizarMunicipioMA(...)' as it is undefined.
+2025-05-21T01:31:56.130Z [ERROR]: [6c86e10c-0974-41bd-9e57-d3cfbae0bd52] Erro no controller de saúde:
+2025-05-21T05:40:34.435Z [ERROR]: [5ecc8994-f9aa-4bcb-970b-92fb7213125e] Erro ao buscar no MongoDB (service) 
+Invalid `prisma.estabelecimentoSaude.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    localizacao.municipio: "São Luís",
+    ~~~~~~~~~~~~~~~~~~~~~
+?   AND?: EstabelecimentoSaudeWhereInput | EstabelecimentoSaudeWhereInput[],
+?   OR?: EstabelecimentoSaudeWhereInput[],
+?   NOT?: EstabelecimentoSaudeWhereInput | EstabelecimentoSaudeWhereInput[],
+?   id?: StringFilter | String,
+?   idCnes?: StringFilter | String,
+?   nome?: StringFilter | String,
+?   tipo?: EnumTipoEstabelecimentoSaudeFilter | TipoEstabelecimentoSaude,
+?   localizacao?: LocalizacaoCompositeFilter | LocalizacaoObjectEqualityInput,
+?   contato?: ContatoCompositeFilter | ContatoObjectEqualityInput,
+?   servicos?: ServicoCompositeListFilter | ServicoObjectEqualityInput[],
+?   leitos?: LeitosNullableCompositeFilter | LeitosObjectEqualityInput | Null,
+?   acessibilidade?: AcessibilidadeNullableCompositeFilter | AcessibilidadeObjectEqualityInput | Null,
+?   horarioFuncionamento?: StringNullableFilter | String | Null,
+?   fonteDados?: EnumFonteDadosFilter | FonteDados,
+?   dataAtualizacao?: DateTimeFilter | DateTime
+  }
+}
+
+Unknown argument `localizacao.municipio`. Available options are marked with ?.
+2025-05-21T18:35:13.527Z [ERROR]: ✖ Falha crítica na conexão com MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-21T20:47:00.098Z [ERROR]: [dcae2a4a-2e63-4eff-83c0-f774e84282d8] Erro ao buscar no Prisma DB (service) 
+Invalid `prisma.estabelecimentoSaude.count()` invocation:
+
+{
+  select: {
+    _count: {
+      select: {
+        _all: true
+      }
+    }
+  },
+  where: {
+    localizacao: {
+      municipio: "São Luís",
+      ~~~~~~~~~
+?     equals?: LocalizacaoObjectEqualityInput,
+?     is?: LocalizacaoWhereInput,
+?     isNot?: LocalizacaoWhereInput
+    }
+  }
+}
+
+Unknown argument `municipio`. Available options are marked with ?.
+2025-05-21T22:05:04.581Z [ERROR]: [d6909057-19ca-43f3-aca6-eee659ab35d8] Falha em buscarEstabelecimentos V3 (service) LIMITE_POR_PAGINA_PADRAO is not defined
+2025-05-21T22:18:36.188Z [ERROR]: [97ef7eb6-7d5f-4840-88f1-62472e02a15f] Falha em buscarEstabelecimentos V3 (service) LIMITE_POR_PAGINA_PADRAO is not defined
+2025-05-21T22:32:36.458Z [ERROR]: [3de007bd-4769-47a0-b0d4-802632ff4428] Falha em buscarEstabelecimentos V3 (service) LIMITE_POR_PAGINA_PADRAO is not defined
+2025-05-21T22:39:42.480Z [ERROR]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Falha em buscarEstabelecimentos V3 (service) LIMITE_POR_PAGINA_PADRAO is not defined
+2025-05-21T22:39:42.481Z [ERROR]: [65e9c160-287f-4148-acc3-4254f5ee9c01] Erro no controller: undefined
+2025-05-21T23:32:25.524Z [ERROR]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Falha em buscarEstabelecimentos V3 (service) Cannot destructure property '_distanciaMetros' of 'd' as it is undefined.
+2025-05-21T23:32:25.525Z [ERROR]: [0c91c3d1-8cfa-4c5b-bc09-750785c1b95a] Erro no controller: undefined
+2025-05-22T00:01:30.565Z [ERROR]: [39391e9d-02c5-48aa-9221-07146f45866b] Erro no controller: Cannot read properties of undefined (reading 'metadados')
+2025-05-22T00:20:02.404Z [ERROR]: [84c38894-7a07-4556-8d14-24ba3bd42856] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:20:02.405Z [ERROR]: [84c38894-7a07-4556-8d14-24ba3bd42856] Erro no controller: undefined
+2025-05-22T00:28:44.851Z [ERROR]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:28:44.851Z [ERROR]: [8ad25e0c-36e5-43ea-9ca4-d73133b45bb2] Erro no controller: undefined
+2025-05-22T00:34:41.264Z [ERROR]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T00:34:41.266Z [ERROR]: [8c270329-3e7c-40ee-87d8-3914a3f693af] Erro no controller: undefined
+2025-05-22T08:42:42.470Z [ERROR]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:42:42.471Z [ERROR]: [5a733f4b-2151-4e53-b74a-aec5b6d00631] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:42:44.960Z [ERROR]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:42:44.960Z [ERROR]: [71a17d5a-5f55-48ce-a410-02faefc0b0a2] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:50:30.647Z [ERROR]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:50:30.647Z [ERROR]: [7aabcd2d-34dc-4a61-ba1e-de711368b0f0] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T08:54:07.423Z [ERROR]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T08:54:07.424Z [ERROR]: [61c636e9-dcbc-4940-bf2f-ecdd891e803e] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:03:49.179Z [ERROR]: [bb754a33-26e0-4a33-87ce-c58d7f9d09c1] Erro no controller: getNomeMunicipioMAPorCodigo is not defined
+2025-05-22T09:16:24.533Z [ERROR]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:16:24.534Z [ERROR]: [8de0fa32-313e-4288-b7a3-78949afea0cd] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:16:32.768Z [ERROR]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:16:32.768Z [ERROR]: [55d9dc6c-052a-4ca6-8c7a-b65e5e43594a] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:27.299Z [ERROR]: [69804249-2032-46a8-8eb6-a482d343d085] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:27.299Z [ERROR]: [69804249-2032-46a8-8eb6-a482d343d085] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:29.154Z [ERROR]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:29.154Z [ERROR]: [86eea4b7-09b9-41ca-ba12-5fab73528ebe] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:18:35.537Z [ERROR]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:18:35.538Z [ERROR]: [d3bcce73-ba8a-4207-a4de-2870cb90dc83] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:20:34.455Z [ERROR]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:20:34.456Z [ERROR]: [9dad7828-ceb3-44db-9724-38f3d4b41a6b] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22T09:21:23.904Z [ERROR]: [68af5599-733b-4973-8cd1-2c95d6899749] Falha em buscarEstabelecimentos (service) this._normalizarTipoInterno is not a function
+2025-05-22T09:21:23.904Z [ERROR]: [68af5599-733b-4973-8cd1-2c95d6899749] Erro no controller: this._normalizarTipoInterno is not a function
+2025-05-22 15:47:20 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:00:28 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:02:00 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:05:17 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:17:28 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 16:17:45 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
