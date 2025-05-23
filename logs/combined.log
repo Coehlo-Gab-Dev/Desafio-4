@@ -3677,3 +3677,28 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 21:06:13 [info]: - Serviços Públicos: /api/v1/servicos-publicos
 2025-05-22 21:06:13 [info]: 🔐 Autenticação: /api/v1/auth
 2025-05-22 21:06:13 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 21:24:20 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 21:24:21 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 21:24:21 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 21:24:21 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 21:24:21 [info]: 📚 APIs disponíveis:
+2025-05-22 21:24:21 [info]: - Saúde: /api/v1/saude
+2025-05-22 21:24:21 [info]: - Educação: /api/v1/educacao
+2025-05-22 21:24:21 [info]: - Cultura: /api/v1/cultura
+2025-05-22 21:24:21 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 21:24:21 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 21:24:21 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 21:24:30 [info]: Requisição recebida
+2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Service (DB Local): buscarEstabelecimentos iniciado
