@@ -5,6 +5,5 @@ gitignore
 src/data/fallback/*.json
 !src/data/fallback/sample_*.json
 
-.gitignore
-src/data/fallback/*.json
-!src/data/fallback/sample_*.json
+
+.vercel

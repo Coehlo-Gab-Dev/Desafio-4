@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         return;
                     }
 
-                    let apiUrl = 'http://localhost:3000/api/v1/saude/'; // Endpoint base para saúde
+                    let apiUrl = 'https://desafio-4-2.onrender.com/api/v1/saude'; // Endpoint base para saúde
                     const queryParams = new URLSearchParams();
 
                     if (tipoApiQuery) {

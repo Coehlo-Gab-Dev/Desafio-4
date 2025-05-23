@@ -3477,3 +3477,203 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 20:12:29 [info]: - Serviços Públicos: /api/v1/servicos-publicos
 2025-05-22 20:12:29 [info]: 🔐 Autenticação: /api/v1/auth
 2025-05-22 20:12:29 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:16:41 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:16:41 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:16:41 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:16:41 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:16:41 [info]: 📚 APIs disponíveis:
+2025-05-22 20:16:41 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:16:41 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:16:41 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:16:41 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:16:41 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:16:41 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:20:05 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:20:06 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:20:06 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:20:06 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:20:06 [info]: 📚 APIs disponíveis:
+2025-05-22 20:20:06 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:20:06 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:20:06 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:20:06 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:20:06 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:20:06 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:20:32 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:20:33 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:20:33 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:20:33 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:20:33 [info]: 📚 APIs disponíveis:
+2025-05-22 20:20:33 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:20:33 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:20:33 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:20:33 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:20:33 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:20:33 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:20:33 [info]: Requisição recebida
+2025-05-22 20:20:33 [info]: [d8e3ef7e-0ddc-418c-8580-8bb90e352dbd] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 20:20:33 [info]: [d8e3ef7e-0ddc-418c-8580-8bb90e352dbd] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 20:20:33 [info]: [d8e3ef7e-0ddc-418c-8580-8bb90e352dbd] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 20:35:56 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:35:57 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:35:57 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:35:57 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:35:57 [info]: 📚 APIs disponíveis:
+2025-05-22 20:35:57 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:35:57 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:35:57 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:35:57 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:35:57 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:35:57 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:36:38 [info]: Requisição recebida
+2025-05-22 20:36:38 [info]: [04f389c3-bb9f-4465-9193-0ffba6db314b] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 20:36:38 [info]: [04f389c3-bb9f-4465-9193-0ffba6db314b] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 20:36:38 [info]: [04f389c3-bb9f-4465-9193-0ffba6db314b] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 20:36:41 [info]: Requisição recebida
+2025-05-22 20:36:41 [info]: [3b3eadaf-5dc0-4258-817a-b3d6614542d4] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA"}
+2025-05-22 20:36:41 [info]: [3b3eadaf-5dc0-4258-817a-b3d6614542d4] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 20:36:41 [info]: [3b3eadaf-5dc0-4258-817a-b3d6614542d4] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 20:36:42 [info]: [3b3eadaf-5dc0-4258-817a-b3d6614542d4] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-22 20:38:33 [info]: Requisição recebida
+2025-05-22 20:38:33 [info]: [6a6cf41f-0927-47b0-acc7-da86a1acf3c1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-22 20:38:33 [info]: [6a6cf41f-0927-47b0-acc7-da86a1acf3c1] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 20:38:33 [info]: [6a6cf41f-0927-47b0-acc7-da86a1acf3c1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 20:39:10 [info]: Requisição recebida
+2025-05-22 20:39:10 [info]: [a2839e07-c606-4b5b-8754-a425343b48f4] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-22 20:39:10 [info]: [a2839e07-c606-4b5b-8754-a425343b48f4] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-22 20:39:10 [info]: [a2839e07-c606-4b5b-8754-a425343b48f4] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-22 20:44:50 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:44:52 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:44:53 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:44:53 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:44:53 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:44:53 [info]: 📚 APIs disponíveis:
+2025-05-22 20:44:53 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:44:53 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:44:53 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:44:53 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:44:53 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:44:53 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 20:53:59 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 20:54:00 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 20:54:00 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 20:54:00 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 20:54:00 [info]: 📚 APIs disponíveis:
+2025-05-22 20:54:00 [info]: - Saúde: /api/v1/saude
+2025-05-22 20:54:00 [info]: - Educação: /api/v1/educacao
+2025-05-22 20:54:00 [info]: - Cultura: /api/v1/cultura
+2025-05-22 20:54:00 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 20:54:00 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 20:54:00 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 21:05:44 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 21:05:45 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 21:05:45 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 21:05:45 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 21:05:45 [info]: 📚 APIs disponíveis:
+2025-05-22 21:05:45 [info]: - Saúde: /api/v1/saude
+2025-05-22 21:05:45 [info]: - Educação: /api/v1/educacao
+2025-05-22 21:05:45 [info]: - Cultura: /api/v1/cultura
+2025-05-22 21:05:45 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 21:05:45 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 21:05:45 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-22 21:06:12 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204/src/app.js:132:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-22 21:06:13 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-22 21:06:13 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-22 21:06:13 [info]: 🔗 Acesso base: /api/v1
+2025-05-22 21:06:13 [info]: 📚 APIs disponíveis:
+2025-05-22 21:06:13 [info]: - Saúde: /api/v1/saude
+2025-05-22 21:06:13 [info]: - Educação: /api/v1/educacao
+2025-05-22 21:06:13 [info]: - Cultura: /api/v1/cultura
+2025-05-22 21:06:13 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-22 21:06:13 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-22 21:06:13 [info]: 📄 Documentação: http://localhost:3000/api-docs
