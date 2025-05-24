@@ -3702,3 +3702,215 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
 2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Nenhum município específico fornecido. Buscando para UF 21.
 2025-05-22 21:24:30 [info]: [7897394f-7aca-494e-b6cb-e12bc6fec054] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-23 22:30:32 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-23 22:30:33 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-23 22:30:33 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-23 22:30:33 [info]: 🔗 Acesso base: /api/v1
+2025-05-23 22:30:33 [info]: 📚 APIs disponíveis:
+2025-05-23 22:30:33 [info]: - Saúde: /api/v1/saude
+2025-05-23 22:30:33 [info]: - Educação: /api/v1/educacao
+2025-05-23 22:30:33 [info]: - Cultura: /api/v1/cultura
+2025-05-23 22:30:33 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-23 22:30:33 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-23 22:30:33 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-23 22:31:05 [info]: Requisição recebida
+2025-05-23 22:31:05 [info]: [79a42992-f4e5-4b7f-a5a5-1665fb29a29c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-23 22:31:05 [info]: [79a42992-f4e5-4b7f-a5a5-1665fb29a29c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-23 22:31:05 [info]: [79a42992-f4e5-4b7f-a5a5-1665fb29a29c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-23 22:31:34 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-23 22:31:35 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-23 22:31:35 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-23 22:31:35 [info]: 🔗 Acesso base: /api/v1
+2025-05-23 22:31:35 [info]: 📚 APIs disponíveis:
+2025-05-23 22:31:35 [info]: - Saúde: /api/v1/saude
+2025-05-23 22:31:35 [info]: - Educação: /api/v1/educacao
+2025-05-23 22:31:35 [info]: - Cultura: /api/v1/cultura
+2025-05-23 22:31:35 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-23 22:31:35 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-23 22:31:35 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-23 22:39:20 [info]: Requisição recebida
+2025-05-23 22:39:20 [info]: [001a9280-01cd-423e-9786-ef503d1baf52] Controller: listarEstabelecimentosSaude - Path: {}, Query: {}
+2025-05-23 22:39:20 [info]: [001a9280-01cd-423e-9786-ef503d1baf52] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-23 22:39:20 [info]: [001a9280-01cd-423e-9786-ef503d1baf52] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-23 22:41:35 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-23 22:41:37 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-23 22:41:37 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-23 22:41:37 [info]: 🔗 Acesso base: /api/v1
+2025-05-23 22:41:37 [info]: 📚 APIs disponíveis:
+2025-05-23 22:41:37 [info]: - Saúde: /api/v1/saude
+2025-05-23 22:41:37 [info]: - Educação: /api/v1/educacao
+2025-05-23 22:41:37 [info]: - Cultura: /api/v1/cultura
+2025-05-23 22:41:37 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-23 22:41:37 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-23 22:41:37 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-23 22:46:17 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-23 22:46:18 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-23 22:46:18 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-23 22:46:18 [info]: 🔗 Acesso base: /api/v1
+2025-05-23 22:46:18 [info]: 📚 APIs disponíveis:
+2025-05-23 22:46:18 [info]: - Saúde: /api/v1/saude
+2025-05-23 22:46:18 [info]: - Educação: /api/v1/educacao
+2025-05-23 22:46:18 [info]: - Cultura: /api/v1/cultura
+2025-05-23 22:46:18 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-23 22:46:18 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-23 22:46:18 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-23 22:48:45 [info]: Requisição recebida
+2025-05-23 22:48:45 [info]: [6004a162-199b-434b-9578-71d03754e8f5] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL"}
+2025-05-23 22:48:45 [info]: [6004a162-199b-434b-9578-71d03754e8f5] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-23 22:48:45 [info]: [6004a162-199b-434b-9578-71d03754e8f5] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-23 22:51:02 [info]: Requisição recebida
+2025-05-23 22:51:02 [info]: [73097b96-327d-4ce6-b3ef-9877d3ecf9e7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-23 22:51:02 [info]: [73097b96-327d-4ce6-b3ef-9877d3ecf9e7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-23 22:51:02 [info]: [73097b96-327d-4ce6-b3ef-9877d3ecf9e7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:32:04 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-24 15:32:05 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-24 15:32:05 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-24 15:32:05 [info]: 🔗 Acesso base: /api/v1
+2025-05-24 15:32:05 [info]: 📚 APIs disponíveis:
+2025-05-24 15:32:05 [info]: - Saúde: /api/v1/saude
+2025-05-24 15:32:05 [info]: - Educação: /api/v1/educacao
+2025-05-24 15:32:05 [info]: - Cultura: /api/v1/cultura
+2025-05-24 15:32:05 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-24 15:32:05 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-24 15:32:05 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-24 15:32:21 [info]: Requisição recebida
+2025-05-24 15:32:21 [info]: [df9f8b22-7254-46d9-9c05-e2c2f7332461] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-24 15:32:21 [info]: [df9f8b22-7254-46d9-9c05-e2c2f7332461] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 15:32:21 [info]: [df9f8b22-7254-46d9-9c05-e2c2f7332461] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:52:57 [info]: Requisição recebida
+2025-05-24 15:52:57 [info]: [9cd38731-cf66-419a-a96b-3ab223512aef] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-24 15:52:57 [info]: [9cd38731-cf66-419a-a96b-3ab223512aef] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 15:52:57 [info]: [9cd38731-cf66-419a-a96b-3ab223512aef] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:53:07 [info]: Requisição recebida
+2025-05-24 15:53:07 [info]: [6592ab35-1e2d-4e3e-b823-c720dc47bf0e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"SAO LUIS"}
+2025-05-24 15:53:07 [info]: [6592ab35-1e2d-4e3e-b823-c720dc47bf0e] Buscando por nome de município via query: SAO LUIS
+2025-05-24 15:53:07 [info]: [6592ab35-1e2d-4e3e-b823-c720dc47bf0e] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-24 15:53:07 [info]: [6592ab35-1e2d-4e3e-b823-c720dc47bf0e] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:53:08 [info]: [6592ab35-1e2d-4e3e-b823-c720dc47bf0e] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 15:53:11 [info]: Requisição recebida
+2025-05-24 15:53:11 [info]: [1c392019-1b66-44a9-aa04-77c12253953c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"IMPERATRIZ"}
+2025-05-24 15:53:11 [info]: [1c392019-1b66-44a9-aa04-77c12253953c] Buscando por nome de município via query: IMPERATRIZ
+2025-05-24 15:53:11 [info]: [1c392019-1b66-44a9-aa04-77c12253953c] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-24 15:53:11 [info]: [1c392019-1b66-44a9-aa04-77c12253953c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:53:11 [info]: [1c392019-1b66-44a9-aa04-77c12253953c] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 15:53:13 [info]: Requisição recebida
+2025-05-24 15:53:13 [info]: [da0a17d2-2cf3-486c-8b83-a38fe3a673b1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"CAXIAS"}
+2025-05-24 15:53:13 [info]: [da0a17d2-2cf3-486c-8b83-a38fe3a673b1] Buscando por nome de município via query: CAXIAS
+2025-05-24 15:53:13 [info]: [da0a17d2-2cf3-486c-8b83-a38fe3a673b1] Código IBGE 2103000 encontrado para CAXIAS
+2025-05-24 15:53:13 [info]: [da0a17d2-2cf3-486c-8b83-a38fe3a673b1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:53:13 [info]: [da0a17d2-2cf3-486c-8b83-a38fe3a673b1] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 15:53:15 [info]: Requisição recebida
+2025-05-24 15:53:15 [info]: [08d2cdf7-a697-4b06-aecf-1fc8d59c2831] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"ACAILANDIA"}
+2025-05-24 15:53:15 [info]: [08d2cdf7-a697-4b06-aecf-1fc8d59c2831] Buscando por nome de município via query: ACAILANDIA
+2025-05-24 15:53:15 [info]: [08d2cdf7-a697-4b06-aecf-1fc8d59c2831] Código IBGE 2100055 encontrado para ACAILANDIA
+2025-05-24 15:53:15 [info]: [08d2cdf7-a697-4b06-aecf-1fc8d59c2831] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 15:53:15 [info]: [08d2cdf7-a697-4b06-aecf-1fc8d59c2831] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 17:24:56 [info]: Requisição recebida
+2025-05-24 17:24:56 [info]: [ce0ad77d-09e9-4f28-b8ad-c5e3388f00d4] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"SAO LUIS"}
+2025-05-24 17:24:56 [info]: [ce0ad77d-09e9-4f28-b8ad-c5e3388f00d4] Buscando por nome de município via query: SAO LUIS
+2025-05-24 17:24:56 [info]: [ce0ad77d-09e9-4f28-b8ad-c5e3388f00d4] Código IBGE 2111300 encontrado para SAO LUIS
+2025-05-24 17:24:56 [info]: [ce0ad77d-09e9-4f28-b8ad-c5e3388f00d4] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:24:57 [info]: [ce0ad77d-09e9-4f28-b8ad-c5e3388f00d4] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 17:25:02 [info]: Requisição recebida
+2025-05-24 17:25:02 [info]: [9b927d32-25b4-47b0-bafb-4688bc3b9bb9] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-24 17:25:02 [info]: [9b927d32-25b4-47b0-bafb-4688bc3b9bb9] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:25:02 [info]: [9b927d32-25b4-47b0-bafb-4688bc3b9bb9] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:25:53 [info]: Requisição recebida
+2025-05-24 17:25:53 [info]: [2689101e-c42d-4484-b339-56fb27a16c6c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS"}
+2025-05-24 17:25:53 [info]: [2689101e-c42d-4484-b339-56fb27a16c6c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:25:53 [info]: [2689101e-c42d-4484-b339-56fb27a16c6c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:30:38 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-24 17:30:39 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-24 17:30:39 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-24 17:30:39 [info]: 🔗 Acesso base: /api/v1
+2025-05-24 17:30:39 [info]: 📚 APIs disponíveis:
+2025-05-24 17:30:39 [info]: - Saúde: /api/v1/saude
+2025-05-24 17:30:39 [info]: - Educação: /api/v1/educacao
+2025-05-24 17:30:39 [info]: - Cultura: /api/v1/cultura
+2025-05-24 17:30:39 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-24 17:30:39 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-24 17:30:39 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-24 17:33:40 [info]: Requisição recebida
+2025-05-24 17:33:40 [info]: [0d00a5f5-3314-496d-9f3b-3a5538dea25d] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:33:40 [info]: [0d00a5f5-3314-496d-9f3b-3a5538dea25d] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:33:40 [info]: [0d00a5f5-3314-496d-9f3b-3a5538dea25d] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:33:43 [info]: Requisição recebida
+2025-05-24 17:33:43 [info]: [f2b2fa12-cfb6-46f6-bfeb-66690b85e4e2] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-05-24 17:33:43 [info]: [f2b2fa12-cfb6-46f6-bfeb-66690b85e4e2] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:33:43 [info]: [f2b2fa12-cfb6-46f6-bfeb-66690b85e4e2] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:33:49 [info]: Requisição recebida
+2025-05-24 17:33:49 [info]: [e70472a4-3c0e-44d9-b099-3c01b0da04c9] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:33:49 [info]: [e70472a4-3c0e-44d9-b099-3c01b0da04c9] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:33:49 [info]: [e70472a4-3c0e-44d9-b099-3c01b0da04c9] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:36:02 [info]: Requisição recebida
+2025-05-24 17:36:02 [info]: [72bacbdb-0591-4a8c-8bdd-d85528083857] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:36:02 [info]: [72bacbdb-0591-4a8c-8bdd-d85528083857] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:36:02 [info]: [72bacbdb-0591-4a8c-8bdd-d85528083857] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:36:04 [info]: Requisição recebida
+2025-05-24 17:36:04 [info]: [e411d198-ed6a-47a1-8b58-60fb3d152674] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-05-24 17:36:04 [info]: [e411d198-ed6a-47a1-8b58-60fb3d152674] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:36:04 [info]: [e411d198-ed6a-47a1-8b58-60fb3d152674] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:36:06 [info]: Requisição recebida
+2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":3}
+2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Service (DB Local): buscarEstabelecimentos iniciado

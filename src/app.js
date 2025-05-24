@@ -4,17 +4,17 @@ import cors from 'cors'; // Importando o pacote cors diretamente
 import morgan from 'morgan';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import apiRoutes from './routes/index.js'; // Seu agregador de rotas
+import apiRoutes from './routes/index.js'; // Agregador de rotas
 import * as dotenv from 'dotenv';
 import helmet from 'helmet';
-import rateLimiter from './config/rateLimit.config.js'; // Seu rate limiter
+import rateLimiter from './config/rateLimit.config.js'; // Rate limiter
 import errorHandler from './middlewares/errorHandler.js'; 
-import { logger, stream } from './utils/logger.js'; // Seu logger e stream para Morgan
+import { logger, stream } from './utils/logger.js'; // Logger e stream para Morgan
 import { connectMongoose, checkDatabaseHealth } from './config/database.js';
 import autenticacaoRoutes from './auth/auth.routes.js';
-import connectRedis from './config/redis.js'; // Sua conexão com Redis
+import connectRedis from './config/redis.js'; // Conexão com Redis
 
-// 1. Configuração inicial
+// 1.Inicial
 dotenv.config();
 const app = express();
 
@@ -44,7 +44,7 @@ app.use(helmet({ // Sua configuração do helmet
     crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 
-// Configuração do CORS (para resolver o bloqueio do frontend)
+// Configuração do CORS 
 const corsOptions = {
   origin: ['http://127.0.0.1:5501', 'http://localhost:5501', `http://localhost:${PORT}`], 
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
@@ -65,12 +65,12 @@ app.use(morgan((tokens, req, res) => {
     '-',
     tokens['response-time'](req, res), 'ms',
     '-',
-    req.ip, // Mantido req.ip para simplicidade, mas pode ser tokens['remote-addr'](req,res)
+    req.ip, //Req.ip para simplicidade
     req.headers['user-agent']
   ].join(' ');
 }, { stream: stream }));
 
-// 6. Configuração do Swagger (sua configuração original completa)
+// 6. Configuração do Swagger 
 const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
@@ -93,7 +93,7 @@ const swaggerOptions = {
         description: "Servidor de Desenvolvimento Local"
       },
       {
-        url: "https://api.governo.digital/{basePath}", // Exemplo de produção
+        url: "https://api.governo.digital/{basePath}", //Produção
         description: "Servidor de Produção",
         variables: {
           basePath: {
@@ -115,15 +115,14 @@ const swaggerOptions = {
         }
       }
     }
-    // Se todas as rotas são protegidas por padrão:
-    // security: [{ bearerAuth: [] }] 
+    
   },
   apis: [ // Caminhos para seus arquivos de rotas com anotações JSDoc para Swagger
     './src/routes/*.js', // Pega o index.js das rotas
     './src/routes/saude.routes.js',
-    './src/routes/educacao.routes.js', // Adicione se tiver rotas e anotações
-    './src/routes/cultura.routes.js',   // Adicione se tiver rotas e anotações
-    './src/routes/servicos-publicos.routes.js', // Adicione se tiver rotas e anotações
+    './src/routes/educacao.routes.js', 
+    './src/routes/cultura.routes.js',   
+    './src/routes/servicos-publicos.routes.js', 
     './src/auth/auth.routes.js' 
   ]
 };
@@ -141,7 +140,7 @@ try {
 // 7. Rotas de Autenticação
 app.use(`${BASE_PATH}/auth`, autenticacaoRoutes);
 
-// 8. Health Check (completo como no seu original)
+// 8. Health Check 
 app.get(`${BASE_PATH}/health`, async (req, res) => {
   try {
     const dbStatus = await checkDatabaseHealth();
@@ -158,7 +157,7 @@ app.get(`${BASE_PATH}/health`, async (req, res) => {
       timestamp: new Date().toISOString(),
       dependencies: {
           database: dbStatus,
-          // redis: redisStatus // Adicione o status do Redis aqui
+          
       },
       categories: API_CATEGORIES.map(category => ({
         name: category.name,
@@ -178,13 +177,13 @@ app.get(`${BASE_PATH}/health`, async (req, res) => {
 });
 
 // 9. Rotas principais da API (com rate limit)
-// `apiRoutes` deve ser o seu router principal de `src/routes/index.js`
+
 app.use(BASE_PATH, rateLimiter, apiRoutes); 
 
-// 10. Middleware de erro (DEVE SER O ÚLTIMO middleware de tratamento de rota/erro)
-app.use(errorHandler); // Usando o errorHandler robusto do Turno 77
+// 10. Middleware de erro 
+app.use(errorHandler); 
 
-// 11. Inicialização do servidor (completa com tratamento de sinais)
+// 11. Inicialização do servidor 
 const startServer = async () => {
   try {
     await connectMongoose(); 
@@ -210,11 +209,7 @@ const startServer = async () => {
       server.close(async () => { 
         logger.info('Servidor HTTP encerrado.');
         try {
-            // Fechar conexão com MongoDB (se sua função `connectMongoose` não retornar a conexão para fechar aqui,
-            // o mongoose geralmente lida com isso no encerramento do processo, mas fechar explicitamente é mais seguro)
-            // await mongoose.disconnect(); // Se você importou mongoose
-            // logger.info('Conexão MongoDB fechada.');
-            
+
             if (redisClient && typeof redisClient.quit === 'function') { // Se você exporta o cliente Redis
                 await redisClient.quit();
                 logger.info('Conexão Redis fechada.');

@@ -189,6 +189,7 @@ main {
     align-items: center;
     justify-content: center;
     font-weight: 500;
+    text-decoration: none; /* Para garantir que botões não pareçam links */
 }
 
 .btn:hover,
@@ -277,13 +278,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    align-items: flex-end;
+    align-items: flex-end; /* Alinha os botões e selects na base */
     margin: 2rem 0;
     width: 100%;
 }
 
-.div_filtros > div {
+.div_filtros > div { /* Container do label + select */
     flex: 1 1 min(250px, 100%);
+    display: flex;
+    flex-direction: column;
 }
 
 .div_filtros label {
@@ -300,9 +303,10 @@ main {
     border-radius: var(--borda-radius);
     border: 1px solid var(--cinza-medio);
     font-size: clamp(0.9rem, 2vw, 1rem);
-    min-height: 45px;
+    min-height: 45px; /* Ajuste para alinhar com o botão */
     background-color: var(--branco);
     transition: var(--transicao);
+    line-height: normal; /* Garante que o texto interno não seja cortado */
 }
 
 .div_filtros select:focus {
@@ -311,15 +315,14 @@ main {
     box-shadow: 0 0 0 2px rgba(33, 53, 166, 0.2);
 }
 
-.btn_buscar {
+.btn_buscar { /* Já herda .btn, mas pode ter especificidades */
     background-color: var(--branco);
     color: var(--vermelho);
     border: 2px solid var(--vermelho);
     font-weight: 600;
-    min-height: 45px;
-    padding: 0.8rem 1.5rem;
-    margin-bottom: 0.5rem;
-    transition: var(--transicao);
+    padding: 0.8rem 1.5rem; /* Ajuste de padding se necessário */
+    /* margin-bottom: 0; */ /* Removido para melhor alinhamento com flex-end */
+    flex-shrink: 0; /* Impede que o botão encolha */
 }
 
 .btn_buscar:hover,
@@ -334,22 +337,101 @@ main {
 .resultados_busca {
     margin-top: 2rem;
     padding: 1.5rem;
-    background-color: rgba(243, 244, 246, 0.5);
+    background-color: rgba(243, 244, 246, 0.5); /* Levemente transparente */
     border-radius: var(--borda-radius);
+    border: 1px solid var(--cinza-medio); /* Adiciona uma borda sutil */
 }
 
 .resultados_busca h4 {
     margin-bottom: 1rem;
     color: var(--azul-trilhas);
+    font-size: 1.3rem;
 }
 
-.resultado-item {
+.lista-estabelecimentos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-estabelecimento {
     background-color: var(--branco);
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: var(--borda-radius);
     margin-bottom: 1rem;
     box-shadow: var(--sombra);
+    border-left: 4px solid var(--azul-trilhas);
 }
+
+.item-estabelecimento:last-child {
+    margin-bottom: 0;
+}
+
+.item-estabelecimento h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.item-estabelecimento h4 small {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.item-estabelecimento p {
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+.item-estabelecimento p strong {
+    color: var(--azul-escuro);
+}
+
+
+/* ====== NOVOS ESTILOS PARA PAGINAÇÃO ====== */
+.paginacao-controls {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--cinza-medio);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.paginacao-info {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem; /* Reduzido, pois há gap no flex container */
+    text-align: center;
+}
+
+.paginacao-botoes {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que os botões quebrem em telas pequenas se necessário */
+}
+
+.btn-paginacao {
+    /* Herda de .btn, mas podemos especificar cores diferentes se quisermos */
+    background-color: var(--azul-escuro); /* Exemplo de cor diferente */
+    padding: 0.6rem 1rem; /* Um pouco menor que os botões principais */
+    font-size: 0.9rem;
+    min-width: 100px; /* Largura mínima para os botões */
+}
+
+.btn-paginacao:hover,
+.btn-paginacao:focus {
+    background-color: var(--azul-trilhas); /* Cor de hover */
+}
+
+.btn-paginacao:disabled { /* Estilo para botões desabilitados, se você implementar no JS */
+    background-color: var(--cinza-medio);
+    color: #999;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+/* ====== FIM DOS ESTILOS DE PAGINAÇÃO ====== */
+
 
 /* Rodapé */
 footer {
@@ -357,7 +439,7 @@ footer {
     color: var(--branco);
     padding: 1.5rem;
     text-align: center;
-    margin-top: auto;
+    margin-top: auto; /* Garante que o rodapé fique no final da página */
     width: 100%;
 }
 
@@ -408,15 +490,26 @@ footer a:hover {
     .div_filtros {
         flex-direction: column;
         gap: 1.2rem;
+        align-items: stretch; /* Para que os selects e o botão ocupem toda a largura */
     }
     
-    .div_filtros > div {
+    .div_filtros > div { /* Container do label + select */
         width: 100%;
     }
     
     .btn_buscar {
         width: 100%;
-        margin-top: 0.5rem;
+        margin-top: 0.5rem; /* Adicionado para espaçamento quando empilhado */
+    }
+
+    .paginacao-controls {
+        flex-direction: column; /* Empilha informação e botões */
+    }
+    .paginacao-botoes {
+        width: 100%; /* Faz os botões ocuparem a largura e quebrarem se necessário */
+    }
+    .btn-paginacao {
+        flex-grow: 1; /* Permite que os botões cresçam para preencher o espaço se forem poucos */
     }
 }
 
@@ -431,7 +524,7 @@ footer a:hover {
     }
     
     .btn_servicos {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Um botão por linha */
     }
     
     .sub_btn {
@@ -440,26 +533,46 @@ footer a:hover {
     }
     
     .text-intro {
-        text-align: left;
+        text-align: left; /* Ajuste para melhor leitura em telas pequenas */
+    }
+
+    .box_servico {
+        padding: 1rem 0.8rem; /* Reduz padding interno dos cards */
+    }
+
+    .resultados_busca {
+        padding: 1rem;
+    }
+
+    .item-estabelecimento {
+        padding: 0.8rem 1rem;
+        border-left-width: 3px;
+    }
+    .item-estabelecimento h4 {
+        font-size: 1rem;
+    }
+    .item-estabelecimento p {
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 360px) {
     html {
-        font-size: 14px;
+        font-size: 14px; /* Reduz o tamanho base da fonte */
     }
     
     .menu_links a {
         padding: 0.6rem;
     }
     
-    .btn, .sub_btn {
+    .btn, .sub_btn, .btn-paginacao { /* Aplica também aos botões de paginação */
         min-height: 45px;
         padding: 0.6rem;
+        font-size: 0.9rem; /* Garante que os botões de paginação também reduzam */
     }
     
     .sub_servicos {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Um sub-botão por linha */
     }
 }
 
@@ -468,20 +581,34 @@ footer a:hover {
     .menu_titulo {
         flex-direction: row;
         justify-content: center;
-        gap: 2rem;
+        align-items: center; /* Centraliza verticalmente */
+        gap: 1.5rem; /* Ajuste de gap */
     }
     
     #img-logo-trilhas {
-        width: auto;
-        height: 40px;
+        width: auto; /* Deixa a altura definir a largura */
+        height: 40px; /* Altura fixa para o logo */
     }
     
     .btn_servicos {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Dois botões por linha em paisagem */
     }
     
     .sub_servicos {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(min(130px, 100%), 1fr)); /* Ajuste para melhor aproveitamento */
+    }
+
+    .paginacao-controls {
+        flex-direction: row; /* Linha para paisagem */
+        justify-content: space-between;
+        align-items: center;
+    }
+    .paginacao-info {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .paginacao-botoes {
+        width: auto; /* Não ocupa toda a largura */
     }
 }
 
@@ -490,14 +617,14 @@ footer a:hover {
     .menu-navegacao,
     main,
     .footer-content {
-        max-width: 1400px;
+        max-width: 1400px; /* Aumenta um pouco a largura máxima do conteúdo */
     }
     
     .texto-cabecalho {
         font-size: 1.8rem;
     }
     
-    .btn, .sub_btn {
+    .btn, .sub_btn, .btn-paginacao { /* Aplica também aos botões de paginação */
         font-size: 1.2rem;
     }
 }

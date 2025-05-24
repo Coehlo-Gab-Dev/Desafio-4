@@ -39,7 +39,7 @@ const saudeService = {
         }
     },
 
-    // --- BUSCA NO PRISMA DB (COPIADA DO TURNO 69) ---
+    // --- BUSCA NO PRISMA DB 
     async _buscarNoPrisma({ pagina, tipo, codigoIBGE, codigoUF, requestId, takeOverride = null }) {
         const whereClause = {};
         let nomeMunicipioParaFiltro = null;
@@ -89,7 +89,7 @@ const saudeService = {
         }
     },
 
-    // --- GERADOR DE METADADOS (COPIADO DO TURNO 69) ---
+    // --- GERADOR DE METADADOS 
     _gerarMetadados({ fonte, total, pagina, itensPorPagina = LIMITE_POR_PAGINA_NOSSA_API, requestId, municipio, aviso }) {
         const paginaNum = Number(pagina) || 1;
         const totalItensNum = Number(total) || 0;
