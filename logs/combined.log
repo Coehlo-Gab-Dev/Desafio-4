@@ -3914,3 +3914,205 @@ Unknown argument `municipio`. Available options are marked with ?.
 2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":3}
 2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Nenhum município específico fornecido. Buscando para UF 21.
 2025-05-24 17:36:06 [info]: [1b50da40-2d48-4786-9461-f9ade9f2c83e] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:37:06 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-05-24 17:37:07 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-05-24 17:37:07 [info]: 🚀 Servidor rodando na porta 3000
+2025-05-24 17:37:07 [info]: 🔗 Acesso base: /api/v1
+2025-05-24 17:37:07 [info]: 📚 APIs disponíveis:
+2025-05-24 17:37:07 [info]: - Saúde: /api/v1/saude
+2025-05-24 17:37:07 [info]: - Educação: /api/v1/educacao
+2025-05-24 17:37:07 [info]: - Cultura: /api/v1/cultura
+2025-05-24 17:37:07 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-05-24 17:37:07 [info]: 🔐 Autenticação: /api/v1/auth
+2025-05-24 17:37:07 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-05-24 17:56:02 [info]: Requisição recebida
+2025-05-24 17:56:02 [info]: [20da3202-7ef1-47fd-b666-0b48c04151da] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:56:02 [info]: [20da3202-7ef1-47fd-b666-0b48c04151da] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:02 [info]: [20da3202-7ef1-47fd-b666-0b48c04151da] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:05 [info]: Requisição recebida
+2025-05-24 17:56:05 [info]: [bda5bfbc-65ec-4d42-bf06-72d9cf1e3e8e] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-05-24 17:56:05 [info]: [bda5bfbc-65ec-4d42-bf06-72d9cf1e3e8e] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:05 [info]: [bda5bfbc-65ec-4d42-bf06-72d9cf1e3e8e] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:08 [info]: Requisição recebida
+2025-05-24 17:56:08 [info]: [e4f0d36c-a895-4dd6-8270-e05a325d4d34] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":3}
+2025-05-24 17:56:08 [info]: [e4f0d36c-a895-4dd6-8270-e05a325d4d34] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:08 [info]: [e4f0d36c-a895-4dd6-8270-e05a325d4d34] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:12 [info]: Requisição recebida
+2025-05-24 17:56:12 [info]: [2fafaffd-a1b4-4ae8-9567-638d4cf43b8f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-05-24 17:56:12 [info]: [2fafaffd-a1b4-4ae8-9567-638d4cf43b8f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:12 [info]: [2fafaffd-a1b4-4ae8-9567-638d4cf43b8f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:16 [info]: Requisição recebida
+2025-05-24 17:56:16 [info]: [c7b43374-6552-44a4-832d-c595c00787aa] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:56:16 [info]: [c7b43374-6552-44a4-832d-c595c00787aa] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:16 [info]: [c7b43374-6552-44a4-832d-c595c00787aa] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:23 [info]: Requisição recebida
+2025-05-24 17:56:23 [info]: [ab531966-22a2-4795-8348-43a18a328efb] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","pagina":1}
+2025-05-24 17:56:23 [info]: [ab531966-22a2-4795-8348-43a18a328efb] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:23 [info]: [ab531966-22a2-4795-8348-43a18a328efb] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:23 [info]: [ab531966-22a2-4795-8348-43a18a328efb] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 17:56:26 [info]: Requisição recebida
+2025-05-24 17:56:26 [info]: [eb5535be-a3d6-4390-b84b-894a31e820e4] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:56:26 [info]: [eb5535be-a3d6-4390-b84b-894a31e820e4] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:26 [info]: [eb5535be-a3d6-4390-b84b-894a31e820e4] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:28 [info]: Requisição recebida
+2025-05-24 17:56:28 [info]: [4d16489c-c554-4abf-8fee-a8cb797bdcc7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","pagina":1}
+2025-05-24 17:56:28 [info]: [4d16489c-c554-4abf-8fee-a8cb797bdcc7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:28 [info]: [4d16489c-c554-4abf-8fee-a8cb797bdcc7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:31 [info]: Requisição recebida
+2025-05-24 17:56:31 [info]: [69553665-3f82-45a6-8578-bae86ce58b44] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:56:31 [info]: [69553665-3f82-45a6-8578-bae86ce58b44] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:31 [info]: [69553665-3f82-45a6-8578-bae86ce58b44] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:56:41 [info]: Requisição recebida
+2025-05-24 17:56:41 [info]: [72e35c40-d6d4-4611-a0a4-140f7b4e5a8f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:56:41 [info]: [72e35c40-d6d4-4611-a0a4-140f7b4e5a8f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:56:41 [info]: [72e35c40-d6d4-4611-a0a4-140f7b4e5a8f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:59:35 [info]: Requisição recebida
+2025-05-24 17:59:35 [info]: [030c00a5-8ce2-449e-ae31-2c58549146bc] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:59:35 [info]: [030c00a5-8ce2-449e-ae31-2c58549146bc] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:59:35 [info]: [030c00a5-8ce2-449e-ae31-2c58549146bc] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 17:59:49 [info]: Requisição recebida
+2025-05-24 17:59:49 [info]: [a6e9f0b9-a0d3-45ce-84c9-26ff3a3b9098] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 17:59:49 [info]: [a6e9f0b9-a0d3-45ce-84c9-26ff3a3b9098] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 17:59:49 [info]: [a6e9f0b9-a0d3-45ce-84c9-26ff3a3b9098] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:01:20 [info]: Requisição recebida
+2025-05-24 18:01:20 [info]: [405d468f-0681-480d-8cdc-f647c853b2c1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:01:20 [info]: [405d468f-0681-480d-8cdc-f647c853b2c1] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:01:20 [info]: [405d468f-0681-480d-8cdc-f647c853b2c1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:01:43 [info]: Requisição recebida
+2025-05-24 18:01:43 [info]: [62d57138-b33a-4ac1-958c-4cf1d8d8d125] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","pagina":1}
+2025-05-24 18:01:43 [info]: [62d57138-b33a-4ac1-958c-4cf1d8d8d125] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:01:43 [info]: [62d57138-b33a-4ac1-958c-4cf1d8d8d125] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:01:46 [info]: Requisição recebida
+2025-05-24 18:01:46 [info]: [74bc5a46-2738-4dcc-bae1-c1e3339a1c05] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","pagina":1}
+2025-05-24 18:01:46 [info]: [74bc5a46-2738-4dcc-bae1-c1e3339a1c05] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:01:46 [info]: [74bc5a46-2738-4dcc-bae1-c1e3339a1c05] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:01:52 [info]: Requisição recebida
+2025-05-24 18:01:52 [info]: [b95edbc6-f5c9-42b0-b857-e46dab7cf45c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"HOSPITAL","pagina":1}
+2025-05-24 18:01:52 [info]: [b95edbc6-f5c9-42b0-b857-e46dab7cf45c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:01:52 [info]: [b95edbc6-f5c9-42b0-b857-e46dab7cf45c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:04:23 [info]: Requisição recebida
+2025-05-24 18:04:23 [info]: [3630d877-8af8-4744-b8d2-63b2b8953992] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:04:23 [info]: [3630d877-8af8-4744-b8d2-63b2b8953992] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:04:23 [info]: [3630d877-8af8-4744-b8d2-63b2b8953992] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:04:57 [info]: Requisição recebida
+2025-05-24 18:04:57 [info]: [15040864-d8e7-4a52-98d7-410b7a5e106c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:04:57 [info]: [15040864-d8e7-4a52-98d7-410b7a5e106c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:04:57 [info]: [15040864-d8e7-4a52-98d7-410b7a5e106c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:07:10 [info]: Requisição recebida
+2025-05-24 18:07:10 [info]: [5698213c-3b80-40d9-8102-b1a7e8fae5fb] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:07:10 [info]: [5698213c-3b80-40d9-8102-b1a7e8fae5fb] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:07:10 [info]: [5698213c-3b80-40d9-8102-b1a7e8fae5fb] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:10:04 [info]: Requisição recebida
+2025-05-24 18:10:04 [info]: [6d1bbe85-0ecc-421a-a1ec-055db49feb59] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:10:04 [info]: [6d1bbe85-0ecc-421a-a1ec-055db49feb59] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:10:04 [info]: [6d1bbe85-0ecc-421a-a1ec-055db49feb59] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:14:49 [info]: Requisição recebida
+2025-05-24 18:14:49 [info]: [e23ec90e-9d7c-4556-832f-2e8181ec8f16] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"POLICLINICA","pagina":1}
+2025-05-24 18:14:49 [info]: [e23ec90e-9d7c-4556-832f-2e8181ec8f16] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:14:49 [info]: [e23ec90e-9d7c-4556-832f-2e8181ec8f16] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 18:14:50 [info]: [e23ec90e-9d7c-4556-832f-2e8181ec8f16] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 18:29:42 [info]: Requisição recebida
+2025-05-24 18:29:42 [info]: [09b5434c-67da-4e6e-9af3-f4ecdd179af2] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 18:29:42 [info]: [09b5434c-67da-4e6e-9af3-f4ecdd179af2] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 18:29:42 [info]: [09b5434c-67da-4e6e-9af3-f4ecdd179af2] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:12:38 [info]: Requisição recebida
+2025-05-24 19:12:38 [info]: [3da7a109-b970-437c-950c-789e8c32e748] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 19:12:38 [info]: [3da7a109-b970-437c-950c-789e8c32e748] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 19:12:38 [info]: [3da7a109-b970-437c-950c-789e8c32e748] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:12:50 [info]: Requisição recebida
+2025-05-24 19:12:50 [info]: [97f5161a-9ada-4576-9431-bfce616bad9c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 19:12:50 [info]: [97f5161a-9ada-4576-9431-bfce616bad9c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 19:12:50 [info]: [97f5161a-9ada-4576-9431-bfce616bad9c] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:18:07 [info]: Requisição recebida
+2025-05-24 19:18:07 [info]: [b8b27175-95b3-4819-ba7c-f584a6a610d7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 19:18:07 [info]: [b8b27175-95b3-4819-ba7c-f584a6a610d7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 19:18:07 [info]: [b8b27175-95b3-4819-ba7c-f584a6a610d7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:18:13 [info]: Requisição recebida
+2025-05-24 19:18:13 [info]: [49d3c214-ea77-42c4-8873-e796cad3a5b6] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"IMPERATRIZ","pagina":1}
+2025-05-24 19:18:13 [info]: [49d3c214-ea77-42c4-8873-e796cad3a5b6] Buscando por nome de município via query: IMPERATRIZ
+2025-05-24 19:18:13 [info]: [49d3c214-ea77-42c4-8873-e796cad3a5b6] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-05-24 19:18:13 [info]: [49d3c214-ea77-42c4-8873-e796cad3a5b6] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:18:14 [info]: [49d3c214-ea77-42c4-8873-e796cad3a5b6] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 19:18:49 [info]: Requisição recebida
+2025-05-24 19:18:49 [info]: [77833437-16f9-4ce9-b60b-d733b59f18b7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"BACABAL","pagina":1}
+2025-05-24 19:18:49 [info]: [77833437-16f9-4ce9-b60b-d733b59f18b7] Buscando por nome de município via query: BACABAL
+2025-05-24 19:18:49 [info]: [77833437-16f9-4ce9-b60b-d733b59f18b7] Código IBGE 2101202 encontrado para BACABAL
+2025-05-24 19:18:49 [info]: [77833437-16f9-4ce9-b60b-d733b59f18b7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:18:49 [info]: [77833437-16f9-4ce9-b60b-d733b59f18b7] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-05-24 19:23:02 [info]: Requisição recebida
+2025-05-24 19:23:02 [info]: [4fe9ab2f-558a-4d7b-8c71-ee11e94eb91f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 19:23:02 [info]: [4fe9ab2f-558a-4d7b-8c71-ee11e94eb91f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 19:23:02 [info]: [4fe9ab2f-558a-4d7b-8c71-ee11e94eb91f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-05-24 19:25:02 [info]: Requisição recebida
+2025-05-24 19:25:02 [info]: [dbd1a7d7-c490-45dc-9e9f-47bcf4511aaa] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-05-24 19:25:02 [info]: [dbd1a7d7-c490-45dc-9e9f-47bcf4511aaa] Nenhum município específico fornecido. Buscando para UF 21.
+2025-05-24 19:25:02 [info]: [dbd1a7d7-c490-45dc-9e9f-47bcf4511aaa] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:20:58 [error]: TypeError: Cannot read properties of null (reading 'name')
+    at C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:46
+    at Array.find (<anonymous>)
+    at isTagPresentInTags (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\utils.js:96:22)
+    at organize (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:170:17)
+    at build (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\specification.js:320:7)
+    at module.exports (C:\Users\gabri\Desktop\Desafio 4 Api\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at file:///C:/Users/gabri/Desktop/Desafio%204%20Api/src/app.js:131:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+2025-06-04 21:20:59 [info]: ✔ Conexão estabelecida com MongoDB para todas as APIs
+2025-06-04 21:20:59 [info]: 🚀 Servidor rodando na porta 3000
+2025-06-04 21:20:59 [info]: 🔗 Acesso base: /api/v1
+2025-06-04 21:20:59 [info]: 📚 APIs disponíveis:
+2025-06-04 21:20:59 [info]: - Saúde: /api/v1/saude
+2025-06-04 21:20:59 [info]: - Educação: /api/v1/educacao
+2025-06-04 21:20:59 [info]: - Cultura: /api/v1/cultura
+2025-06-04 21:20:59 [info]: - Serviços Públicos: /api/v1/servicos-publicos
+2025-06-04 21:20:59 [info]: 🔐 Autenticação: /api/v1/auth
+2025-06-04 21:20:59 [info]: 📄 Documentação: http://localhost:3000/api-docs
+2025-06-04 21:21:02 [info]: Requisição recebida
+2025-06-04 21:21:02 [info]: [a6942f8a-6c4c-419d-a976-63675a1ecf11] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-06-04 21:21:02 [info]: [a6942f8a-6c4c-419d-a976-63675a1ecf11] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:21:02 [info]: [a6942f8a-6c4c-419d-a976-63675a1ecf11] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:21:06 [info]: Requisição recebida
+2025-06-04 21:21:06 [info]: [9387c2b0-c4a3-4a15-8d7b-2890d71b970f] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-06-04 21:21:06 [info]: [9387c2b0-c4a3-4a15-8d7b-2890d71b970f] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:21:06 [info]: [9387c2b0-c4a3-4a15-8d7b-2890d71b970f] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:21:49 [info]: Requisição recebida
+2025-06-04 21:21:49 [info]: [19967277-168d-4b81-abe2-6b26b99795b7] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-06-04 21:21:49 [info]: [19967277-168d-4b81-abe2-6b26b99795b7] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:21:49 [info]: [19967277-168d-4b81-abe2-6b26b99795b7] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:21:52 [info]: Requisição recebida
+2025-06-04 21:21:52 [info]: [d2b10c9d-14a5-4d37-9940-bb6eb531e7e0] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":3}
+2025-06-04 21:21:52 [info]: [d2b10c9d-14a5-4d37-9940-bb6eb531e7e0] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:21:52 [info]: [d2b10c9d-14a5-4d37-9940-bb6eb531e7e0] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:21:55 [info]: Requisição recebida
+2025-06-04 21:21:55 [info]: [369f028e-88ec-49cf-8eeb-094bc7114601] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-06-04 21:21:55 [info]: [369f028e-88ec-49cf-8eeb-094bc7114601] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:21:55 [info]: [369f028e-88ec-49cf-8eeb-094bc7114601] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:22:57 [info]: Requisição recebida
+2025-06-04 21:22:57 [info]: [699096bc-3ff0-4b57-851f-52d5c62f44f1] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","municipio_nome":"IMPERATRIZ","pagina":1}
+2025-06-04 21:22:57 [info]: [699096bc-3ff0-4b57-851f-52d5c62f44f1] Buscando por nome de município via query: IMPERATRIZ
+2025-06-04 21:22:57 [info]: [699096bc-3ff0-4b57-851f-52d5c62f44f1] Código IBGE 2105302 encontrado para IMPERATRIZ
+2025-06-04 21:22:57 [info]: [699096bc-3ff0-4b57-851f-52d5c62f44f1] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:22:57 [info]: [699096bc-3ff0-4b57-851f-52d5c62f44f1] Nenhum estabelecimento encontrado no serviço para os critérios.
+2025-06-04 21:22:59 [info]: Requisição recebida
+2025-06-04 21:22:59 [info]: [cc516161-d298-4803-a3ee-c71a90298296] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-06-04 21:22:59 [info]: [cc516161-d298-4803-a3ee-c71a90298296] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:22:59 [info]: [cc516161-d298-4803-a3ee-c71a90298296] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:23:06 [info]: Requisição recebida
+2025-06-04 21:23:06 [info]: [19973941-2385-4d33-a926-9ddecb9de4ef] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":1}
+2025-06-04 21:23:06 [info]: [19973941-2385-4d33-a926-9ddecb9de4ef] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:23:06 [info]: [19973941-2385-4d33-a926-9ddecb9de4ef] Service (DB Local): buscarEstabelecimentos iniciado
+2025-06-04 21:23:13 [info]: Requisição recebida
+2025-06-04 21:23:13 [info]: [599058c0-72fc-4312-ae3a-69c19e7fe37c] Controller: listarEstabelecimentosSaude - Path: {}, Query: {"tipo":"UBS","pagina":2}
+2025-06-04 21:23:13 [info]: [599058c0-72fc-4312-ae3a-69c19e7fe37c] Nenhum município específico fornecido. Buscando para UF 21.
+2025-06-04 21:23:13 [info]: [599058c0-72fc-4312-ae3a-69c19e7fe37c] Service (DB Local): buscarEstabelecimentos iniciado
